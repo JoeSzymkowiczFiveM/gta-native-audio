@@ -1,0 +1,2129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dat54>
+ <Version value="6353778" />
+ <NameTable>
+  <Item>WEAPONS_PLAYER\SHT_BULLPUP</Item>
+  <Item>RESIDENT\WEAPONS</Item>
+  <Item>STREAMED_VEHICLES_GRANULAR_NPC\SALOON_3_JP_V6_HYBRID_NPC</Item>
+  <Item>0</Item>
+  <Item>STREAMED_VEHICLES_GRANULAR\SALOON_3_JP_V6_HYBRID</Item>
+  <Item>RESIDENT\VEHICLES</Item>
+  <Item>DLC_HIPSTER\SPORTSCAR_8_EUR_V6</Item>
+  <Item>DLC_HIPSTER\SPORTSCAR_8_EUR_V6_NPC</Item>
+ </NameTable>
+ <Items>
+  <Item type="MultitrackSound">
+   <Name>ptl_vintage_player_master</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0xAAA09AA2" />
+    <Category>hash_80722AAA</Category>
+   </Header>
+   <AudioTracks>
+    <Item>ptl_vintage_player_mech_env</Item>
+    <Item>ptl_vintage_player_stereo</Item>
+    <Item>ptl_vintage_player_sub</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>ptl_vintage_player_mech_env</Name>
+   <Header>
+    <Flags value="0x00008735" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="300" />
+    <Unk04 value="600" />
+    <Unk05 value="50" />
+    <Unk08 value="80" />
+    <Unk09 value="10" />
+    <UnkInt1 value="40" />
+    <Category>hash_EB0865AB</Category>
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="140" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="80" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_283B9215</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>ptl_vintage_player_mech</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>ptl_vintage_player_stereo</Name>
+   <Header>
+    <Flags value="0x00008025" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="64736" />
+    <Unk05 value="100" />
+    <Category>hash_80722AAA</Category>
+   </Header>
+   <AudioTracks>
+    <Item>ptl_vintage_player_hi_l</Item>
+    <Item>ptl_vintage_player_hi_r</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_vintage_player_hi_l</Name>
+   <Header>
+    <Flags value="0x00000050" />
+    <Unk04 value="1500" />
+    <Unk06 value="315" />
+   </Header>
+   <ContainerName>weapons_player/sht_bullpup</ContainerName>
+   <FileName>hash_2F0651DA</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_vintage_player_hi_r</Name>
+   <Header>
+    <Flags value="0x00000050" />
+    <Unk04 value="1500" />
+    <Unk06 value="45" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_BF1A7204</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_vintage_player_mech</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>hash_EB0865AB</Category>
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_A0CFC264</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_vintage_player_sub</Name>
+   <Header>
+    <Flags value="0x00000131" />
+    <Flags2 value="0xAAAA9AAA" />
+    <Unk04 value="65236" />
+    <Unk05 value="100" />
+    <Unk08 value="20" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_CC40FD6F</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_vintage_interior_player.l</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="315" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_298CFCAC</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_vintage_interior_player.r</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="45" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_CFB220C6</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>ptl_vintage_player_rprt_master</Name>
+   <Header>
+    <Flags value="0x00009F35" />
+    <Flags2 value="0xAAA0AAA2" />
+    <Unk02 value="64936" />
+    <Unk04 value="65436" />
+    <Unk05 value="100" />
+    <Unk08 value="150" />
+    <Unk09 value="20" />
+    <UnkInt1 value="60" />
+    <UnkInt2 value="60" />
+    <Unk10 value="50" />
+    <Category>hash_9C6A4771</Category>
+   </Header>
+   <AudioTracks>
+    <Item>ptl_vintage_player_rprt_env</Item>
+    <Item>ptl_vintage_player_rprt_end_env</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>ptl_vintage_player_rprt_end_env</Name>
+   <Header>
+    <Flags value="0x00000131" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk04 value="65336" />
+    <Unk05 value="100" />
+    <Unk08 value="350" />
+   </Header>
+   <UnkShort0 value="1200" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="700" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="200" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_3C432640</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>ptl_vintage_player_rprt_end_rdm</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>ptl_vintage_player_rprt_end_rdm</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA9AAAA" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes />
+   <Items>
+    <Item key="ptl_vintage_player_rprt_a_end" value="1" />
+    <Item key="ptl_vintage_player_rprt_b_end" value="1" />
+   </Items>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>ptl_vintage_player_rprt_env</Name>
+   <Header>
+    <Flags value="0x00000015" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="65336" />
+    <Unk04 value="800" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="1300" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="400" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_283B9215</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>ptl_vintage_player_rprt_rdm</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>ptl_vintage_player_rprt_rdm</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA9AAAA" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes />
+   <Items>
+    <Item key="ptl_vintage_player_rprt_colored_03" value="1" />
+    <Item key="ptl_vintage_player_rprt_colored_02" value="1" />
+    <Item key="ptl_vintage_player_rprt_colored_01" value="1" />
+   </Items>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_vintage_player_rprt_a_end</Name>
+   <Header>
+    <Flags value="0x00000004" />
+    <Unk02 value="400" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_A2FAF581</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_vintage_player_rprt_b_end</Name>
+   <Header>
+    <Flags value="0x00000004" />
+    <Unk02 value="65336" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_50EB516B</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_vintage_player_rprt_colored_01</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_CE1134A4</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_vintage_player_rprt_colored_02</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_C3431F08</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_vintage_player_rprt_colored_03</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_208ED99E</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>ptl_vintage_player_slow_mo</Name>
+   <Header>
+    <Flags value="0x00008011" />
+    <Flags2 value="0xAAA09AA2" />
+    <Unk04 value="65136" />
+    <Category>hash_6805AAC2</Category>
+   </Header>
+   <AudioTracks>
+    <Item>ptl_vintage_player_slow_mo_ptl_vintage_player_mech_env</Item>
+    <Item>ptl_vintage_player_slow_mo_ptl_vintage_player_stereo</Item>
+    <Item>ptl_vintage_player_slow_mo_ptl_vintage_player_sub</Item>
+    <Item>ptl_vintage_player_slow_mo_fire_stereo</Item>
+    <Item>ptl_vintage_player_slow_mo_anim</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>ptl_vintage_player_slow_mo_ptl_vintage_player_mech_env</Name>
+   <Header>
+    <Flags value="0x00008735" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="300" />
+    <Unk04 value="600" />
+    <Unk05 value="50" />
+    <Unk08 value="80" />
+    <Unk09 value="10" />
+    <UnkInt1 value="40" />
+    <Category>hash_80722AAA</Category>
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="140" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="80" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_283B9215</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>ptl_vintage_player_slow_mo_ptl_vintage_player_mech</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_vintage_player_slow_mo_ptl_vintage_player_mech</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>hash_EB0865AB</Category>
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_A0CFC264</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>ptl_vintage_player_slow_mo_ptl_vintage_player_stereo</Name>
+   <Header>
+    <Flags value="0x00008025" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="64736" />
+    <Unk05 value="100" />
+    <Category>hash_80722AAA</Category>
+   </Header>
+   <AudioTracks>
+    <Item>ptl_vintage_player_slow_mo_ptl_vintage_player_hi_l</Item>
+    <Item>ptl_vintage_player_slow_mo_ptl_vintage_player_hi_r</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_vintage_player_slow_mo_ptl_vintage_player_hi_l</Name>
+   <Header>
+    <Flags value="0x00000050" />
+    <Unk04 value="1500" />
+    <Unk06 value="315" />
+   </Header>
+   <ContainerName>weapons_player/sht_bullpup</ContainerName>
+   <FileName>hash_2F0651DA</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_vintage_player_slow_mo_ptl_vintage_player_hi_r</Name>
+   <Header>
+    <Flags value="0x00000050" />
+    <Unk04 value="1500" />
+    <Unk06 value="45" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_BF1A7204</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_vintage_player_slow_mo_ptl_vintage_player_sub</Name>
+   <Header>
+    <Flags value="0x00000131" />
+    <Flags2 value="0xAAAA9AAA" />
+    <Unk04 value="65236" />
+    <Unk05 value="100" />
+    <Unk08 value="20" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_CC40FD6F</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="CollapsingStereoSound">
+   <Name>ptl_vintage_player_slow_mo_fire_stereo</Name>
+   <Header>
+    <Flags value="0x00000004" />
+    <Unk02 value="65236" />
+   </Header>
+   <AudioHash0>hash_012C792F</AudioHash0>
+   <AudioHash1>hash_90390238</AudioHash1>
+   <UnkFloat0 value="1" />
+   <UnkFloat1 value="3" />
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <UnkInt value="1065353216" />
+   <ParameterHash5 />
+   <UnkByte value="1" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>ptl_vintage_player_slow_mo_anim</Name>
+   <Header>
+    <Flags value="0x00008005" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="64536" />
+    <Category>hash_8A91FE75</Category>
+   </Header>
+   <AudioTracks>
+    <Item>hash_6273C662</Item>
+    <Item>hash_5C677561</Item>
+    <Item>hash_21773AF1</Item>
+    <Item>hash_E623444A</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>ptl_vintage_backup_master</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0xAAA09AA2" />
+    <Category>hash_80722AAA</Category>
+   </Header>
+   <AudioTracks>
+    <Item>ptl_vintage_backup_mech_env</Item>
+    <Item>ptl_vintage_backup_stereo</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>ptl_vintage_backup_mech_env</Name>
+   <Header>
+    <Flags value="0x00008735" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="300" />
+    <Unk04 value="600" />
+    <Unk05 value="50" />
+    <Unk08 value="80" />
+    <Unk09 value="10" />
+    <UnkInt1 value="40" />
+    <Category>hash_80722AAA</Category>
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="140" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="80" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_283B9215</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>ptl_vintage_backup_mech</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>ptl_vintage_backup_stereo</Name>
+   <Header>
+    <Flags value="0x00008025" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="64736" />
+    <Unk05 value="100" />
+    <Category>hash_80722AAA</Category>
+   </Header>
+   <AudioTracks>
+    <Item>ptl_vintage_backup_hi_l</Item>
+    <Item>ptl_vintage_backup_hi_r</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_vintage_backup_hi_l</Name>
+   <Header>
+    <Flags value="0x00000050" />
+    <Unk04 value="1575" />
+    <Unk06 value="315" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_BF1A7204</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_vintage_backup_hi_r</Name>
+   <Header>
+    <Flags value="0x00000050" />
+    <Unk04 value="1500" />
+    <Unk06 value="45" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_BF1A7204</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_vintage_backup_mech</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_A0CFC264</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_vintage_player_backup_mech</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_A0CFC264</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>dump_valve_glendale</Name>
+   <Header>
+    <Flags value="0x00208005" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="65136" />
+    <Category>vehicles_engines_loud</Category>
+    <Unk18 value="30" />
+   </Header>
+   <AudioTracks>
+    <Item>vehicles_engine_resident_dump_valve_warrener</Item>
+    <Item>vehicles_engine_resident_waste_gate_warrener</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="GranularSound">
+   <Name>saloon_3_jp_v6_panto_hybrid_engine_accel_npc</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0x9555AAAA" />
+    <Category>hash_F7C35252</Category>
+   </Header>
+   <WaveSlotIndex value="0" />
+   <Wave1>
+    <ContainerName>streamed_vehicles_granular_npc/saloon_3_jp_v6_hybrid_npc</ContainerName>
+    <FileName>engine_accel</FileName>
+   </Wave1>
+   <Wave2>
+    <ContainerName>streamed_vehicles_granular_npc/saloon_3_jp_v6_hybrid_npc</ContainerName>
+    <FileName>exhaust_accel</FileName>
+   </Wave2>
+   <Wave3>
+    <ContainerName>0</ContainerName>
+    <FileName />
+   </Wave3>
+   <Wave4>
+    <ContainerName>0</ContainerName>
+    <FileName />
+   </Wave4>
+   <Wave5>
+    <ContainerName>streamed_vehicles_granular_npc/saloon_3_jp_v6_hybrid_npc</ContainerName>
+    <FileName>engine_idle</FileName>
+   </Wave5>
+   <Wave6>
+    <ContainerName>streamed_vehicles_granular_npc/saloon_3_jp_v6_hybrid_npc</ContainerName>
+    <FileName>exhaust_idle</FileName>
+   </Wave6>
+   <DataItem1>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem1>
+   <DataItem2>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem2>
+   <DataItem3>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem3>
+   <DataItem4>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem4>
+   <DataItem5>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem5>
+   <DataItem6>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem6>
+   <UnkFloat0 value="0.01" />
+   <UnkFloat1 value="0.05" />
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="-800" />
+   <UnkShort3 value="0" />
+   <UnkShort4 value="-1000" />
+   <UnkShort5 value="-400" />
+   <TrackName>saloon_3_jp_v6_hybrid_panto_engine_accel</TrackName>
+   <UnkVecData>
+    22.79, 49.59
+    12, 12
+   </UnkVecData>
+  </Item>
+  <Item type="GranularSound">
+   <Name>saloon_3_jp_v6_hybrid_panto_engine_accel</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0x9555AAAA" />
+    <Category>hash_F7C35252</Category>
+   </Header>
+   <WaveSlotIndex value="0" />
+   <Wave1>
+    <ContainerName>streamed_vehicles_granular/saloon_3_jp_v6_hybrid</ContainerName>
+    <FileName>engine_accel</FileName>
+   </Wave1>
+   <Wave2>
+    <ContainerName>streamed_vehicles_granular/saloon_3_jp_v6_hybrid</ContainerName>
+    <FileName>exhaust_accel</FileName>
+   </Wave2>
+   <Wave3>
+    <ContainerName>streamed_vehicles_granular/saloon_3_jp_v6_hybrid</ContainerName>
+    <FileName>engine_decel</FileName>
+   </Wave3>
+   <Wave4>
+    <ContainerName>streamed_vehicles_granular/saloon_3_jp_v6_hybrid</ContainerName>
+    <FileName>exhaust_decel</FileName>
+   </Wave4>
+   <Wave5>
+    <ContainerName>streamed_vehicles_granular/saloon_3_jp_v6_hybrid</ContainerName>
+    <FileName>engine_idle</FileName>
+   </Wave5>
+   <Wave6>
+    <ContainerName>streamed_vehicles_granular/saloon_3_jp_v6_hybrid</ContainerName>
+    <FileName>exhaust_idle</FileName>
+   </Wave6>
+   <DataItem1>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem1>
+   <DataItem2>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem2>
+   <DataItem3>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem3>
+   <DataItem4>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem4>
+   <DataItem5>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem5>
+   <DataItem6>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem6>
+   <UnkFloat0 value="0.01" />
+   <UnkFloat1 value="0.05" />
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkShort4 value="0" />
+   <UnkShort5 value="0" />
+   <TrackName />
+   <UnkVecData>
+    12, 54
+    15, 15
+   </UnkVecData>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>saloon_4_veh_idle_sub_low_vol</Name>
+   <Header>
+    <Flags value="0x00008015" />
+    <Flags2 value="0xAAA8AAAA" />
+    <Unk02 value="64036" />
+    <Unk04 value="1200" />
+    <Category>vehicles_extras_loud</Category>
+   </Header>
+   <OptAmpUnkHash>hash_DF6D8836</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="-1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>hash_ABD2A3D6</UnkHash>
+     <ParameterHash />
+     <Value value="20" />
+    </Item>
+    <Item>
+     <UnkHash>hash_AAED9868</UnkHash>
+     <ParameterHash />
+     <Value value="52" />
+    </Item>
+    <Item>
+     <UnkHash>hash_4E132C3B</UnkHash>
+     <ParameterHash />
+     <Value value="0.2" />
+    </Item>
+    <Item>
+     <UnkHash>hash_18B20B91</UnkHash>
+     <ParameterHash />
+     <Value value="2" />
+    </Item>
+    <Item>
+     <UnkHash>hash_E07986E5</UnkHash>
+     <ParameterHash />
+     <Value value="3" />
+    </Item>
+    <Item>
+     <UnkHash>hash_52E84522</UnkHash>
+     <ParameterHash />
+     <Value value="1.5" />
+    </Item>
+    <Item>
+     <UnkHash>hash_8115C581</UnkHash>
+     <ParameterHash />
+     <Value value="2" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>dump_valve_warrener</Name>
+   <Header>
+    <Flags value="0x00208005" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="65336" />
+    <Category>vehicles_engines_loud</Category>
+    <Unk18 value="30" />
+   </Header>
+   <AudioTracks>
+    <Item>vehicles_engine_resident_dump_valve_warrener</Item>
+    <Item>vehicles_engine_resident_waste_gate_warrener</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>vehicles_engine_resident_waste_gate_warrener</Name>
+   <Header>
+    <Flags value="0x00000110" />
+    <Unk04 value="64936" />
+    <Unk08 value="120" />
+   </Header>
+   <ContainerName>resident/vehicles</ContainerName>
+   <FileName>hash_FF5968E0</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>vehicles_engine_resident_dump_valve_warrener</Name>
+   <Header>
+    <Flags value="0x00010000" />
+    <Unk14 value="1200" />
+   </Header>
+   <ContainerName>resident/vehicles</ContainerName>
+   <FileName>hash_B29DAB97</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>streamed_vehicles_granular_sportscar_8_eur_v6_shut_down</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_engines_startup</Category>
+   </Header>
+   <ContainerName>dlc_hipster/sportscar_8_eur_v6</ContainerName>
+   <FileName>hash_E99B0DCB</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>streamed_vehicles_granular_sportscar_8_eur_v6_start_up</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_engines_startup</Category>
+   </Header>
+   <ContainerName>dlc_hipster/sportscar_8_eur_v6</ContainerName>
+   <FileName>startup</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="EnvironmentSound">
+   <Name>sportscar_8_eur_v6_exhaust_accel</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>hash_F7C35252</Category>
+   </Header>
+   <UnkByte value="1" />
+  </Item>
+  <Item type="GranularSound">
+   <Name>sportscar_8_eur_v6_engine_accel</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0x9555AAAA" />
+    <Category>hash_F7C35252</Category>
+   </Header>
+   <WaveSlotIndex value="0" />
+   <Wave1>
+    <ContainerName>dlc_hipster/sportscar_8_eur_v6</ContainerName>
+    <FileName>engine_accel</FileName>
+   </Wave1>
+   <Wave2>
+    <ContainerName>dlc_hipster/sportscar_8_eur_v6</ContainerName>
+    <FileName>exhaust_accel</FileName>
+   </Wave2>
+   <Wave3>
+    <ContainerName>dlc_hipster/sportscar_8_eur_v6</ContainerName>
+    <FileName>engine_decel</FileName>
+   </Wave3>
+   <Wave4>
+    <ContainerName>dlc_hipster/sportscar_8_eur_v6</ContainerName>
+    <FileName>exhaust_decel</FileName>
+   </Wave4>
+   <Wave5>
+    <ContainerName>dlc_hipster/sportscar_8_eur_v6</ContainerName>
+    <FileName>engine_idle</FileName>
+   </Wave5>
+   <Wave6>
+    <ContainerName>dlc_hipster/sportscar_8_eur_v6</ContainerName>
+    <FileName>exhaust_idle</FileName>
+   </Wave6>
+   <DataItem1>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem1>
+   <DataItem2>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem2>
+   <DataItem3>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem3>
+   <DataItem4>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem4>
+   <DataItem5>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem5>
+   <DataItem6>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem6>
+   <UnkFloat0 value="0.01" />
+   <UnkFloat1 value="0.05" />
+   <UnkShort0 value="400" />
+   <UnkShort1 value="400" />
+   <UnkShort2 value="200" />
+   <UnkShort3 value="500" />
+   <UnkShort4 value="-900" />
+   <UnkShort5 value="100" />
+   <TrackName />
+   <UnkVecData>
+    8, 38
+    11, 11
+   </UnkVecData>
+  </Item>
+  <Item type="GranularSound">
+   <Name>sportscar_8_eur_v6_engine_accel_npc</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0x9555AAAA" />
+    <Category>hash_F7C35252</Category>
+   </Header>
+   <WaveSlotIndex value="0" />
+   <Wave1>
+    <ContainerName>dlc_hipster/sportscar_8_eur_v6_npc</ContainerName>
+    <FileName>engine_accel</FileName>
+   </Wave1>
+   <Wave2>
+    <ContainerName>dlc_hipster/sportscar_8_eur_v6_npc</ContainerName>
+    <FileName>exhaust_accel</FileName>
+   </Wave2>
+   <Wave3>
+    <ContainerName>0</ContainerName>
+    <FileName />
+   </Wave3>
+   <Wave4>
+    <ContainerName>0</ContainerName>
+    <FileName />
+   </Wave4>
+   <Wave5>
+    <ContainerName>dlc_hipster/sportscar_8_eur_v6_npc</ContainerName>
+    <FileName>engine_idle</FileName>
+   </Wave5>
+   <Wave6>
+    <ContainerName>dlc_hipster/sportscar_8_eur_v6_npc</ContainerName>
+    <FileName>exhaust_idle</FileName>
+   </Wave6>
+   <DataItem1>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem1>
+   <DataItem2>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="1" />
+    <UnkFloat value="0.5" />
+   </DataItem2>
+   <DataItem3>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem3>
+   <DataItem4>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="1" />
+    <UnkFloat value="1" />
+   </DataItem4>
+   <DataItem5>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem5>
+   <DataItem6>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem6>
+   <UnkFloat0 value="0.01" />
+   <UnkFloat1 value="0.05" />
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkShort4 value="-300" />
+   <UnkShort5 value="-600" />
+   <TrackName>sportscar_8_eur_v6_engine_accel</TrackName>
+   <UnkVecData>
+    8, 38
+    11, 11
+   </UnkVecData>
+  </Item>
+  <Item type="SequentialOverlapSound">
+   <Name>jazz_horn_1_seq</Name>
+   <Header>
+    <Flags value="0x00008015" />
+    <Flags2 value="0xA000AAAA" />
+    <Unk02 value="65136" />
+    <Unk04 value="300" />
+    <Category>vehicles_horns_loud</Category>
+   </Header>
+   <UnkShort value="150" />
+   <ParameterHash0>hash_DA06E848</ParameterHash0>
+   <ParameterHash1>direction</ParameterHash1>
+   <AudioTracks>
+    <Item>air_horn_note_c0</Item>
+    <Item>air_horn_note_d#0</Item>
+    <Item>air_horn_note_c#0_wrapper</Item>
+    <Item>air_horn_note_d0</Item>
+    <Item>air_horn_note_g-1</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_a#-1</Item>
+    <Item>air_horn_note_c0</Item>
+    <Item>air_horn_note_d#0</Item>
+    <Item>jazz_horn_3_fa</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>air_horn_note_c#0_wrapper</Name>
+   <Header>
+    <Flags value="0x00000100" />
+    <Unk08 value="120" />
+   </Header>
+   <AudioHash0>air_horn_note_c#0</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>air_horn_note_c#0</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>air_horn_note_f#-1_wrapper</Name>
+   <Header>
+    <Flags value="0x00000100" />
+    <Unk08 value="110" />
+   </Header>
+   <AudioHash0>air_horn_note_f#-1</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>air_horn_note_f#-1</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>hipster_horn_1</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>hash_63EC09EB</Item>
+    <Item>jazz_horn_1_seq</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>hipster_horn_2</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>hash_63EC09EB</Item>
+    <Item>jazz_horn_2_seq</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SequentialOverlapSound">
+   <Name>jazz_horn_2_seq</Name>
+   <Header>
+    <Flags value="0x00008015" />
+    <Flags2 value="0xA000AAAA" />
+    <Unk02 value="65136" />
+    <Unk04 value="300" />
+    <Category>vehicles_horns_loud</Category>
+   </Header>
+   <UnkShort value="150" />
+   <ParameterHash0>hash_DA06E848</ParameterHash0>
+   <ParameterHash1>direction</ParameterHash1>
+   <AudioTracks>
+    <Item>air_horn_note_a#-1</Item>
+    <Item>air_horn_note_c0</Item>
+    <Item>air_horn_note_d#0</Item>
+    <Item>jazz_horn_2_f#g</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_f0</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_d#0</Item>
+    <Item>air_horn_note_f0</Item>
+    <Item>air_horn_note_d#0</Item>
+    <Item>air_horn_note_c0</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>jazz_horn_2_f#g</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>air_horn_note_f#0</Item>
+    <Item>air_horn_note_g0_wrapper</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>air_horn_note_g0_wrapper</Name>
+   <Header>
+    <Flags value="0x00000100" />
+    <Unk08 value="110" />
+   </Header>
+   <AudioHash0>air_horn_note_g0</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>air_horn_note_g0</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>hipster_horn_3</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>hash_63EC09EB</Item>
+    <Item>jazz_horn_3_seq</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SequentialOverlapSound">
+   <Name>jazz_horn_3_seq</Name>
+   <Header>
+    <Flags value="0x00008005" />
+    <Flags2 value="0xA000AAAA" />
+    <Unk02 value="65136" />
+    <Category>vehicles_horns_loud</Category>
+   </Header>
+   <UnkShort value="150" />
+   <ParameterHash0>hash_DA06E848</ParameterHash0>
+   <ParameterHash1>direction</ParameterHash1>
+   <AudioTracks>
+    <Item>air_horn_note_c0</Item>
+    <Item>jazz_horn_3_gbb</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>jazz_horn_3_fa</Item>
+    <Item>jazz_horn_3_ebg</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_c0</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>jazz_horn_3_gbb</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>air_horn_note_g0_wrapper_1</Item>
+    <Item>air_horn_note_a#0_wrapper</Item>
+    <Item>air_horn_note_f#0</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>jazz_horn_3_fa</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>air_horn_note_f0</Item>
+    <Item>air_horn_note_a0</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>jazz_horn_3_ebg</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>air_horn_note_d#0</Item>
+    <Item>air_horn_note_g0</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>air_horn_note_g0_wrapper_1</Name>
+   <Header>
+    <Flags value="0x00000100" />
+    <Unk08 value="90" />
+   </Header>
+   <AudioHash0>air_horn_note_g0</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>air_horn_note_g0</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>air_horn_note_a#0_wrapper</Name>
+   <Header>
+    <Flags value="0x00000100" />
+    <Unk08 value="90" />
+   </Header>
+   <AudioHash0>air_horn_note_a#0</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>air_horn_note_a#0</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="VariableBlockSound">
+   <Name>musical_horn_step_sequencer</Name>
+   <Header>
+    <Flags value="0x30008004" />
+    <Unk02 value="65236" />
+    <Category>vehicles_horns_loud</Category>
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <AudioHash>musical_horn_step_sequencer_pts</AudioHash>
+   <Variables>
+    <Item>
+     <Name>hash_DA06E848</Name>
+     <Value value="0.1" />
+     <UnkFloat value="0" />
+     <Flags value="0" />
+    </Item>
+    <Item>
+     <Name>direction</Name>
+     <Value value="0" />
+     <UnkFloat value="0" />
+     <Flags value="0" />
+    </Item>
+   </Variables>
+  </Item>
+  <Item type="SequentialOverlapSound">
+   <Name>musical_horn_step_sequencer_seq</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xA001AAAA" />
+   </Header>
+   <UnkShort value="100" />
+   <ParameterHash0>hash_DA06E848</ParameterHash0>
+   <ParameterHash1>direction</ParameterHash1>
+   <AudioTracks>
+    <Item>air_horn_note_c0</Item>
+    <Item>air_horn_note_d#0</Item>
+    <Item>air_horn_note_f0</Item>
+    <Item>air_horn_note_f#0</Item>
+    <Item>air_horn_note_g0</Item>
+    <Item>air_horn_note_a#0</Item>
+    <Item>air_horn_note_g0</Item>
+    <Item>air_horn_note_f0</Item>
+    <Item>air_horn_note_d#0</Item>
+    <Item>air_horn_note_g0</Item>
+    <Item>air_horn_note_c0</Item>
+    <Item>air_horn_note_d#0</Item>
+    <Item>air_horn_note_f0</Item>
+    <Item>air_horn_note_g0</Item>
+    <Item>air_horn_note_f#0</Item>
+    <Item>air_horn_note_f0</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MathOperationSound">
+   <Name>musical_horn_step_sequencer_mop</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <AudioHash />
+   <UnkData />
+  </Item>
+  <Item type="ParameterTransformSound">
+   <Name>musical_horn_step_sequencer_pts</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash>musical_horn_step_sequencer_mt</AudioHash>
+   <Items>
+    <Item>
+     <ParameterHash>hash_51384371</ParameterHash>
+     <UnkFloat0 value="-20" />
+     <UnkFloat1 value="50" />
+     <NestedData>
+      <Item>
+       <UnkFloat0 value="-1" />
+       <UnkInt value="7" />
+       <ParameterHash>hash_DA06E848</ParameterHash>
+       <UnkFloat1 value="0.07" />
+       <UnkFloat2 value="0.2" />
+       <Vectors>
+        0, 0.55
+        0.2857143, 0.9997369
+        0.9551555, 0.1108
+        1, 0
+       </Vectors>
+      </Item>
+      <Item>
+       <UnkFloat0 value="-1" />
+       <UnkInt value="7" />
+       <ParameterHash>direction</ParameterHash>
+       <UnkFloat1 value="-1" />
+       <UnkFloat2 value="1" />
+       <Vectors>
+        0.2842857, 0
+        0.2857143, 1
+       </Vectors>
+      </Item>
+     </NestedData>
+    </Item>
+   </Items>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>musical_horn_step_sequencer_mt</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>musical_horn_step_sequencer_seq</Item>
+    <Item>musical_horn_step_sequencer_seq_2</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SequentialOverlapSound">
+   <Name>musical_horn_step_sequencer_seq_2</Name>
+   <Header>
+    <Flags value="0x00000005" />
+    <Flags2 value="0xA001AAAA" />
+    <Unk02 value="65236" />
+   </Header>
+   <UnkShort value="100" />
+   <ParameterHash0>hash_DA06E848</ParameterHash0>
+   <ParameterHash1>direction</ParameterHash1>
+   <AudioTracks>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_g0</Item>
+    <Item>air_horn_note_a0</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_a#0</Item>
+    <Item>air_horn_note_d0</Item>
+    <Item>air_horn_note_d#0</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_c0</Item>
+    <Item>air_horn_note_d#0</Item>
+    <Item>air_horn_note_a0</Item>
+    <Item>air_horn_note_g0</Item>
+    <Item>air_horn_note_a0</Item>
+    <Item>air_horn_note_a#0</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_a0</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>hipster_horn_4</Name>
+   <Header>
+    <Flags value="0x00000005" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="65336" />
+   </Header>
+   <AudioTracks>
+    <Item>musical_horn_step_sequencer</Item>
+    <Item>hash_63EC09EB</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>musical_horn_1_test</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA1AAAA" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="2500" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="-1" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>hipster_horn_4</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_c0</Name>
+   <Header>
+    <Flags value="0x30000001" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="0" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_c#0</Name>
+   <Header>
+    <Flags value="0x30000011" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="100" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="0" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_d0</Name>
+   <Header>
+    <Flags value="0x30000011" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="200" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="0" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_d#0</Name>
+   <Header>
+    <Flags value="0x30000011" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="300" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="0" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_e0</Name>
+   <Header>
+    <Flags value="0x30000011" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="400" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="0" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_f0</Name>
+   <Header>
+    <Flags value="0x30000011" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="500" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="0" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_f#0</Name>
+   <Header>
+    <Flags value="0x30000011" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="600" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="0" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_g0</Name>
+   <Header>
+    <Flags value="0x30000011" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="700" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="0" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_g#0</Name>
+   <Header>
+    <Flags value="0x30000011" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="800" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="0" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_a0</Name>
+   <Header>
+    <Flags value="0x30000011" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="900" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="0" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_a#0</Name>
+   <Header>
+    <Flags value="0x30000011" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="1000" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="0" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_b0</Name>
+   <Header>
+    <Flags value="0x30000011" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="1100" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="0" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_c1</Name>
+   <Header>
+    <Flags value="0x30000011" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="1200" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="0" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>air_horn_note_rest</Name>
+   <Header>
+    <Flags value="0x00000100" />
+    <Unk08 value="100" />
+   </Header>
+   <AudioHash0 />
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item />
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_b-1</Name>
+   <Header>
+    <Flags value="0x30000011" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="65436" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="0" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_a#-1</Name>
+   <Header>
+    <Flags value="0x30000011" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="65336" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="0" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_g#-1</Name>
+   <Header>
+    <Flags value="0x30000011" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="65136" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="0" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_g-1</Name>
+   <Header>
+    <Flags value="0x30000011" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="65036" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="0" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_c#1</Name>
+   <Header>
+    <Flags value="0x30000011" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="1300" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="0" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_f-1</Name>
+   <Header>
+    <Flags value="0x30000011" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="64836" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="0" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_f#-1</Name>
+   <Header>
+    <Flags value="0x30000011" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="64936" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="0" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+ </Items>
+</Dat54>

@@ -1,0 +1,13 @@
+E:\FiveM\dat54research\dat54research\bin\Release\netcoreapp3.1\dat54research.exe
+E:\FiveM\dat54research\dat54research\bin\Release\netcoreapp3.1\dat54research.deps.json
+E:\FiveM\dat54research\dat54research\bin\Release\netcoreapp3.1\dat54research.runtimeconfig.json
+E:\FiveM\dat54research\dat54research\bin\Release\netcoreapp3.1\dat54research.runtimeconfig.dev.json
+E:\FiveM\dat54research\dat54research\bin\Release\netcoreapp3.1\dat54research.dll
+E:\FiveM\dat54research\dat54research\bin\Release\netcoreapp3.1\dat54research.pdb
+E:\FiveM\dat54research\dat54research\obj\Release\netcoreapp3.1\dat54research.AssemblyInfoInputs.cache
+E:\FiveM\dat54research\dat54research\obj\Release\netcoreapp3.1\dat54research.AssemblyInfo.cs
+E:\FiveM\dat54research\dat54research\obj\Release\netcoreapp3.1\dat54research.csproj.CoreCompileInputs.cache
+E:\FiveM\dat54research\dat54research\obj\Release\netcoreapp3.1\dat54research.dll
+E:\FiveM\dat54research\dat54research\obj\Release\netcoreapp3.1\dat54research.pdb
+E:\FiveM\dat54research\dat54research\obj\Release\netcoreapp3.1\dat54research.genruntimeconfig.cache
+E:\FiveM\dat54research\dat54research\obj\Release\netcoreapp3.1\dat54research.csprojAssemblyReference.cache

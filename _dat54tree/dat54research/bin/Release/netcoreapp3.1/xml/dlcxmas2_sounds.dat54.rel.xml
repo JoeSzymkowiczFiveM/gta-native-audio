@@ -1,0 +1,2324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dat54>
+ <Version value="6978435" />
+ <NameTable>
+  <Item>RESIDENT\VEHICLES</Item>
+  <Item>STREAMED_VEHICLES_GRANULAR\SUPERCAR_7_US_V8</Item>
+  <Item>STREAMED_VEHICLES_GRANULAR_NPC\SUPERCAR_7_US_V8_NPC</Item>
+  <Item>0</Item>
+  <Item>STREAMED_VEHICLES_GRANULAR_NPC\SUPERCAR_6_EUR_V8</Item>
+  <Item>STREAMED_VEHICLES_GRANULAR\SUPERCAR_6_EUR_V8</Item>
+  <Item>DLC_XMAS2\MUSCLECAR_5_US_V8_NPC</Item>
+  <Item>DLC_XMAS2\MUSCLECAR_5_US_V8</Item>
+  <Item>DLC_XMAS2\MUSCLECAR_6_US_V8_NPC</Item>
+  <Item>DLC_XMAS2\MUSCLECAR_6_US_V8</Item>
+  <Item>RESIDENT\COLLISIONS</Item>
+  <Item>RESIDENT\WEAPONS</Item>
+  <Item>WEAPONS_PLAYER\SPL_RPG_PLAYER</Item>
+ </NameTable>
+ <Items>
+  <Item type="MultitrackSound">
+   <Name>dump_valve_chitter_mt</Name>
+   <Header>
+    <Flags value="0x00208005" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="65236" />
+    <Category>vehicles_extras_loud</Category>
+    <Unk18 value="30" />
+   </Header>
+   <AudioTracks>
+    <Item>vehicles_engine_resident_dump_valve_chitter</Item>
+    <Item>vehicles_engine_resident_waste_gate_chitter</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>vehicles_engine_resident_dump_valve_chitter</Name>
+   <Header>
+    <Flags value="0x0000001C" />
+    <Unk02 value="65036" />
+    <Unk03 value="100" />
+    <Unk04 value="300" />
+   </Header>
+   <ContainerName>resident/vehicles</ContainerName>
+   <FileName>hash_B29DAB97</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>vehicles_engine_resident_waste_gate_chitter</Name>
+   <Header>
+    <Flags value="0x00000130" />
+    <Unk04 value="64536" />
+    <Unk05 value="100" />
+    <Unk08 value="80" />
+   </Header>
+   <ContainerName>resident/vehicles</ContainerName>
+   <FileName>hash_FF5968E0</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="GranularSound">
+   <Name>jester2_engine_accel</Name>
+   <Header>
+    <Flags value="0x00008005" />
+    <Flags2 value="0x9555AAAA" />
+    <Unk02 value="65336" />
+    <Category>hash_F7C35252</Category>
+   </Header>
+   <WaveSlotIndex value="0" />
+   <Wave1>
+    <ContainerName>streamed_vehicles_granular/supercar_7_us_v8</ContainerName>
+    <FileName>engine_accel</FileName>
+   </Wave1>
+   <Wave2>
+    <ContainerName>streamed_vehicles_granular/supercar_7_us_v8</ContainerName>
+    <FileName>exhaust_accel</FileName>
+   </Wave2>
+   <Wave3>
+    <ContainerName>streamed_vehicles_granular/supercar_7_us_v8</ContainerName>
+    <FileName>engine_decel</FileName>
+   </Wave3>
+   <Wave4>
+    <ContainerName>streamed_vehicles_granular/supercar_7_us_v8</ContainerName>
+    <FileName>exhaust_decel</FileName>
+   </Wave4>
+   <Wave5>
+    <ContainerName>streamed_vehicles_granular/supercar_7_us_v8</ContainerName>
+    <FileName>engine_idle</FileName>
+   </Wave5>
+   <Wave6>
+    <ContainerName>streamed_vehicles_granular/supercar_7_us_v8</ContainerName>
+    <FileName>exhaust_idle</FileName>
+   </Wave6>
+   <DataItem1>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem1>
+   <DataItem2>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem2>
+   <DataItem3>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem3>
+   <DataItem4>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem4>
+   <DataItem5>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem5>
+   <DataItem6>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem6>
+   <UnkFloat0 value="0.05" />
+   <UnkFloat1 value="0.15" />
+   <UnkShort0 value="200" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="200" />
+   <UnkShort3 value="800" />
+   <UnkShort4 value="600" />
+   <UnkShort5 value="0" />
+   <TrackName />
+   <UnkVecData>
+    12, 57
+    12, 12
+   </UnkVecData>
+  </Item>
+  <Item type="GranularSound">
+   <Name>jester2_engine_accel_npc</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0x9555AAAA" />
+    <Category>hash_F7C35252</Category>
+   </Header>
+   <WaveSlotIndex value="0" />
+   <Wave1>
+    <ContainerName>streamed_vehicles_granular_npc/supercar_7_us_v8_npc</ContainerName>
+    <FileName>engine_accel</FileName>
+   </Wave1>
+   <Wave2>
+    <ContainerName>streamed_vehicles_granular_npc/supercar_7_us_v8_npc</ContainerName>
+    <FileName>exhaust_accel</FileName>
+   </Wave2>
+   <Wave3>
+    <ContainerName>0</ContainerName>
+    <FileName />
+   </Wave3>
+   <Wave4>
+    <ContainerName>0</ContainerName>
+    <FileName />
+   </Wave4>
+   <Wave5>
+    <ContainerName>streamed_vehicles_granular_npc/supercar_7_us_v8_npc</ContainerName>
+    <FileName>engine_idle</FileName>
+   </Wave5>
+   <Wave6>
+    <ContainerName>streamed_vehicles_granular_npc/supercar_7_us_v8_npc</ContainerName>
+    <FileName>exhaust_idle</FileName>
+   </Wave6>
+   <DataItem1>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem1>
+   <DataItem2>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem2>
+   <DataItem3>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem3>
+   <DataItem4>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem4>
+   <DataItem5>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem5>
+   <DataItem6>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem6>
+   <UnkFloat0 value="0.05" />
+   <UnkFloat1 value="0.15" />
+   <UnkShort0 value="200" />
+   <UnkShort1 value="500" />
+   <UnkShort2 value="200" />
+   <UnkShort3 value="800" />
+   <UnkShort4 value="600" />
+   <UnkShort5 value="0" />
+   <TrackName />
+   <UnkVecData>
+    12, 57
+    12, 12
+   </UnkVecData>
+  </Item>
+  <Item type="EnvironmentSound">
+   <Name>jester2_exhaust_accel</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Unk02 value="65336" />
+    <Category>hash_F7C35252</Category>
+   </Header>
+   <UnkByte value="1" />
+  </Item>
+  <Item type="EnvironmentSound">
+   <Name>jester2_exhaust_accel_npc</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>hash_F7C35252</Category>
+   </Header>
+   <UnkByte value="1" />
+  </Item>
+  <Item type="EnvironmentSound">
+   <Name>massacro2_exhaust_accel_npc</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>hash_F7C35252</Category>
+   </Header>
+   <UnkByte value="1" />
+  </Item>
+  <Item type="EnvironmentSound">
+   <Name>massacro2_exhaust_accel</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Unk02 value="64736" />
+    <Category>hash_F7C35252</Category>
+   </Header>
+   <UnkByte value="1" />
+  </Item>
+  <Item type="GranularSound">
+   <Name>massacro2_engine_accel_npc</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0x9555AAAA" />
+    <Category>hash_F7C35252</Category>
+   </Header>
+   <WaveSlotIndex value="0" />
+   <Wave1>
+    <ContainerName>streamed_vehicles_granular_npc/supercar_6_eur_v8</ContainerName>
+    <FileName>engine_accel</FileName>
+   </Wave1>
+   <Wave2>
+    <ContainerName>streamed_vehicles_granular_npc/supercar_6_eur_v8</ContainerName>
+    <FileName>exhaust_accel</FileName>
+   </Wave2>
+   <Wave3>
+    <ContainerName>0</ContainerName>
+    <FileName />
+   </Wave3>
+   <Wave4>
+    <ContainerName>0</ContainerName>
+    <FileName />
+   </Wave4>
+   <Wave5>
+    <ContainerName>streamed_vehicles_granular_npc/supercar_6_eur_v8</ContainerName>
+    <FileName>engine_idle</FileName>
+   </Wave5>
+   <Wave6>
+    <ContainerName>streamed_vehicles_granular_npc/supercar_6_eur_v8</ContainerName>
+    <FileName>exhaust_idle</FileName>
+   </Wave6>
+   <DataItem1>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem1>
+   <DataItem2>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem2>
+   <DataItem3>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem3>
+   <DataItem4>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem4>
+   <DataItem5>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem5>
+   <DataItem6>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem6>
+   <UnkFloat0 value="0.05" />
+   <UnkFloat1 value="0.15" />
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="-600" />
+   <UnkShort3 value="0" />
+   <UnkShort4 value="-800" />
+   <UnkShort5 value="0" />
+   <TrackName />
+   <UnkVecData>
+    14.6, 59.4
+    18, 18
+   </UnkVecData>
+  </Item>
+  <Item type="GranularSound">
+   <Name>massacro2_engine_accel</Name>
+   <Header>
+    <Flags value="0x00008005" />
+    <Flags2 value="0x9551AAAA" />
+    <Unk02 value="64736" />
+    <Category>hash_F7C35252</Category>
+   </Header>
+   <WaveSlotIndex value="0" />
+   <Wave1>
+    <ContainerName>streamed_vehicles_granular/supercar_6_eur_v8</ContainerName>
+    <FileName>engine_accel</FileName>
+   </Wave1>
+   <Wave2>
+    <ContainerName>streamed_vehicles_granular/supercar_6_eur_v8</ContainerName>
+    <FileName>exhaust_accel</FileName>
+   </Wave2>
+   <Wave3>
+    <ContainerName>streamed_vehicles_granular/supercar_6_eur_v8</ContainerName>
+    <FileName>engine_decel</FileName>
+   </Wave3>
+   <Wave4>
+    <ContainerName>streamed_vehicles_granular/supercar_6_eur_v8</ContainerName>
+    <FileName>exhaust_decel</FileName>
+   </Wave4>
+   <Wave5>
+    <ContainerName>streamed_vehicles_granular/supercar_6_eur_v8</ContainerName>
+    <FileName>engine_idle</FileName>
+   </Wave5>
+   <Wave6>
+    <ContainerName>streamed_vehicles_granular/supercar_6_eur_v8</ContainerName>
+    <FileName>exhaust_idle</FileName>
+   </Wave6>
+   <DataItem1>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem1>
+   <DataItem2>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem2>
+   <DataItem3>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem3>
+   <DataItem4>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem4>
+   <DataItem5>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem5>
+   <DataItem6>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem6>
+   <UnkFloat0 value="0.05" />
+   <UnkFloat1 value="0.15" />
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="-600" />
+   <UnkShort3 value="0" />
+   <UnkShort4 value="-800" />
+   <UnkShort5 value="0" />
+   <TrackName />
+   <UnkVecData>
+    14.46, 59.04
+    18, 18
+   </UnkVecData>
+  </Item>
+  <Item type="EnvironmentSound">
+   <Name>ratloader2_exhaust_accel</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Unk02 value="64636" />
+    <Category>hash_F7C35252</Category>
+   </Header>
+   <UnkByte value="1" />
+  </Item>
+  <Item type="GranularSound">
+   <Name>ratloader2_engine_accel_npc</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0x9555AAAA" />
+    <Category>hash_F7C35252</Category>
+   </Header>
+   <WaveSlotIndex value="0" />
+   <Wave1>
+    <ContainerName>dlc_xmas2/musclecar_5_us_v8_npc</ContainerName>
+    <FileName>engine_accel</FileName>
+   </Wave1>
+   <Wave2>
+    <ContainerName>dlc_xmas2/musclecar_5_us_v8_npc</ContainerName>
+    <FileName>exhaust_accel</FileName>
+   </Wave2>
+   <Wave3>
+    <ContainerName>0</ContainerName>
+    <FileName />
+   </Wave3>
+   <Wave4>
+    <ContainerName>0</ContainerName>
+    <FileName />
+   </Wave4>
+   <Wave5>
+    <ContainerName>dlc_xmas2/musclecar_5_us_v8_npc</ContainerName>
+    <FileName>engine_idle</FileName>
+   </Wave5>
+   <Wave6>
+    <ContainerName>dlc_xmas2/musclecar_5_us_v8_npc</ContainerName>
+    <FileName>exhaust_idle</FileName>
+   </Wave6>
+   <DataItem1>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem1>
+   <DataItem2>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem2>
+   <DataItem3>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="1" />
+    <UnkFloat value="1" />
+   </DataItem3>
+   <DataItem4>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="1" />
+    <UnkFloat value="1" />
+   </DataItem4>
+   <DataItem5>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem5>
+   <DataItem6>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem6>
+   <UnkFloat0 value="0.01" />
+   <UnkFloat1 value="0.05" />
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="200" />
+   <UnkShort4 value="0" />
+   <UnkShort5 value="0" />
+   <TrackName />
+   <UnkVecData>
+    10.47, 40.27
+    9.7, 9.7
+   </UnkVecData>
+  </Item>
+  <Item type="GranularSound">
+   <Name>ratloader2_engine_accel</Name>
+   <Header>
+    <Flags value="0x00008005" />
+    <Flags2 value="0x9555AAAA" />
+    <Unk02 value="64636" />
+    <Category>hash_F7C35252</Category>
+   </Header>
+   <WaveSlotIndex value="0" />
+   <Wave1>
+    <ContainerName>dlc_xmas2/musclecar_5_us_v8</ContainerName>
+    <FileName>engine_accel</FileName>
+   </Wave1>
+   <Wave2>
+    <ContainerName>dlc_xmas2/musclecar_5_us_v8</ContainerName>
+    <FileName>exhaust_accel</FileName>
+   </Wave2>
+   <Wave3>
+    <ContainerName>dlc_xmas2/musclecar_5_us_v8</ContainerName>
+    <FileName>engine_decel</FileName>
+   </Wave3>
+   <Wave4>
+    <ContainerName>dlc_xmas2/musclecar_5_us_v8</ContainerName>
+    <FileName>exhaust_decel</FileName>
+   </Wave4>
+   <Wave5>
+    <ContainerName>dlc_xmas2/musclecar_5_us_v8</ContainerName>
+    <FileName>engine_idle</FileName>
+   </Wave5>
+   <Wave6>
+    <ContainerName>dlc_xmas2/musclecar_5_us_v8</ContainerName>
+    <FileName>exhaust_idle</FileName>
+   </Wave6>
+   <DataItem1>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem1>
+   <DataItem2>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem2>
+   <DataItem3>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="1" />
+    <UnkFloat value="1" />
+   </DataItem3>
+   <DataItem4>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="1" />
+    <UnkFloat value="1" />
+   </DataItem4>
+   <DataItem5>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem5>
+   <DataItem6>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem6>
+   <UnkFloat0 value="0.01" />
+   <UnkFloat1 value="0.05" />
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="200" />
+   <UnkShort4 value="0" />
+   <UnkShort5 value="0" />
+   <TrackName />
+   <UnkVecData>
+    10.47, 40.27
+    9.7, 9.7
+   </UnkVecData>
+  </Item>
+  <Item type="EnvironmentSound">
+   <Name>ratloader2_exhaust_accel_npc</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>hash_F7C35252</Category>
+   </Header>
+   <UnkByte value="1" />
+  </Item>
+  <Item type="EnvironmentSound">
+   <Name>slamvan_exhaust_accel</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Unk02 value="65036" />
+    <Category>hash_F7C35252</Category>
+   </Header>
+   <UnkByte value="1" />
+  </Item>
+  <Item type="GranularSound">
+   <Name>slamvan_engine_accel_npc</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0x9555AAAA" />
+    <Category>hash_F7C35252</Category>
+   </Header>
+   <WaveSlotIndex value="0" />
+   <Wave1>
+    <ContainerName>dlc_xmas2/musclecar_6_us_v8_npc</ContainerName>
+    <FileName>engine_accel</FileName>
+   </Wave1>
+   <Wave2>
+    <ContainerName>dlc_xmas2/musclecar_6_us_v8_npc</ContainerName>
+    <FileName>exhaust_accel</FileName>
+   </Wave2>
+   <Wave3>
+    <ContainerName>0</ContainerName>
+    <FileName />
+   </Wave3>
+   <Wave4>
+    <ContainerName>0</ContainerName>
+    <FileName />
+   </Wave4>
+   <Wave5>
+    <ContainerName>dlc_xmas2/musclecar_6_us_v8_npc</ContainerName>
+    <FileName>engine_idle</FileName>
+   </Wave5>
+   <Wave6>
+    <ContainerName>dlc_xmas2/musclecar_6_us_v8_npc</ContainerName>
+    <FileName>exhaust_idle</FileName>
+   </Wave6>
+   <DataItem1>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem1>
+   <DataItem2>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem2>
+   <DataItem3>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="1" />
+    <UnkFloat value="1" />
+   </DataItem3>
+   <DataItem4>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="1" />
+    <UnkFloat value="1" />
+   </DataItem4>
+   <DataItem5>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem5>
+   <DataItem6>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem6>
+   <UnkFloat0 value="0.01" />
+   <UnkFloat1 value="0.05" />
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="300" />
+   <UnkShort4 value="0" />
+   <UnkShort5 value="0" />
+   <TrackName />
+   <UnkVecData>
+    13.4, 39.4
+    12.45, 12.45
+   </UnkVecData>
+  </Item>
+  <Item type="GranularSound">
+   <Name>slamvan_engine_accel</Name>
+   <Header>
+    <Flags value="0x00008005" />
+    <Flags2 value="0x9555AAAA" />
+    <Unk02 value="65036" />
+    <Category>hash_F7C35252</Category>
+   </Header>
+   <WaveSlotIndex value="0" />
+   <Wave1>
+    <ContainerName>dlc_xmas2/musclecar_6_us_v8</ContainerName>
+    <FileName>engine_accel</FileName>
+   </Wave1>
+   <Wave2>
+    <ContainerName>dlc_xmas2/musclecar_6_us_v8</ContainerName>
+    <FileName>exhaust_accel</FileName>
+   </Wave2>
+   <Wave3>
+    <ContainerName>dlc_xmas2/musclecar_6_us_v8</ContainerName>
+    <FileName>engine_decel</FileName>
+   </Wave3>
+   <Wave4>
+    <ContainerName>dlc_xmas2/musclecar_6_us_v8</ContainerName>
+    <FileName>exhaust_decel</FileName>
+   </Wave4>
+   <Wave5>
+    <ContainerName>dlc_xmas2/musclecar_6_us_v8</ContainerName>
+    <FileName>engine_idle</FileName>
+   </Wave5>
+   <Wave6>
+    <ContainerName>dlc_xmas2/musclecar_6_us_v8</ContainerName>
+    <FileName>exhaust_idle</FileName>
+   </Wave6>
+   <DataItem1>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem1>
+   <DataItem2>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem2>
+   <DataItem3>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="1" />
+    <UnkFloat value="1" />
+   </DataItem3>
+   <DataItem4>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="1" />
+    <UnkFloat value="1" />
+   </DataItem4>
+   <DataItem5>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem5>
+   <DataItem6>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem6>
+   <UnkFloat0 value="0.01" />
+   <UnkFloat1 value="0.05" />
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="300" />
+   <UnkShort4 value="0" />
+   <UnkShort5 value="0" />
+   <TrackName />
+   <UnkVecData>
+    13.4, 39.4
+    12.45, 12.45
+   </UnkVecData>
+  </Item>
+  <Item type="EnvironmentSound">
+   <Name>slamvan_exhaust_accel_npc</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>hash_F7C35252</Category>
+   </Header>
+   <UnkByte value="1" />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>spl_proxmine_trigger_beeps</Name>
+   <Header>
+    <Flags value="0x00208014" />
+    <Unk02 value="63936" />
+    <Unk04 value="600" />
+    <Category>hash_80722AAA</Category>
+    <Unk18 value="75" />
+   </Header>
+   <AudioHash0>spl_proxmine_trigger_beeps_rtol</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>spl_proxmine_trigger_beeps_rtol</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="RetriggeredOverlappedSound">
+   <Name>spl_proxmine_trigger_beeps_rtol</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <UnkShort0 value="9" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="90" />
+   <UnkShort3 value="0" />
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <AudioHash0 />
+   <AudioHash1>spl_proxmine_attach_beeps</AudioHash1>
+   <AudioHash2 />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>spl_stickybomb_beep_3_wrapper</Name>
+   <Header>
+    <Flags value="0x00040010" />
+    <Unk04 value="2200" />
+    <Unk16 value="14000" />
+   </Header>
+   <AudioHash0>hash_F4A5E755</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>hash_F4A5E755</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>spl_proxmine_ambient_beeps</Name>
+   <Header>
+    <Flags value="0x0021C104" />
+    <Unk02 value="64336" />
+    <Unk08 value="100" />
+    <Unk12 value="0" />
+    <Category>hash_80722AAA</Category>
+    <Unk14 value="1000" />
+    <Unk18 value="85" />
+   </Header>
+   <AudioHash0>spl_proxmine_attach_beeps</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>spl_proxmine_attach_beeps</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>spl_proxmine_attach_master</Name>
+   <Header>
+    <Flags value="0x00008005" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="400" />
+    <Category>hash_80722AAA</Category>
+   </Header>
+   <AudioTracks>
+    <Item>hash_441D369B</Item>
+    <Item>hash_E2F3AC19</Item>
+    <Item>spl_proxmine_attach_rtol_wrapper</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SoundSet">
+   <Name>spl_proxmine_sounds</Name>
+   <Header>
+    <Flags value="0xAAAAAAAA" />
+   </Header>
+   <Items>
+    <Item>
+     <ScriptName>hash_44AA8105</ScriptName>
+     <SoundName>spl_proxmine_explode_mt</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>ambient</ScriptName>
+     <SoundName>spl_proxmine_ambient_beeps</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_C3AFD061</ScriptName>
+     <SoundName>spl_proxmine_trigger_beeps</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_D6AD822D</ScriptName>
+     <SoundName>spl_proxmine_attach_master</SoundName>
+    </Item>
+   </Items>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>spl_proxmine_attach_beeps</Name>
+   <Header>
+    <Flags value="0x00000010" />
+    <Unk04 value="1500" />
+   </Header>
+   <AudioHash0>spl_proxmine_attach_beeps_synth</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>spl_proxmine_attach_beeps_synth</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>spl_proxmine_attach_rtol_wrapper</Name>
+   <Header>
+    <Flags value="0x00200104" />
+    <Unk02 value="63036" />
+    <Unk08 value="250" />
+    <Unk18 value="150" />
+   </Header>
+   <AudioHash0>spl_proxmine_attach_beeps</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>spl_proxmine_attach_beeps</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>spl_proxmine_attach_beeps_synth</Name>
+   <Header>
+    <Flags value="0x38000001" />
+    <Flags2 value="0xAAA8AAAA" />
+    <Unk22 value="35" />
+    <Unk23 value="10" />
+    <Unk24 value="1" />
+   </Header>
+   <OptAmpUnkHash>hash_4C2D962A</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems />
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>spl_proxmine_explode_mt_rnd</Name>
+   <Header>
+    <Flags value="0x00000354" />
+    <Unk02 value="600" />
+    <Unk04 value="65036" />
+    <Unk06 value="30" />
+    <Unk08 value="200" />
+    <Unk09 value="80" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes>FF FF FF</UnkBytes>
+   <Items>
+    <Item key="hash_46C8940B" value="1" />
+    <Item key="hash_7AB5F80B" value="1" />
+    <Item key="hash_42FF1D91" value="1" />
+    <Item key="hash_9DBCD41F" value="1" />
+    <Item key="hash_74F95AE3" value="1" />
+    <Item key="hash_377F853B" value="1" />
+   </Items>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>spl_proxmine_explode_mt</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0xAAA0AAA6" />
+    <Category>weapons_explosions</Category>
+   </Header>
+   <AudioTracks>
+    <Item>hash_8DFD49EB</Item>
+    <Item>hash_6C2BA903</Item>
+    <Item>hash_CD9126E6</Item>
+    <Item>hash_403FC6D7</Item>
+    <Item>hash_3CFF9F63</Item>
+    <Item>hash_55EA2BF6</Item>
+    <Item>spl_proxmine_explode_mt_css</Item>
+    <Item>spl_proxmine_explode_mt_css</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="CollapsingStereoSound">
+   <Name>spl_proxmine_explode_mt_css</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash0>spl_proxmine_explode_mt_rnd</AudioHash0>
+   <AudioHash1 />
+   <UnkFloat0 value="10" />
+   <UnkFloat1 value="20" />
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <UnkInt value="1065353216" />
+   <ParameterHash5 />
+   <UnkByte value="3" />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>spl_snowball_impact</Name>
+   <Header>
+    <Flags value="0x00208000" />
+    <Category>collisions_louder</Category>
+    <Unk18 value="75" />
+   </Header>
+   <AudioHash0>snowball_vfx_mt</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>snowball_vfx_mt</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>snowball_vfx_mt</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>snowball_vfx_mt_rnd_a</Item>
+    <Item>snowball_vfx_mt_rnd_b</Item>
+    <Item>snowball_vfx_mt_env</Item>
+    <Item>snowball_vfx_mt_env_b</Item>
+    <Item>snowball_vfx_mt_rnd</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>snowball_vfx_mt_env</Name>
+   <Header>
+    <Flags value="0x0000003D" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="64836" />
+    <Unk03 value="300" />
+    <Unk04 value="500" />
+    <Unk05 value="200" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="300" />
+   <UnkShort3 value="300" />
+   <UnkByte0 value="60" />
+   <UnkByte1 value="30" />
+   <UnkInt0 value="0" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="250" />
+   <UnkInt2 value="100" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>snowball_vfx_mt_env_end</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>snowball_vfx_mt_env_b</Name>
+   <Header>
+    <Flags value="0x0000030D" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="65336" />
+    <Unk03 value="200" />
+    <Unk08 value="100" />
+    <Unk09 value="100" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="100" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="500" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>snowball_vfx_mt_rmd_c</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>snowball_vfx_mt_env_end</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes>FF FF FF</UnkBytes>
+   <Items>
+    <Item key="hash_7154493A" value="1" />
+    <Item key="hash_DAF30FB9" value="1" />
+    <Item key="hash_847010A4" value="1" />
+    <Item key="hash_637EFEB1" value="1" />
+    <Item key="hash_785E13DA" value="1" />
+   </Items>
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>snowball_vfx_mt_rmd_c</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes />
+   <Items>
+    <Item key="hash_50F12D94" value="1" />
+    <Item key="hash_9EA94903" value="1" />
+    <Item key="hash_6AAEE10F" value="1" />
+   </Items>
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>snowball_vfx_mt_rnd_a</Name>
+   <Header>
+    <Flags value="0x0020000C" />
+    <Unk02 value="300" />
+    <Unk03 value="300" />
+    <Unk18 value="75" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes>FF FF FF</UnkBytes>
+   <Items>
+    <Item key="hash_09212C94" value="1" />
+    <Item key="hash_3F6C7A33" value="1" />
+    <Item key="hash_30BF4F3F" value="1" />
+    <Item key="hash_843302FF" value="1" />
+    <Item key="hash_4AC1D351" value="1" />
+   </Items>
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>snowball_vfx_mt_rnd_b</Name>
+   <Header>
+    <Flags value="0x00000010" />
+    <Unk04 value="400" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes>FF</UnkBytes>
+   <Items>
+    <Item key="hash_76CAAF5B" value="1" />
+    <Item key="hash_247B7DC3" value="1" />
+    <Item key="hash_5746DE33" value="1" />
+   </Items>
+  </Item>
+  <Item type="SoundSet">
+   <Name>spl_snowball_sounds</Name>
+   <Header>
+    <Flags value="0xAAAAAAAA" />
+   </Header>
+   <Items>
+    <Item>
+     <ScriptName>hash_628CB55F</ScriptName>
+     <SoundName>spl_snowball_impact</SoundName>
+    </Item>
+   </Items>
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>snowball_vfx_mt_rnd</Name>
+   <Header>
+    <Flags value="0x0021001C" />
+    <Unk02 value="400" />
+    <Unk03 value="200" />
+    <Unk04 value="65336" />
+    <Unk14 value="3344" />
+    <Unk18 value="50" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes>FF FF</UnkBytes>
+   <Items>
+    <Item key="hash_50E923AC" value="1" />
+    <Item key="hash_7E4B7E70" value="1" />
+    <Item key="hash_A4594A8F" value="1" />
+    <Item key="hash_B1CA6571" value="1" />
+    <Item key="hash_9518AC0E" value="1" />
+    <Item key="hash_FB60F89D" value="1" />
+   </Items>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>spl_snowball_pick_up_anim</Name>
+   <Header>
+    <Flags value="0x00208004" />
+    <Unk02 value="200" />
+    <Category>peds</Category>
+    <Unk18 value="50" />
+   </Header>
+   <AudioHash0>spl_snowball_pick_up_anim_mt</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>spl_snowball_pick_up_anim_mt</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>spl_snowball_pick_up_anim_mt</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>snowball_vfx_mt_rnd_b</Item>
+    <Item>spl_snowball_pick_up_anim_mt_ho</Item>
+    <Item>spl_snowball_pick_up_anim_mt_env</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>spl_snowball_pick_up_anim_mt_env</Name>
+   <Header>
+    <Flags value="0x0004002D" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="64336" />
+    <Unk03 value="300" />
+    <Unk05 value="200" />
+    <Unk16 value="175" />
+   </Header>
+   <UnkShort0 value="100" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="300" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="60" />
+   <UnkByte1 value="40" />
+   <UnkInt0 value="-1" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="-1" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_C2770146</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>snowball_vfx_mt_env_end</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>spl_snowball_form_anim_mt</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>snowball_vfx_mt_rnd_b</Item>
+    <Item>spl_snowball_form_anim_mt_env</Item>
+    <Item>spl_snowball_form_anim_mt_squeak</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>spl_snowball_form_anim_mt_env</Name>
+   <Header>
+    <Flags value="0x0005042D" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="64536" />
+    <Unk03 value="300" />
+    <Unk05 value="300" />
+    <UnkInt1 value="50" />
+    <Unk14 value="8000" />
+    <Unk16 value="400" />
+   </Header>
+   <UnkShort0 value="50" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="100" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="100" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_C2770146</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_064D6000</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>snowball_vfx_mt_env_end</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="ParameterTransformSound">
+   <Name>spl_snowball_form_anim_pts</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash>spl_snowball_form_anim_pts_rtol</AudioHash>
+   <Items>
+    <Item>
+     <ParameterHash>hash_A69EF7A1</ParameterHash>
+     <UnkFloat0 value="0" />
+     <UnkFloat1 value="1.5" />
+     <NestedData>
+      <Item>
+       <UnkFloat0 value="-1" />
+       <UnkInt value="0" />
+       <ParameterHash />
+       <UnkFloat1 value="0.5011872" />
+       <UnkFloat2 value="1" />
+       <Vectors>
+        0, 1
+        1, 0
+       </Vectors>
+      </Item>
+      <Item>
+       <UnkFloat0 value="-1" />
+       <UnkInt value="1" />
+       <ParameterHash />
+       <UnkFloat1 value="0.8408964" />
+       <UnkFloat2 value="1" />
+       <Vectors>
+        0, 1
+        1, 0
+       </Vectors>
+      </Item>
+     </NestedData>
+    </Item>
+   </Items>
+  </Item>
+  <Item type="RetriggeredOverlappedSound">
+   <Name>spl_snowball_form_anim_pts_rtol</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <UnkShort0 value="3" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="250" />
+   <UnkShort3 value="0" />
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <AudioHash0 />
+   <AudioHash1>spl_snowball_form_anim_mt</AudioHash1>
+   <AudioHash2 />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>spl_snowball_form_01</Name>
+   <Header>
+    <Flags value="0x0024832C" />
+    <Unk02 value="64836" />
+    <Unk03 value="300" />
+    <Unk05 value="100" />
+    <Unk08 value="30" />
+    <Unk09 value="30" />
+    <Category>peds</Category>
+    <Unk16 value="2000" />
+    <Unk18 value="50" />
+   </Header>
+   <AudioHash0>spl_snowball_form_anim_mt</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>spl_snowball_form_anim_mt</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>spl_snowball_form_02</Name>
+   <Header>
+    <Flags value="0x0020833C" />
+    <Unk02 value="64636" />
+    <Unk03 value="500" />
+    <Unk04 value="65436" />
+    <Unk05 value="50" />
+    <Unk08 value="30" />
+    <Unk09 value="30" />
+    <Category>peds</Category>
+    <Unk18 value="50" />
+   </Header>
+   <AudioHash0>spl_snowball_form_anim_mt</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>spl_snowball_form_anim_mt</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>spl_snowball_form_03</Name>
+   <Header>
+    <Flags value="0x0020832C" />
+    <Unk02 value="64636" />
+    <Unk03 value="400" />
+    <Unk05 value="200" />
+    <Unk08 value="30" />
+    <Unk09 value="30" />
+    <Category>peds</Category>
+    <Unk18 value="65" />
+   </Header>
+   <AudioHash0>spl_snowball_form_anim_mt_3</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>spl_snowball_form_anim_mt_3</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>spl_snowball_form_anim_mt_squeak</Name>
+   <Header>
+    <Flags value="0x0000100C" />
+    <Unk02 value="63136" />
+    <Unk03 value="300" />
+    <Unk10 value="100" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes>FF FF</UnkBytes>
+   <Items>
+    <Item key="hash_51CDF989" value="1" />
+    <Item key="hash_430C5C06" value="1" />
+    <Item key="hash_590307F3" value="1" />
+    <Item key="hash_FC794EE1" value="1" />
+   </Items>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>spl_snowball_form_anim_mt_creak</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA1AAAA" />
+   </Header>
+   <UnkShort0 value="100" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="200" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="100" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>spl_snowball_form_anim_mt_creak_pts</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="ParameterTransformSound">
+   <Name>spl_snowball_form_anim_mt_creak_pts</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash>dlc_xmas2_snowball_squeak</AudioHash>
+   <Items>
+    <Item>
+     <ParameterHash>hash_A69EF7A1</ParameterHash>
+     <UnkFloat0 value="0" />
+     <UnkFloat1 value="0.5" />
+     <NestedData>
+      <Item>
+       <UnkFloat0 value="-1" />
+       <UnkInt value="1" />
+       <ParameterHash />
+       <UnkFloat1 value="1" />
+       <UnkFloat2 value="1.414214" />
+       <Vectors>
+        0, 0
+        0.27, 1
+       </Vectors>
+      </Item>
+     </NestedData>
+    </Item>
+   </Items>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_xmas2_snowball_squeak</Name>
+   <Header>
+    <Flags value="0x00000C09" />
+    <Flags2 value="0xAAAAAAA9" />
+    <Unk03 value="200" />
+    <UnkInt1 value="50" />
+    <UnkInt2 value="50" />
+   </Header>
+   <ContainerName>resident/collisions</ContainerName>
+   <FileName>hash_668DC559</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>spl_snowball_form_anim_mt_3</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>snowball_vfx_mt_rnd_b</Item>
+    <Item>spl_snowball_form_anim_mt_env</Item>
+    <Item>spl_snowball_form_anim_mt_squeak</Item>
+    <Item>spl_snowball_form_anim_mt_creak</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>spl_snowball_pick_up_anim_mt_grit</Name>
+   <Header>
+    <Flags value="0x00000004" />
+    <Unk02 value="64936" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes>FF</UnkBytes>
+   <Items>
+    <Item key="hash_0DEC02A2" value="1" />
+    <Item key="hash_8D8E81E9" value="1" />
+    <Item key="hash_E896B7F8" value="1" />
+   </Items>
+  </Item>
+  <Item type="ParameterTransformSound">
+   <Name>spl_snowball_pick_up_anim_mt_ho</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash>spl_snowball_pick_up_anim_mt_ho_scrunch</AudioHash>
+   <Items>
+    <Item>
+     <ParameterHash>hash_A69EF7A1</ParameterHash>
+     <UnkFloat0 value="0" />
+     <UnkFloat1 value="1" />
+     <NestedData>
+      <Item>
+       <UnkFloat0 value="-1" />
+       <UnkInt value="6" />
+       <ParameterHash />
+       <UnkFloat1 value="0" />
+       <UnkFloat2 value="1" />
+       <Vectors>
+        0.03, 0
+        0.2966667, 0.1
+       </Vectors>
+      </Item>
+     </NestedData>
+    </Item>
+   </Items>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>spl_snowball_pick_up_anim_mt_crunch</Name>
+   <Header>
+    <Flags value="0x00000011" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk04 value="600" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="200" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="200" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>spl_snowball_pick_up_anim_mt_crunch_tl</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="TwinLoopSound">
+   <Name>spl_snowball_pick_up_anim_mt_crunch_tl</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <UnkShort0 value="200" />
+   <UnkShort1 value="500" />
+   <UnkShort2 value="100" />
+   <UnkShort3 value="200" />
+   <UnkHash>hash_3C432640</UnkHash>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <AudioTracks>
+    <Item>hash_3BDDE404</Item>
+    <Item>hash_0A1D0083</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>spl_snowball_pick_up_anim_mt_ho_scrunch</Name>
+   <Header>
+    <Flags value="0x0000000D" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="65236" />
+    <Unk03 value="300" />
+   </Header>
+   <AudioTracks>
+    <Item>spl_snowball_pick_up_anim_mt_crunch</Item>
+    <Item>spl_snowball_pick_up_anim_mt_grit</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>exp_grd_snowball</Name>
+   <Header>
+    <Flags value="0x00208030" />
+    <Unk04 value="100" />
+    <Unk05 value="100" />
+    <Category>collisions_louder</Category>
+    <Unk18 value="75" />
+   </Header>
+   <AudioHash0>snowball_vfx_mt</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>snowball_vfx_mt</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>spl_homing_backup_master</Name>
+   <Header>
+    <Flags value="0x00008044" />
+    <Unk02 value="65336" />
+    <Unk06 value="0" />
+    <Category>hash_80722AAA</Category>
+   </Header>
+   <AudioHash0>spl_homing_backup_mt</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>spl_homing_backup_mt</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>spl_homing_backup_mt</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>spl_homing_backup_mt_env</Item>
+    <Item>resident_weapons_rpg_rocket_insert_vera_eq_wrapper_1</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>spl_homing_backup_mt_env</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA1AAAA" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="250" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="50" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="250" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="500" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>spl_homing_backup_spl_rpg_player</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>spl_homing_backup_spl_rpg_player</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_5B2FE1A1</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>spl_homing_backup_spl_rpg_clunk</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>weapons_player/spl_rpg_player</ContainerName>
+   <FileName>hash_B9CEA72F</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>resident_weapons_rpg_rocket_insert_vera_eq_wrapper_1</Name>
+   <Header>
+    <Flags value="0x00000004" />
+    <Unk02 value="65036" />
+   </Header>
+   <AudioHash0>resident_weapons_rpg_rocket_insert_vera_eq</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>resident_weapons_rpg_rocket_insert_vera_eq</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>spl_homing_npc_master</Name>
+   <Header>
+    <Flags value="0x00208000" />
+    <Category>hash_85B8BFD4</Category>
+    <Unk18 value="300" />
+   </Header>
+   <AudioHash0>spl_homing_npc_mt</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>spl_homing_npc_mt</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>spl_homing_npc_mt</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>resident_weapons_rpg_rocket_insert_vera_eq_wrapper</Item>
+    <Item>spl_homing_npc_spl_homing_npc_main_env</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>spl_homing_player_master_spl_rpg_clunk_player_mlt_wrapper</Name>
+   <Header>
+    <Flags value="0x00040000" />
+    <Unk16 value="250" />
+   </Header>
+   <AudioHash0>spl_homing_player_master_spl_rpg_clunk_player_mlt</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>spl_homing_player_master_spl_rpg_clunk_player_mlt</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>spl_homing_player_master_spl_rpg_player_env_wrapper</Name>
+   <Header>
+    <Flags value="0x00040010" />
+    <Unk04 value="100" />
+    <Unk16 value="200" />
+   </Header>
+   <AudioHash0>spl_homing_player_master_spl_rpg_npc</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>spl_homing_player_master_spl_rpg_npc</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>resident_weapons_rpg_rocket_insert_vera_eq_wrapper</Name>
+   <Header>
+    <Flags value="0x00000010" />
+    <Unk04 value="200" />
+   </Header>
+   <AudioHash0>resident_weapons_rpg_rocket_insert_vera_eq</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>resident_weapons_rpg_rocket_insert_vera_eq</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>spl_homing_player_master_spl_rpg_npc</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_5B2FE1A1</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>spl_homing_npc_spl_homing_npc_main_env</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA1AAAA" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="500" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="500" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>spl_homing_player_master_spl_rpg_player_env_wrapper</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>spl_homing_lock_on_red_master</Name>
+   <Header>
+    <Flags value="0x01058050" />
+    <Unk04 value="300" />
+    <Unk06 value="0" />
+    <Category>hash_01E27C7E</Category>
+    <Unk14 value="4000" />
+    <Unk16 value="2500" />
+    <Unk21 value="2" />
+   </Header>
+   <AudioHash0>hash_306F68DB</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>hash_306F68DB</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>spl_homing_lock_on_amber_master</Name>
+   <Header>
+    <Flags value="0x01058050" />
+    <Unk04 value="300" />
+    <Unk06 value="0" />
+    <Category>hash_01E27C7E</Category>
+    <Unk14 value="4000" />
+    <Unk16 value="2500" />
+    <Unk21 value="2" />
+   </Header>
+   <AudioHash0>spl_homing_lock_on_amber_rtol</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>spl_homing_lock_on_amber_rtol</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="RetriggeredOverlappedSound">
+   <Name>spl_homing_lock_on_amber_rtol</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <UnkShort0 value="65535" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="90" />
+   <UnkShort3 value="0" />
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <AudioHash0 />
+   <AudioHash1>hash_68B87E64</AudioHash1>
+   <AudioHash2 />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>spl_homing_player_master</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Category>hash_80722AAA</Category>
+   </Header>
+   <AudioTracks>
+    <Item>spl_homing_player_master_spl_rpg_clunk_player_mlt</Item>
+    <Item>resident_weapons_rpg_rocket_insert_vera_eq</Item>
+    <Item>spl_homing_player_master_spl_rpg_player_env</Item>
+    <Item>spl_homing_player_whizz_delay</Item>
+    <Item>spl_homing_player_thump</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>spl_homing_player_master_spl_rpg_clunk_player_mlt</Name>
+   <Header>
+    <Flags value="0x00000025" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="64786" />
+    <Unk05 value="100" />
+   </Header>
+   <AudioTracks>
+    <Item>spl_homing_player_master_spl_rpg_clunk_player_l</Item>
+    <Item>spl_homing_player_master_spl_rpg_clunk_player_r</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>spl_homing_player_master_spl_rpg_player_env</Name>
+   <Header>
+    <Flags value="0x00000111" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk04 value="300" />
+    <Unk08 value="120" />
+   </Header>
+   <UnkShort0 value="100" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="250" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="45" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="150" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="500" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>constant_one</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>spl_homing_player_master_spl_rpg_player_mlt</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>spl_homing_player_master_spl_rpg_player_mlt</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>spl_homing_player_master_spl_rpg_player_l</Item>
+    <Item>spl_homing_player_master_spl_rpg_player_r</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>spl_homing_player_master_spl_rpg_clunk_player_l</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="315" />
+   </Header>
+   <ContainerName>weapons_player/spl_rpg_player</ContainerName>
+   <FileName>hash_B9CEA72F</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>spl_homing_player_master_spl_rpg_clunk_player_r</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="45" />
+   </Header>
+   <ContainerName>weapons_player/spl_rpg_player</ContainerName>
+   <FileName>hash_CE72D077</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>spl_homing_player_master_spl_rpg_player_l</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="315" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_5B2FE1A1</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>spl_homing_player_master_spl_rpg_player_r</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="45" />
+   </Header>
+   <ContainerName>weapons_player/spl_rpg_player</ContainerName>
+   <FileName>hash_0DEE471F</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>resident_weapons_rpg_rocket_insert_vera_eq</Name>
+   <Header>
+    <Flags value="0x00000010" />
+    <Unk04 value="65136" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_0F7B1401</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SoundSet">
+   <Name>homing_launcher_set</Name>
+   <Header>
+    <Flags value="0xAAAAAAAA" />
+   </Header>
+   <Items>
+    <Item>
+     <ScriptName>hash_B970427D</ScriptName>
+     <SoundName>spl_homing_lock_on_red_master</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_CEA6E9E8</ScriptName>
+     <SoundName>spl_homing_lock_on_amber_master</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_F515AF1D</ScriptName>
+     <SoundName>spl_homing_lock_on_green_master</SoundName>
+    </Item>
+   </Items>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>spl_homing_lock_on_green_master</Name>
+   <Header>
+    <Flags value="0x01058050" />
+    <Unk04 value="300" />
+    <Unk06 value="0" />
+    <Category>hash_01E27C7E</Category>
+    <Unk14 value="4000" />
+    <Unk16 value="2500" />
+    <Unk21 value="2" />
+   </Header>
+   <AudioHash0>spl_homing_lock_on_green_rtol</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>spl_homing_lock_on_green_rtol</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="RetriggeredOverlappedSound">
+   <Name>spl_homing_lock_on_green_rtol</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <UnkShort0 value="65535" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="235" />
+   <UnkShort3 value="0" />
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <AudioHash0 />
+   <AudioHash1>hash_68B87E64</AudioHash1>
+   <AudioHash2 />
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>spl_homing_player_whizz_synth</Name>
+   <Header>
+    <Flags value="0x00000151" />
+    <Flags2 value="0xAAA8AAAA" />
+    <Unk04 value="64336" />
+    <Unk06 value="35" />
+    <Unk08 value="150" />
+   </Header>
+   <OptAmpUnkHash>hash_9CAA22CA</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="3" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>hash_FCA2BEDF</UnkHash>
+     <ParameterHash />
+     <Value value="1" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>spl_homing_player_gas</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="106" />
+   </Header>
+   <AudioHash0 />
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item />
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>spl_homing_player_sweet</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>spl_homing_player_whizz_synth_l</Item>
+    <Item>spl_homing_player_whizz_synth_r</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="ParameterTransformSound">
+   <Name>spl_homing_player_whizz</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash>spl_homing_player_sweet</AudioHash>
+   <Items>
+    <Item>
+     <ParameterHash>hash_A69EF7A1</ParameterHash>
+     <UnkFloat0 value="0" />
+     <UnkFloat1 value="1.25" />
+     <NestedData>
+      <Item>
+       <UnkFloat0 value="-1" />
+       <UnkInt value="0" />
+       <ParameterHash />
+       <UnkFloat1 value="1E-05" />
+       <UnkFloat2 value="1" />
+       <Vectors>
+        0, 1
+        0.1919241, 0.3120795
+        0.5919241, 0.03
+        1, 0
+       </Vectors>
+      </Item>
+      <Item>
+       <UnkFloat0 value="-1" />
+       <UnkInt value="1" />
+       <ParameterHash />
+       <UnkFloat1 value="0.7071068" />
+       <UnkFloat2 value="1.414214" />
+       <Vectors>
+        0, 1
+        0.1319242, 0.4526667
+        1, 0
+       </Vectors>
+      </Item>
+     </NestedData>
+    </Item>
+   </Items>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>spl_homing_player_whizz_delay</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash0>spl_homing_player_whizz</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>spl_homing_player_whizz</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>spl_homing_player_thump</Name>
+   <Header>
+    <Flags value="0x00000050" />
+    <Unk04 value="64936" />
+    <Unk06 value="0" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_4FC18D49</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>spl_homing_player_whizz_synth_l</Name>
+   <Header>
+    <Flags value="0x00000041" />
+    <Flags2 value="0xAAA8AAAA" />
+    <Unk06 value="0" />
+   </Header>
+   <OptAmpUnkHash>hash_A7CD5DA6</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="3" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>hash_FCA2BEDF</UnkHash>
+     <ParameterHash />
+     <Value value="0.5" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>spl_homing_player_whizz_synth_r</Name>
+   <Header>
+    <Flags value="0x00000041" />
+    <Flags2 value="0xAAA8AAAA" />
+    <Unk06 value="30" />
+   </Header>
+   <OptAmpUnkHash>hash_A7CD5DA6</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="3" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>hash_FCA2BEDF</UnkHash>
+     <ParameterHash />
+     <Value value="0.5" />
+    </Item>
+   </UnkItems>
+  </Item>
+ </Items>
+</Dat54>

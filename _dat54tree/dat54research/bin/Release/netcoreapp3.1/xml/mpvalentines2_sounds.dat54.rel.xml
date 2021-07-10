@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dat54>
+ <Version value="9806108" />
+ <NameTable>
+  <Item>DLC_VAL2\BTYPE3</Item>
+  <Item>DLC_VAL2\BTYPE3_NPC</Item>
+  <Item>0</Item>
+ </NameTable>
+ <Items>
+  <Item type="LoopingSound">
+   <Name>btype3_horn_loop</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <UnkShort0 value="-1" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <AudioHash>dlc_val2_btype3_old_horn_loop</AudioHash>
+   <ParameterHash />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_val2_btype3_old_horn_tail</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_val2/btype3</ContainerName>
+   <FileName>hash_6537BD06</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_val2_btype3_old_horn_loop</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_val2/btype3</ContainerName>
+   <FileName>hash_C90D4EC3</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="OnStopSound">
+   <Name>btype3_horn_onstop</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash0>btype3_horn_loop</AudioHash0>
+   <AudioHash1>dlc_val2_btype3_old_horn_tail</AudioHash1>
+   <AudioHash2 />
+  </Item>
+  <Item type="LoopingSound">
+   <Name>btype3_horn_npc_loop</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <UnkShort0 value="-1" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <AudioHash>dlc_val2_btype3_npc_old_horn_loop</AudioHash>
+   <ParameterHash />
+  </Item>
+  <Item type="OnStopSound">
+   <Name>btype3_horn_npc_onstop</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash0>btype3_horn_npc_loop</AudioHash0>
+   <AudioHash1>dlc_val2_btype3_npc_old_horn_tail</AudioHash1>
+   <AudioHash2 />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_val2_btype3_npc_old_horn_loop</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_val2/btype3_npc</ContainerName>
+   <FileName>hash_C90D4EC3</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_val2_btype3_npc_old_horn_tail</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_val2/btype3_npc</ContainerName>
+   <FileName>hash_6537BD06</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>btype3_horn_npc</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_horns_loud</Category>
+   </Header>
+   <AudioHash0>btype3_horn_npc_onstop</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>btype3_horn_npc_onstop</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>btype3_horn</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_horns_loud</Category>
+   </Header>
+   <AudioHash0>btype3_horn_onstop</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>btype3_horn_onstop</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="SoundList">
+   <Name>horn_list_btype3</Name>
+   <Header>
+    <Flags value="0xAAAAAAAA" />
+   </Header>
+   <UnkShort value="0" />
+   <Items>
+    <Item>btype3_horn</Item>
+   </Items>
+  </Item>
+  <Item type="SoundList">
+   <Name>horn_list_btype3_npc</Name>
+   <Header>
+    <Flags value="0xAAAAAAAA" />
+   </Header>
+   <UnkShort value="0" />
+   <Items>
+    <Item>btype3_horn_npc</Item>
+   </Items>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>btype3_start_up</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Unk02 value="65036" />
+    <Category>vehicles_engines_startup</Category>
+   </Header>
+   <ContainerName>dlc_val2/btype3</ContainerName>
+   <FileName>hash_9D64B840</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>btype3_shut_down</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Unk02 value="64536" />
+    <Category>vehicles_engines_startup</Category>
+   </Header>
+   <ContainerName>dlc_val2/btype3</ContainerName>
+   <FileName>hash_3B393DEA</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="GranularSound">
+   <Name>btype3_engine_accel_npc</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0x9555AAAA" />
+    <Category>hash_F7C35252</Category>
+   </Header>
+   <WaveSlotIndex value="0" />
+   <Wave1>
+    <ContainerName>dlc_val2/btype3_npc</ContainerName>
+    <FileName>engine_accel</FileName>
+   </Wave1>
+   <Wave2>
+    <ContainerName>dlc_val2/btype3_npc</ContainerName>
+    <FileName>exhaust_accel</FileName>
+   </Wave2>
+   <Wave3>
+    <ContainerName>0</ContainerName>
+    <FileName />
+   </Wave3>
+   <Wave4>
+    <ContainerName>0</ContainerName>
+    <FileName />
+   </Wave4>
+   <Wave5>
+    <ContainerName>dlc_val2/btype3_npc</ContainerName>
+    <FileName>engine_idle</FileName>
+   </Wave5>
+   <Wave6>
+    <ContainerName>dlc_val2/btype3_npc</ContainerName>
+    <FileName>exhaust_idle</FileName>
+   </Wave6>
+   <DataItem1>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem1>
+   <DataItem2>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem2>
+   <DataItem3>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem3>
+   <DataItem4>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem4>
+   <DataItem5>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem5>
+   <DataItem6>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem6>
+   <UnkFloat0 value="0.01" />
+   <UnkFloat1 value="0.05" />
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="-100" />
+   <UnkShort3 value="0" />
+   <UnkShort4 value="-500" />
+   <UnkShort5 value="0" />
+   <TrackName>btype3_engine_accel</TrackName>
+   <UnkVecData>
+    13.4, 37
+    10, 10
+   </UnkVecData>
+  </Item>
+  <Item type="EnvironmentSound">
+   <Name>btype3_exhaust_accel</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>hash_F7C35252</Category>
+   </Header>
+   <UnkByte value="1" />
+  </Item>
+  <Item type="GranularSound">
+   <Name>btype3_engine_accel</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0x9555AAAA" />
+    <Category>hash_F7C35252</Category>
+   </Header>
+   <WaveSlotIndex value="0" />
+   <Wave1>
+    <ContainerName>dlc_val2/btype3</ContainerName>
+    <FileName>engine_accel</FileName>
+   </Wave1>
+   <Wave2>
+    <ContainerName>dlc_val2/btype3</ContainerName>
+    <FileName>exhaust_accel</FileName>
+   </Wave2>
+   <Wave3>
+    <ContainerName>dlc_val2/btype3</ContainerName>
+    <FileName>engine_decel</FileName>
+   </Wave3>
+   <Wave4>
+    <ContainerName>dlc_val2/btype3</ContainerName>
+    <FileName>exhaust_decel</FileName>
+   </Wave4>
+   <Wave5>
+    <ContainerName>dlc_val2/btype3</ContainerName>
+    <FileName>engine_idle</FileName>
+   </Wave5>
+   <Wave6>
+    <ContainerName>dlc_val2/btype3</ContainerName>
+    <FileName>exhaust_idle</FileName>
+   </Wave6>
+   <DataItem1>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem1>
+   <DataItem2>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem2>
+   <DataItem3>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="1" />
+    <UnkFloat value="1" />
+   </DataItem3>
+   <DataItem4>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="1" />
+    <UnkFloat value="1" />
+   </DataItem4>
+   <DataItem5>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem5>
+   <DataItem6>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem6>
+   <UnkFloat0 value="0.01" />
+   <UnkFloat1 value="0.05" />
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="-100" />
+   <UnkShort3 value="0" />
+   <UnkShort4 value="-500" />
+   <UnkShort5 value="0" />
+   <TrackName />
+   <UnkVecData>
+    13.4, 37
+    10, 10
+   </UnkVecData>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>btype3_veh_synth_turbo</Name>
+   <Header>
+    <Flags value="0x00008005" />
+    <Flags2 value="0xAAA8AAAA" />
+    <Unk02 value="65136" />
+    <Category>vehicles_engines_loud</Category>
+   </Header>
+   <OptAmpUnkHash>btype3_synth_turbo</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="-1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_val2_btype3_vehicles_extras_dump_valve_08</Name>
+   <Header>
+    <Flags value="0x00000014" />
+    <Unk02 value="65236" />
+    <Unk04 value="400" />
+   </Header>
+   <ContainerName>dlc_val2/btype3</ContainerName>
+   <FileName>hash_D59E2CBE</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>btype3_dump_valve_master</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash0>btype3_dump_valve_mt</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1>hash_C0108E98</AudioHash1>
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>btype3_dump_valve_mt</Item>
+    <Item>hash_C0108E98</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>btype3_dump_valve_mt</Name>
+   <Header>
+    <Flags value="0x00008005" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="65336" />
+    <Category>vehicles_extras_loud</Category>
+   </Header>
+   <AudioTracks>
+    <Item>dlc_val2_btype3_vehicles_extras_dump_valve_08</Item>
+    <Item>dlc_val2_btype3_resident_dump_valve_wrapper</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>dlc_val2_btype3_resident_dump_valve_wrapper</Name>
+   <Header>
+    <Flags value="0x00000004" />
+    <Unk02 value="64536" />
+   </Header>
+   <AudioHash0>hash_AB411498</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>hash_AB411498</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+ </Items>
+</Dat54>

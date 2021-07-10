@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dat54>
+ <Version value="6353778" />
+ <NameTable>
+  <Item>RESIDENT\WEAPONS</Item>
+  <Item>WEAPONS_PLAYER\PTL_50CAL</Item>
+ </NameTable>
+ <Items>
+  <Item type="WrapperSound">
+   <Name>dummy_sound</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash0 />
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item />
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>ptl_sns_npc_master</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Category>hash_85B8BFD4</Category>
+   </Header>
+   <AudioTracks>
+    <Item>ptl_sns_npc_crossfade</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="CrossfadeSound">
+   <Name>ptl_sns_npc_crossfade</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash0>ptl_sns_npc_close_mlt</AudioHash0>
+   <AudioHash1>ptl_sns_npc_far_rdm</AudioHash1>
+   <UnkByte value="0" />
+   <UnkFloat0 value="20" />
+   <UnkFloat1 value="40" />
+   <UnkInt value="0" />
+   <UnkCurvesHash>hash_FF42C289</UnkCurvesHash>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>ptl_sns_npc_close_mlt</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>ptl_sns_npc_mech_env</Item>
+    <Item>ptl_sns_npc_01</Item>
+    <Item>ptl_sns_npc_mid_rdm</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>ptl_sns_npc_mech_env</Name>
+   <Header>
+    <Flags value="0x00200725" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="65036" />
+    <Unk05 value="75" />
+    <Unk08 value="90" />
+    <Unk09 value="10" />
+    <UnkInt1 value="30" />
+    <Unk18 value="300" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="140" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="80" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_283B9215</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>ptl_sns_npc_mech</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_sns_npc_mech</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_A0CFC264</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_sns_npc_01</Name>
+   <Header>
+    <Flags value="0x00600034" />
+    <Unk02 value="64936" />
+    <Unk04 value="650" />
+    <Unk05 value="150" />
+    <Unk18 value="400" />
+    <Unk19 value="4" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_5F246C4E</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>ptl_sns_npc_mid_rdm</Name>
+   <Header>
+    <Flags value="0x00640035" />
+    <Flags2 value="0xAAA99AAA" />
+    <Unk02 value="65336" />
+    <Unk04 value="300" />
+    <Unk05 value="175" />
+    <Unk16 value="200" />
+    <Unk18 value="4000" />
+    <Unk19 value="6" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes />
+   <Items>
+    <Item key="ptl_sns_npc_mid_1" value="1" />
+    <Item key="ptl_sns_npc_mid_2" value="1" />
+   </Items>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_sns_npc_mid_1</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_FC34F867</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_sns_npc_mid_2</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_3320663D</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>ptl_sns_npc_far_rdm</Name>
+   <Header>
+    <Flags value="0x0064803D" />
+    <Flags2 value="0xAAA99AAA" />
+    <Unk02 value="200" />
+    <Unk03 value="100" />
+    <Unk04 value="300" />
+    <Unk05 value="200" />
+    <Category>hash_BF162C33</Category>
+    <Unk16 value="100" />
+    <Unk18 value="1800" />
+    <Unk19 value="30" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes />
+   <Items>
+    <Item key="ptl_sns_npc_far_01" value="1" />
+    <Item key="ptl_sns_npc_far_02" value="1" />
+    <Item key="ptl_sns_npc_far_03" value="1" />
+    <Item key="ptl_sns_npc_far_04" value="1" />
+   </Items>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_sns_npc_far_01</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_5E2137C5</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_sns_npc_far_02</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_ABF85372</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_sns_npc_far_03</Name>
+   <Header>
+    <Flags value="0x00000004" />
+    <Unk02 value="65236" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_8B4230A9</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_sns_npc_far_04</Name>
+   <Header>
+    <Flags value="0x00000004" />
+    <Unk02 value="65036" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_7D009426</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>ptl_sns_player_master</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0xAAA09AA2" />
+    <Category>hash_80722AAA</Category>
+   </Header>
+   <AudioTracks>
+    <Item>ptl_sns_player_mech_env</Item>
+    <Item>ptl_sns_player_stereo</Item>
+    <Item>ptl_sns_player_sub</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>ptl_sns_player_mech_env</Name>
+   <Header>
+    <Flags value="0x00008725" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="65336" />
+    <Unk05 value="75" />
+    <Unk08 value="100" />
+    <Unk09 value="10" />
+    <UnkInt1 value="30" />
+    <Category>hash_EB0865AB</Category>
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="140" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="80" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_283B9215</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>ptl_sns_player_mech</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_sns_player_mech</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_A0CFC264</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>ptl_sns_player_stereo</Name>
+   <Header>
+    <Flags value="0x00008035" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="64736" />
+    <Unk04 value="600" />
+    <Unk05 value="100" />
+    <Category>hash_80722AAA</Category>
+   </Header>
+   <AudioTracks>
+    <Item>ptl_sns_player_hi_l</Item>
+    <Item>ptl_sns_player_hi_r</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_sns_player_hi_l</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="315" />
+   </Header>
+   <ContainerName>weapons_player/ptl_50cal</ContainerName>
+   <FileName>hash_EAE503E5</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_sns_player_hi_r</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="45" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_5F246C4E</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_sns_player_sub</Name>
+   <Header>
+    <Flags value="0x00000131" />
+    <Flags2 value="0xAAAA9AAA" />
+    <Unk04 value="65236" />
+    <Unk05 value="100" />
+    <Unk08 value="20" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_CC40FD6F</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>ptl_sns_player_slow_mo</Name>
+   <Header>
+    <Flags value="0x00008011" />
+    <Flags2 value="0xAAA09AA2" />
+    <Unk04 value="65036" />
+    <Category>hash_6805AAC2</Category>
+   </Header>
+   <AudioTracks>
+    <Item>ptl_sns_player_slow_mo_ptl_sns_player_mech_env</Item>
+    <Item>ptl_sns_player_slow_mo_ptl_sns_player_stereo</Item>
+    <Item>ptl_sns_player_slow_mo_ptl_sns_player_sub</Item>
+    <Item>ptl_sns_player_slow_mo_fire_stereo</Item>
+    <Item>ptl_sns_slow_mo_action_mt</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>ptl_sns_player_slow_mo_ptl_sns_player_mech_env</Name>
+   <Header>
+    <Flags value="0x00008725" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="65336" />
+    <Unk05 value="75" />
+    <Unk08 value="100" />
+    <Unk09 value="10" />
+    <UnkInt1 value="30" />
+    <Category>hash_80722AAA</Category>
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="140" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="80" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_283B9215</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>ptl_sns_player_slow_mo_ptl_sns_player_mech</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_sns_player_slow_mo_ptl_sns_player_mech</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_A0CFC264</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>ptl_sns_player_slow_mo_ptl_sns_player_stereo</Name>
+   <Header>
+    <Flags value="0x00008035" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="64736" />
+    <Unk04 value="600" />
+    <Unk05 value="100" />
+    <Category>hash_80722AAA</Category>
+   </Header>
+   <AudioTracks>
+    <Item>ptl_sns_player_slow_mo_ptl_sns_player_hi_l</Item>
+    <Item>ptl_sns_player_slow_mo_ptl_sns_player_hi_r</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_sns_player_slow_mo_ptl_sns_player_hi_l</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="315" />
+   </Header>
+   <ContainerName>weapons_player/ptl_50cal</ContainerName>
+   <FileName>hash_EAE503E5</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_sns_player_slow_mo_ptl_sns_player_hi_r</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="45" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_5F246C4E</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_sns_player_slow_mo_ptl_sns_player_sub</Name>
+   <Header>
+    <Flags value="0x00000131" />
+    <Flags2 value="0xAAAA9AAA" />
+    <Unk04 value="65236" />
+    <Unk05 value="100" />
+    <Unk08 value="20" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_CC40FD6F</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="CollapsingStereoSound">
+   <Name>ptl_sns_player_slow_mo_fire_stereo</Name>
+   <Header>
+    <Flags value="0x00000004" />
+    <Unk02 value="65236" />
+   </Header>
+   <AudioHash0>hash_012C792F</AudioHash0>
+   <AudioHash1>hash_90390238</AudioHash1>
+   <UnkFloat0 value="1" />
+   <UnkFloat1 value="3" />
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <UnkInt value="1065353216" />
+   <ParameterHash5 />
+   <UnkByte value="1" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>ptl_sns_slow_mo_action_mt</Name>
+   <Header>
+    <Flags value="0x00008105" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="64836" />
+    <Unk08 value="200" />
+    <Category>hash_8A91FE75</Category>
+   </Header>
+   <AudioTracks>
+    <Item>hash_9C5D30BF</Item>
+    <Item>hash_D7378BED</Item>
+    <Item>hash_B8DABF24</Item>
+    <Item>hash_2BC8CE9A</Item>
+   </AudioTracks>
+  </Item>
+ </Items>
+</Dat54>

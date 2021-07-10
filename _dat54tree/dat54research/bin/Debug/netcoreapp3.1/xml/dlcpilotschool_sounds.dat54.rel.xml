@@ -1,0 +1,2397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dat54>
+ <Version value="6894089" />
+ <NameTable>
+  <Item>DLC_PILOTSCHOOL\CITY_LANDING</Item>
+  <Item>DLC_PILOTSCHOOL\EU_VINTAGE_S6</Item>
+  <Item>DLC_PILOTSCHOOL\EU_VINTAGE_S6_NPC</Item>
+  <Item>0</Item>
+  <Item>RESIDENT\VEHICLES</Item>
+  <Item>RESIDENT\DOORS</Item>
+ </NameTable>
+ <Items>
+  <Item type="SoundSet">
+   <Name>dlc_pilot_chase_parachute_sounds</Name>
+   <Header>
+    <Flags value="0xAAAAAAAA" />
+   </Header>
+   <Items>
+    <Item>
+     <ScriptName>jump</ScriptName>
+     <SoundName>dlc_pilot_chase_parachute_jump_master</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_B80AAB0A</ScriptName>
+     <SoundName>dlc_pilot_chase_parachute_grab_chute_master</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_B8C37C2C</ScriptName>
+     <SoundName>dlc_pilot_chase_parachute_plane_wind_master</SoundName>
+    </Item>
+   </Items>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>dlc_pilot_chase_parachute_jump_master</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>scripted_louder</Category>
+   </Header>
+   <AudioHash0>hash_DCC8C035</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>hash_DCC8C035</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>dlc_pilot_chase_parachute_plane_wind_master</Name>
+   <Header>
+    <Flags value="0x0060B401" />
+    <Flags2 value="0xAAAAAAA6" />
+    <UnkInt1 value="1000" />
+    <Unk10 value="500" />
+    <Unk11 value="2000" />
+    <Category>scripted_louder</Category>
+    <Unk18 value="500" />
+    <Unk19 value="10" />
+   </Header>
+   <AudioHash0>hash_ED94FF59</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>hash_ED94FF59</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>dlc_pilot_chase_parachute_grab_chute_master</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>scripted_louder</Category>
+   </Header>
+   <AudioHash0>hash_F8E65A58</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>hash_F8E65A58</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>dummy_sound</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash0 />
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item />
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>dlc_pilot_engine_fail_master</Name>
+   <Header>
+    <Flags value="0x00048005" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="65236" />
+    <Category>scripted</Category>
+    <Unk16 value="200" />
+   </Header>
+   <AudioTracks>
+    <Item>dlc_pilot_engine_fail_master_env</Item>
+    <Item>dlc_pilot_engine_clang_wrap</Item>
+    <Item>dlc_pilot_engine_fail_master_steam_env</Item>
+    <Item>dlc_pilot_engine_fail_master_wind_down_env</Item>
+    <Item>dlc_pilot_engine_fail_master_damage_env</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>dlc_pilot_engine_clang_wrap</Name>
+   <Header>
+    <Flags value="0x00000004" />
+    <Unk02 value="65236" />
+   </Header>
+   <AudioHash0>hash_B41CCB91</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>hash_B41CCB91</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>dlc_pilot_engine_fail_master_env</Name>
+   <Header>
+    <Flags value="0x00000501" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk08 value="150" />
+    <UnkInt1 value="200" />
+   </Header>
+   <UnkShort0 value="100" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="600" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="500" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>hash_BA62D567</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>dlc_pilot_engine_fail_master_steam_synth</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <OptAmpUnkHash>hash_7F2D6D8E</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="-1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>dlc_pilot_engine_fail_master_steam_env</Name>
+   <Header>
+    <Flags value="0x00040101" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk08 value="500" />
+    <Unk16 value="3000" />
+   </Header>
+   <UnkShort0 value="600" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="100" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="1000" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>dlc_pilot_engine_fail_master_steam_synth</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>dlc_pilot_engine_fail_master_wind_down_env</Name>
+   <Header>
+    <Flags value="0x00000101" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk08 value="400" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="1000" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="1000" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>dlc_pilot_engine_fail_master_wind_down_env_param</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="ParameterTransformSound">
+   <Name>dlc_pilot_engine_fail_master_wind_down_env_param</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash>hash_D751DE62</AudioHash>
+   <Items>
+    <Item>
+     <ParameterHash>hash_A69EF7A1</ParameterHash>
+     <UnkFloat0 value="0" />
+     <UnkFloat1 value="1" />
+     <NestedData>
+      <Item>
+       <UnkFloat0 value="-1" />
+       <UnkInt value="1" />
+       <ParameterHash />
+       <UnkFloat1 value="0.25" />
+       <UnkFloat2 value="4" />
+       <Vectors>
+        0, 0.2133333
+        0.650496, 0.1528
+        0.9233333, 0.1166667
+       </Vectors>
+      </Item>
+     </NestedData>
+    </Item>
+   </Items>
+  </Item>
+  <Item type="LoopingSound">
+   <Name>dlc_pilot_warning_tone_01_master_vb_lp</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <UnkShort0 value="-1" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <AudioHash>dlc_pilot_warning_tone_01_master_vb_lp_if</AudioHash>
+   <ParameterHash />
+  </Item>
+  <Item type="IfSound">
+   <Name>dlc_pilot_warning_tone_01_master_vb_lp_if</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <AudioHash1>dlc_pilot_warning_stall_new_vb_lp_if_fast</AudioHash1>
+   <AudioHash2>hash_15EA889D</AudioHash2>
+   <ParameterHash1>hash_7EE44D8B</ParameterHash1>
+   <UnkByte value="0" />
+   <UnkFloat value="200" />
+   <ParameterHash2 />
+  </Item>
+  <Item type="LoopingSound">
+   <Name>dlc_pilot_warning_tone_02_master_vb_lp</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <UnkShort0 value="-1" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <AudioHash>dlc_pilot_warning_tone_02_master_vb_lp_if</AudioHash>
+   <ParameterHash />
+  </Item>
+  <Item type="IfSound">
+   <Name>dlc_pilot_warning_tone_02_master_vb_lp_if</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <AudioHash1>dlc_pilot_warning_stall_new_vb_lp_if_fast_</AudioHash1>
+   <AudioHash2>dlc_pilot_warning_stall_new_vb_lp_if_slow_seq_</AudioHash2>
+   <ParameterHash1>hash_7EE44D8B</ParameterHash1>
+   <UnkByte value="0" />
+   <UnkFloat value="400" />
+   <ParameterHash2 />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>dlc_pilot_warning_stall_new_vb_lp_if_fast_</Name>
+   <Header>
+    <Flags value="0x00000015" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="64936" />
+    <Unk04 value="65036" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="200" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="-1" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>hash_FF329CB0</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>dlc_pilot_warning_stall_new_vb_lp_if_slow</Name>
+   <Header>
+    <Flags value="0x00000015" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="65136" />
+    <Unk04 value="64936" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="450" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="-1" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>hash_FF329CB0</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="SequentialSound">
+   <Name>dlc_pilot_warning_stall_new_vb_lp_if_slow_seq_</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>dlc_pilot_warning_stall_new_vb_lp_if_slow</Item>
+    <Item>dlc_pilot_warning_stall_new_vb_lp_if_slow_seq_wait_</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>dlc_pilot_warning_stall_new_vb_lp_if_slow_seq_wait_</Name>
+   <Header>
+    <Flags value="0x00000100" />
+    <Unk08 value="200" />
+   </Header>
+   <AudioHash0 />
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item />
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>dlc_pilot_warning_tones_master</Name>
+   <Header>
+    <Flags value="0x00018001" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Category>scripted</Category>
+    <Unk14 value="5000" />
+   </Header>
+   <AudioTracks>
+    <Item>dlc_pilot_warning_tone_01_master</Item>
+    <Item>dlc_pilot_warning_tones_master_03_loop</Item>
+    <Item>dlc_pilot_warning_tones_stop_param</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="LoopingSound">
+   <Name>dlc_pilot_warning_tones_master_loop</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <UnkShort0 value="-1" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <AudioHash>dlc_pilot_warning_tones_master_if</AudioHash>
+   <ParameterHash />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>dlc_pilot_engine_fail_master_damage_twin_01_wrap</Name>
+   <Header>
+    <Flags value="0x00000014" />
+    <Unk02 value="65236" />
+    <Unk04 value="65236" />
+   </Header>
+   <AudioHash0>hash_0693DE95</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>hash_0693DE95</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>dlc_pilot_engine_fail_master_damage_twin_02_wrap</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash0>hash_14657A38</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>hash_14657A38</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>dlc_pilot_engine_fail_master_damage_env</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA1AAAA" />
+   </Header>
+   <UnkShort0 value="60" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="1000" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="1500" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="2000" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>dlc_pilot_engine_fail_master_damage_env_seq</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="SequentialOverlapSound">
+   <Name>dlc_pilot_engine_fail_master_damage_env_seq</Name>
+   <Header>
+    <Flags value="0x00000011" />
+    <Flags2 value="0xA004AAAA" />
+    <Unk04 value="64936" />
+   </Header>
+   <UnkShort value="1000" />
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <AudioTracks>
+    <Item>dlc_pilot_engine_fail_master_damage_twin_02_wrap</Item>
+    <Item>dlc_pilot_engine_fail_master_damage_twin_01_wrap</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="IfSound">
+   <Name>dlc_pilot_warning_tones_master_if</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <AudioHash1>dlc_pilot_warning_tone_02_master</AudioHash1>
+   <AudioHash2>null_sound</AudioHash2>
+   <ParameterHash1>hash_7EE44D8B</ParameterHash1>
+   <UnkByte value="0" />
+   <UnkFloat value="1000" />
+   <ParameterHash2 />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>dlc_pilot_warning_stall_new_vb_lp_if_fast</Name>
+   <Header>
+    <Flags value="0x00000005" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="64936" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="100" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="-1" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>hash_FF329CB0</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>dlc_pilot_warning_tone_03_synth</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <OptAmpUnkHash>hash_72C3127B</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="-1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems />
+  </Item>
+  <Item type="LoopingSound">
+   <Name>dlc_pilot_warning_tones_master_03_loop</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <UnkShort0 value="-1" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <AudioHash>dlc_pilot_warning_tones_master_03_loop_if</AudioHash>
+   <ParameterHash />
+  </Item>
+  <Item type="IfSound">
+   <Name>dlc_pilot_warning_tones_master_03_loop_if</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <AudioHash1>dlc_pilot_warning_tone_03_env</AudioHash1>
+   <AudioHash2>null_sound</AudioHash2>
+   <ParameterHash1>hash_8CE50515</ParameterHash1>
+   <UnkByte value="2" />
+   <UnkFloat value="75" />
+   <ParameterHash2 />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>dlc_pilot_warning_tone_03_env</Name>
+   <Header>
+    <Flags value="0x00000105" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="200" />
+    <Unk08 value="350" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="200" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="-1" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>dlc_pilot_warning_tone_03_synth</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="ParameterTransformSound">
+   <Name>dlc_pilot_warning_tones_stop_param</Name>
+   <Header>
+    <Flags value="0x00000004" />
+    <Unk02 value="64936" />
+   </Header>
+   <AudioHash>dlc_pilot_warning_tones_master_loop</AudioHash>
+   <Items>
+    <Item>
+     <ParameterHash>hash_7EE44D8B</ParameterHash>
+     <UnkFloat0 value="34" />
+     <UnkFloat1 value="50" />
+     <NestedData>
+      <Item>
+       <UnkFloat0 value="-1" />
+       <UnkInt value="0" />
+       <ParameterHash />
+       <UnkFloat1 value="1E-05" />
+       <UnkFloat2 value="1" />
+       <Vectors>
+        0, 0
+        1.43E-08, 1
+       </Vectors>
+      </Item>
+     </NestedData>
+    </Item>
+   </Items>
+  </Item>
+  <Item type="SequentialSound">
+   <Name>plane_warning_tone_landed_loop_seq</Name>
+   <Header>
+    <Flags value="0x00000011" />
+    <Flags2 value="0xAAA8AAAA" />
+    <Unk04 value="600" />
+   </Header>
+   <AudioTracks>
+    <Item>plane_warning_tone_landed_loop_seq_env</Item>
+    <Item>plane_warning_tone_landed_loop_seq_pause_wrap</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="LoopingSound">
+   <Name>dlc_pilot_warning_tone_landed_loop</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <UnkShort0 value="3" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <AudioHash>plane_warning_tone_landed_loop_seq</AudioHash>
+   <ParameterHash />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>plane_warning_tone_landed_loop_seq_env</Name>
+   <Header>
+    <Flags value="0x00000005" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="65136" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="100" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="-1" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>hash_FF329CB0</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>plane_warning_tone_landed_loop_seq_pause_wrap</Name>
+   <Header>
+    <Flags value="0x00000100" />
+    <Unk08 value="100" />
+   </Header>
+   <AudioHash0 />
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item />
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="IfSound">
+   <Name>dlc_pilot_warning_tone_01_stop_if</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <AudioHash1 />
+   <AudioHash2 />
+   <ParameterHash1>hash_7EE44D8B</ParameterHash1>
+   <UnkByte value="0" />
+   <UnkFloat value="34" />
+   <ParameterHash2 />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>dlc_pilot_warning_tones_landed_master</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Unk02 value="65236" />
+    <Category>scripted</Category>
+   </Header>
+   <AudioHash0>dlc_pilot_warning_tone_landed_loop</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>dlc_pilot_warning_tone_landed_loop</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>dlc_pilot_warning_tone_01_master</Name>
+   <Header>
+    <Flags value="0x00000004" />
+    <Unk02 value="65236" />
+   </Header>
+   <AudioHash0>dlc_pilot_warning_tone_01_master_vb_lp</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>dlc_pilot_warning_tone_01_master_vb_lp</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>dlc_pilot_warning_tone_02_master</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash0>dlc_pilot_warning_tone_02_master_vb_lp</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>dlc_pilot_warning_tone_02_master_vb_lp</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="SoundSet">
+   <Name>dlc_pilot_engine_failure_sounds</Name>
+   <Header>
+    <Flags value="0xAAAAAAAA" />
+   </Header>
+   <Items>
+    <Item>
+     <ScriptName>hash_16000E15</ScriptName>
+     <SoundName>dlc_pilot_warning_tones_landed_master</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_4851D432</ScriptName>
+     <SoundName>dlc_pilot_engine_fail_master</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_DCDB5801</ScriptName>
+     <SoundName>dlc_pilot_warning_tones_master</SoundName>
+    </Item>
+   </Items>
+  </Item>
+  <Item type="SoundSet">
+   <Name>dlc_pilot_shooting_range_sounds</Name>
+   <Header>
+    <Flags value="0xAAAAAAAA" />
+   </Header>
+   <Items>
+    <Item>
+     <ScriptName>hash_20CAFCDF</ScriptName>
+     <SoundName>dlc_pilot_shooting_range_target_spawn_master</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_5534050D</ScriptName>
+     <SoundName>dlc_pilot_shooting_range_target_destroyed_master</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_930CA7F2</ScriptName>
+     <SoundName>dlc_pilot_shooting_range_target_stop_master</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_E61DC582</ScriptName>
+     <SoundName>dlc_pilot_shooting_range_target_move_master</SoundName>
+    </Item>
+   </Items>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>dlc_pilot_shooting_range_target_spawn_master</Name>
+   <Header>
+    <Flags value="0x00608004" />
+    <Unk02 value="64936" />
+    <Category>scripted_louder</Category>
+    <Unk18 value="300" />
+    <Unk19 value="20" />
+   </Header>
+   <AudioHash0>hash_D3B65627</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>hash_D3B65627</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>dlc_pilot_shooting_range_target_move_master</Name>
+   <Header>
+    <Flags value="0x00608004" />
+    <Unk02 value="65236" />
+    <Category>scripted_louder</Category>
+    <Unk18 value="300" />
+    <Unk19 value="20" />
+   </Header>
+   <AudioHash0>dlc_pilot_shooting_range_target_move_pv_var</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>dlc_pilot_shooting_range_target_move_pv_var</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>dlc_pilot_shooting_range_target_stop_master</Name>
+   <Header>
+    <Flags value="0x00608004" />
+    <Unk02 value="64936" />
+    <Category>scripted_louder</Category>
+    <Unk18 value="300" />
+    <Unk19 value="20" />
+   </Header>
+   <AudioHash0>hash_318C812A</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>hash_318C812A</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>dlc_pilot_shooting_range_target_destroyed_master</Name>
+   <Header>
+    <Flags value="0x0064A000" />
+    <Unk11 value="2000" />
+    <Category>scripted_louder</Category>
+    <Unk16 value="100" />
+    <Unk18 value="200" />
+    <Unk19 value="20" />
+   </Header>
+   <AudioHash0>dlc_pilot_shooting_range_target_destroyed_mt</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1>null_sound</AudioHash1>
+   <FrameTimeInterval value="50" />
+   <Variables />
+   <AudioTracks>
+    <Item>dlc_pilot_shooting_range_target_destroyed_mt</Item>
+    <Item>null_sound</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>dlc_pilot_shooting_range_target_destroyed_mt</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>dlc_pilot_shooting_range_target_destroyed_mt_mech</Item>
+    <Item>dlc_pilot_shooting_range_target_destroyed_mt_card</Item>
+    <Item>dlc_pilot_shooting_range_target_destroyed_mt_bang</Item>
+    <Item>dlc_pilot_shooting_range_target_destroyed_mt_trill</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>dlc_pilot_shooting_range_target_destroyed_mt_mech</Name>
+   <Header>
+    <Flags value="0x00200104" />
+    <Unk02 value="65236" />
+    <Unk08 value="250" />
+    <Unk18 value="60" />
+   </Header>
+   <AudioHash0>hash_D3B65627</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>hash_D3B65627</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>dlc_pilot_shooting_range_target_destroyed_mt_card</Name>
+   <Header>
+    <Flags value="0x00000014" />
+    <Unk02 value="64336" />
+    <Unk04 value="65236" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes />
+   <Items>
+    <Item key="hash_B8F192DE" value="1" />
+    <Item key="hash_AA9FF63B" value="1" />
+    <Item key="hash_E5F26CDF" value="1" />
+    <Item key="hash_C831315D" value="1" />
+   </Items>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>dlc_pilot_shooting_range_target_destroyed_mt_fe</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAAAAA82" />
+   </Header>
+   <AudioHash0>dlc_pilot_shooting_range_target_destroyed_mt_fe_env</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>dlc_pilot_shooting_range_target_destroyed_mt_fe_env</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>dlc_pilot_shooting_range_target_destroyed_mt_fe_env</Name>
+   <Header>
+    <Flags value="0x00000025" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="64636" />
+    <Unk05 value="10" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="80" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="-1" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>dlc_pilot_shooting_range_target_destroyed_mt_fe_env_synth</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>dlc_pilot_shooting_range_target_destroyed_mt_fe_env_synth</Name>
+   <Header>
+    <Flags value="0x00000011" />
+    <Flags2 value="0xAAA8AA82" />
+    <Unk04 value="900" />
+   </Header>
+   <OptAmpUnkHash>hash_E9AC20CD</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="2" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>dlc_pilot_shooting_range_target_destroyed_mt_fe_b</Name>
+   <Header>
+    <Flags value="0x00000101" />
+    <Flags2 value="0xAAAAAA82" />
+    <Unk08 value="150" />
+   </Header>
+   <AudioHash0>dlc_pilot_shooting_range_target_destroyed_mt_fe_env</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>dlc_pilot_shooting_range_target_destroyed_mt_fe_env</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>dlc_pilot_shooting_range_target_destroyed_mt_bang</Name>
+   <Header>
+    <Flags value="0x00000020" />
+    <Unk05 value="100" />
+   </Header>
+   <AudioHash0>dlc_pilot_shooting_range_target_destroyed_mt_bang_rnd</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>dlc_pilot_shooting_range_target_destroyed_mt_bang_rnd</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="RetriggeredOverlappedSound">
+   <Name>dlc_pilot_shooting_range_target_destroyed_mt_trill</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA9AAAA" />
+   </Header>
+   <UnkShort0 value="3" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="160" />
+   <UnkShort3 value="0" />
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <AudioHash0 />
+   <AudioHash1>dlc_pilot_shooting_range_target_destroyed_mt_fe_env</AudioHash1>
+   <AudioHash2 />
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>dlc_pilot_shooting_range_target_destroyed_mt_bang_rnd</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes>FF</UnkBytes>
+   <Items>
+    <Item key="hash_80D10179" value="1" />
+    <Item key="hash_EA2DD431" value="1" />
+    <Item key="hash_3840523B" value="1" />
+   </Items>
+  </Item>
+  <Item type="VariableBlockSound">
+   <Name>dlc_pilot_shooting_range_target_move_pv_var</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash>dlc_pilot_shooting_range_target_move_pv_var_env</AudioHash>
+   <Variables>
+    <Item>
+     <Name>hash_AF169697</Name>
+     <Value value="0" />
+     <UnkFloat value="0" />
+     <Flags value="0" />
+    </Item>
+   </Variables>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>dlc_pilot_shooting_range_target_move_pv_var_env</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA1AAAA" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="200" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="50" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="-1" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="400" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>dlc_pilot_shooting_range_target_move_pv_var_env_pts</AudioHash>
+   <UnkInt3 value="5" />
+   <ParameterHash5>hash_AF169697</ParameterHash5>
+   <UnkFloat0 value="0" />
+   <UnkFloat1 value="1" />
+  </Item>
+  <Item type="ParameterTransformSound">
+   <Name>dlc_pilot_shooting_range_target_move_pv_var_env_pts</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash>hash_B1085BC9</AudioHash>
+   <Items>
+    <Item>
+     <ParameterHash>hash_AF169697</ParameterHash>
+     <UnkFloat0 value="0" />
+     <UnkFloat1 value="1" />
+     <NestedData>
+      <Item>
+       <UnkFloat0 value="-1" />
+       <UnkInt value="1" />
+       <ParameterHash />
+       <UnkFloat1 value="0.5" />
+       <UnkFloat2 value="1" />
+       <Vectors>
+        0, 0.4033333
+        0.5, 1
+        1, 0
+       </Vectors>
+      </Item>
+      <Item>
+       <UnkFloat0 value="-1" />
+       <UnkInt value="0" />
+       <ParameterHash />
+       <UnkFloat1 value="1E-05" />
+       <UnkFloat2 value="1" />
+       <Vectors>
+        0, 0
+        0.2260612, 0.2514465
+        0.4060612, 0.6214465
+        0.5, 1
+        0.7027279, 0.9833333
+        0.8927279, 0.8947799
+        1, 0
+       </Vectors>
+      </Item>
+     </NestedData>
+    </Item>
+   </Items>
+  </Item>
+  <Item type="SoundSet">
+   <Name>dlc_pilot_city_landing</Name>
+   <Header>
+    <Flags value="0xAAAAAAAA" />
+   </Header>
+   <Items>
+    <Item>
+     <ScriptName>hash_FC04C4D3</ScriptName>
+     <SoundName>city_landing_engine_failure</SoundName>
+    </Item>
+   </Items>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>city_landing_engine_failure</Name>
+   <Header>
+    <Flags value="0x00008015" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="65236" />
+    <Unk04 value="64736" />
+    <Category>scripted_louder</Category>
+   </Header>
+   <AudioTracks>
+    <Item>dlc_pilot_city_landing_engine_fail_master_env</Item>
+    <Item>dlc_pilot_city_landing_engine_pop_wrap</Item>
+    <Item>dlc_pilot_city_landing_engine_fail_master_wind_down_env</Item>
+    <Item>city_landing_engine_explode</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_pilotschool_city_landing_dlc_city_landing_engine_failure_oneshot_left</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_pilotschool/city_landing</ContainerName>
+   <FileName>hash_AB72F7D2</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_pilotschool_city_landing_dlc_city_landing_engine_failure_oneshot_right</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_pilotschool/city_landing</ContainerName>
+   <FileName>hash_637D70C7</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>dlc_pilot_city_landing_engine_fail_master_env</Name>
+   <Header>
+    <Flags value="0x00000405" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="65236" />
+    <UnkInt1 value="200" />
+   </Header>
+   <UnkShort0 value="100" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="600" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="500" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>hash_BA62D567</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>dlc_pilot_city_landing_engine_pop_wrap</Name>
+   <Header>
+    <Flags value="0x00000114" />
+    <Unk02 value="65236" />
+    <Unk04 value="200" />
+    <Unk08 value="80" />
+   </Header>
+   <AudioHash0>hash_80D05406</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>hash_80D05406</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>dlc_pilot_city_landing_engine_fail_master_wind_down_env</Name>
+   <Header>
+    <Flags value="0x00000105" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="65036" />
+    <Unk08 value="400" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="1000" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="1000" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>dlc_pilot_engine_fail_master_wind_down_env_param</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="CollapsingStereoSound">
+   <Name>city_landing_engine_explode</Name>
+   <Header>
+    <Flags value="0x00002510" />
+    <Unk04 value="64736" />
+    <Unk08 value="200" />
+    <UnkInt1 value="100" />
+    <Unk11 value="0" />
+   </Header>
+   <AudioHash0>dlc_pilotschool_city_landing_dlc_city_landing_engine_failure_oneshot_left</AudioHash0>
+   <AudioHash1>dlc_pilotschool_city_landing_dlc_city_landing_engine_failure_oneshot_right</AudioHash1>
+   <UnkFloat0 value="10" />
+   <UnkFloat1 value="40" />
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <UnkInt value="1065353216" />
+   <ParameterHash5 />
+   <UnkByte value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>dlc_pilot_mp_flag_collect_player</Name>
+   <Header>
+    <Flags value="0x00008105" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="300" />
+    <Unk08 value="50" />
+    <Category>frontend_menu</Category>
+   </Header>
+   <AudioTracks>
+    <Item>dlc_pilot_hud_mini_game_checkpoint_perfect_master</Item>
+    <Item>dlc_pilot_mp_checkpoint_passed_high_env</Item>
+    <Item>dlc_pilot_mp_flag_collect_player_woosh_r_wrap</Item>
+    <Item>dlc_pilot_mp_flag_collect_player_woosh_l_wrap</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>dlc_pilot_mp_checkpoint_passed_high_env</Name>
+   <Header>
+    <Flags value="0x00040505" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="65236" />
+    <Unk08 value="230" />
+    <UnkInt1 value="350" />
+    <Unk16 value="200" />
+   </Header>
+   <UnkShort0 value="150" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="400" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="1000" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>hash_C0E55C61</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>dlc_pilot_hud_mini_game_checkpoint_perfect_master</Name>
+   <Header>
+    <Flags value="0x01008100" />
+    <Unk08 value="200" />
+    <Category>frontend_menu</Category>
+    <Unk21 value="2" />
+   </Header>
+   <AudioHash0>dlc_pilot_mini_game_checkpoint_perfect_multi</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>dlc_pilot_mini_game_checkpoint_perfect_multi</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>dlc_pilot_mini_game_checkpoint_perfect_multi</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>hash_BFD27596</Item>
+    <Item>hash_57AF9391</Item>
+    <Item>hash_BB36DA9E</Item>
+    <Item>hash_9C4CAE8B</Item>
+    <Item>hash_8D5FDD9F</Item>
+    <Item>hash_73C4F4CD</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>dlc_pilot_mp_flag_collect_teammate</Name>
+   <Header>
+    <Flags value="0x00008005" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="65236" />
+    <Category>frontend_menu</Category>
+   </Header>
+   <AudioTracks>
+    <Item>dlc_pilot_mp_flag_collect_teammate_ping</Item>
+    <Item>dlc_pilot_mp_flag_collect_teammate_thud</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>dlc_pilot_mp_flag_collect_teammate_ping</Name>
+   <Header>
+    <Flags value="0x00040515" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="64936" />
+    <Unk04 value="64936" />
+    <Unk08 value="100" />
+    <UnkInt1 value="300" />
+    <Unk16 value="200" />
+   </Header>
+   <UnkShort0 value="200" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="200" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="500" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>hash_C0E55C61</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>dlc_pilot_mp_flag_collect_player_woosh_r_wrap</Name>
+   <Header>
+    <Flags value="0x00040104" />
+    <Unk02 value="64936" />
+    <Unk08 value="350" />
+    <Unk16 value="800" />
+   </Header>
+   <AudioHash0>hash_36A86CCB</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>hash_36A86CCB</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>dlc_pilot_mp_flag_collect_player_woosh_l_wrap</Name>
+   <Header>
+    <Flags value="0x00040104" />
+    <Unk02 value="64936" />
+    <Unk08 value="350" />
+    <Unk16 value="800" />
+   </Header>
+   <AudioHash0>hash_E4084788</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>hash_E4084788</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>dlc_pilot_mp_flag_collect_teammate_thud</Name>
+   <Header>
+    <Flags value="0x01018010" />
+    <Unk04 value="65236" />
+    <Category>frontend_menu</Category>
+    <Unk14 value="2000" />
+    <Unk21 value="2" />
+   </Header>
+   <AudioHash0>dlc_pilot_mini_game_checkpoint_perfect_multi</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>dlc_pilot_mini_game_checkpoint_perfect_multi</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="SoundSet">
+   <Name>dlc_pilot_mp_hud_sounds</Name>
+   <Header>
+    <Flags value="0xAAAAAAAA" />
+   </Header>
+   <Items>
+    <Item>
+     <ScriptName>hash_04C9CF7A</ScriptName>
+     <SoundName>dlc_pilot_mp_flag_collect_teammate</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_24B1E48A</ScriptName>
+     <SoundName>dlc_pilot_mp_flag_collect_player</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_C7CD83D5</ScriptName>
+     <SoundName>dlc_pilot_mp_flag_collect_enemy</SoundName>
+    </Item>
+   </Items>
+  </Item>
+  <Item type="ParameterTransformSound">
+   <Name>dlc_pilot_mp_flag_collect_enemy</Name>
+   <Header>
+    <Flags value="0x00019504" />
+    <Unk02 value="64936" />
+    <Unk08 value="250" />
+    <UnkInt1 value="100" />
+    <Unk10 value="100" />
+    <Category>frontend_menu</Category>
+    <Unk14 value="6000" />
+   </Header>
+   <AudioHash>hash_DDA667CE</AudioHash>
+   <Items>
+    <Item>
+     <ParameterHash>hash_A69EF7A1</ParameterHash>
+     <UnkFloat0 value="0" />
+     <UnkFloat1 value="1" />
+     <NestedData>
+      <Item>
+       <UnkFloat0 value="-1" />
+       <UnkInt value="1" />
+       <ParameterHash />
+       <UnkFloat1 value="0.25" />
+       <UnkFloat2 value="4" />
+       <Vectors>
+        0, 1
+        0.2, 0.7799472
+       </Vectors>
+      </Item>
+     </NestedData>
+    </Item>
+   </Items>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>hud_mini_game_checkpoint_missed_master</Name>
+   <Header>
+    <Flags value="0x01008000" />
+    <Category>frontend_menu_loud</Category>
+    <Unk21 value="2" />
+   </Header>
+   <AudioHash0>hash_15FB520B</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>hash_15FB520B</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="GranularSound">
+   <Name>eu_vintage_s6_engine_accel</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0x9555AAAA" />
+    <Category>hash_F7C35252</Category>
+   </Header>
+   <WaveSlotIndex value="0" />
+   <Wave1>
+    <ContainerName>dlc_pilotschool/eu_vintage_s6</ContainerName>
+    <FileName>engine_accel</FileName>
+   </Wave1>
+   <Wave2>
+    <ContainerName>dlc_pilotschool/eu_vintage_s6</ContainerName>
+    <FileName>exhaust_accel</FileName>
+   </Wave2>
+   <Wave3>
+    <ContainerName>dlc_pilotschool/eu_vintage_s6</ContainerName>
+    <FileName>engine_decel</FileName>
+   </Wave3>
+   <Wave4>
+    <ContainerName>dlc_pilotschool/eu_vintage_s6</ContainerName>
+    <FileName>exhaust_decel</FileName>
+   </Wave4>
+   <Wave5>
+    <ContainerName>dlc_pilotschool/eu_vintage_s6</ContainerName>
+    <FileName>engine_idle</FileName>
+   </Wave5>
+   <Wave6>
+    <ContainerName>dlc_pilotschool/eu_vintage_s6</ContainerName>
+    <FileName>exhaust_idle</FileName>
+   </Wave6>
+   <DataItem1>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem1>
+   <DataItem2>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem2>
+   <DataItem3>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem3>
+   <DataItem4>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem4>
+   <DataItem5>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem5>
+   <DataItem6>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem6>
+   <UnkFloat0 value="0.01" />
+   <UnkFloat1 value="0.05" />
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkShort4 value="-300" />
+   <UnkShort5 value="0" />
+   <TrackName />
+   <UnkVecData>
+    9, 41
+    10.6, 10.6
+   </UnkVecData>
+  </Item>
+  <Item type="GranularSound">
+   <Name>eu_vintage_s6_engine_accel_npc</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0x9555AAAA" />
+    <Category>hash_F7C35252</Category>
+   </Header>
+   <WaveSlotIndex value="0" />
+   <Wave1>
+    <ContainerName>dlc_pilotschool/eu_vintage_s6_npc</ContainerName>
+    <FileName>engine_accel</FileName>
+   </Wave1>
+   <Wave2>
+    <ContainerName>dlc_pilotschool/eu_vintage_s6_npc</ContainerName>
+    <FileName>exhaust_accel</FileName>
+   </Wave2>
+   <Wave3>
+    <ContainerName>0</ContainerName>
+    <FileName />
+   </Wave3>
+   <Wave4>
+    <ContainerName>0</ContainerName>
+    <FileName />
+   </Wave4>
+   <Wave5>
+    <ContainerName>dlc_pilotschool/eu_vintage_s6_npc</ContainerName>
+    <FileName>engine_idle</FileName>
+   </Wave5>
+   <Wave6>
+    <ContainerName>dlc_pilotschool/eu_vintage_s6_npc</ContainerName>
+    <FileName>exhaust_idle</FileName>
+   </Wave6>
+   <DataItem1>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem1>
+   <DataItem2>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem2>
+   <DataItem3>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem3>
+   <DataItem4>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem4>
+   <DataItem5>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem5>
+   <DataItem6>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem6>
+   <UnkFloat0 value="0.01" />
+   <UnkFloat1 value="0.05" />
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkShort4 value="-600" />
+   <UnkShort5 value="0" />
+   <TrackName>eu_vintage_s6_engine_accel</TrackName>
+   <UnkVecData>
+    9, 41
+    10.6, 10.6
+   </UnkVecData>
+  </Item>
+  <Item type="EnvironmentSound">
+   <Name>eu_vintage_s6_exhaust_accel</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>hash_F7C35252</Category>
+   </Header>
+   <UnkByte value="1" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>streamed_vehicles_granular_eu_vintage_s6_shut_down</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_engines_startup</Category>
+   </Header>
+   <ContainerName>dlc_pilotschool/eu_vintage_s6</ContainerName>
+   <FileName>hash_3B393DEA</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>streamed_vehicles_granular_eu_vintage_s6_start_up</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_engines_startup</Category>
+   </Header>
+   <ContainerName>dlc_pilotschool/eu_vintage_s6</ContainerName>
+   <FileName>hash_9D64B840</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>dump_valve_coquette2</Name>
+   <Header>
+    <Flags value="0x00208005" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="65336" />
+    <Category>vehicles_engines_startup</Category>
+    <Unk18 value="30" />
+   </Header>
+   <AudioTracks>
+    <Item>vehicles_engine_resident_dump_valve_coquette2</Item>
+    <Item>vehicles_engine_resident_waste_gate_coquette2</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>vehicles_engine_resident_dump_valve_coquette2</Name>
+   <Header>
+    <Flags value="0x00010000" />
+    <Unk14 value="1200" />
+   </Header>
+   <ContainerName>resident/vehicles</ContainerName>
+   <FileName>hash_B29DAB97</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>vehicles_engine_resident_waste_gate_coquette2</Name>
+   <Header>
+    <Flags value="0x00000110" />
+    <Unk04 value="64936" />
+    <Unk08 value="120" />
+   </Header>
+   <ContainerName>resident/vehicles</ContainerName>
+   <FileName>hash_FF5968E0</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>swift_heli_door_slide_move_close</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Category>vehicles_extras_loud</Category>
+   </Header>
+   <AudioTracks>
+    <Item>swift_heli_door_slide_move_close_env</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>swift_heli_door_slide</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/doors</ContainerName>
+   <FileName>hash_B779E962</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>swift_heli_door_slide_move_open</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Category>vehicles_extras_loud</Category>
+   </Header>
+   <AudioTracks>
+    <Item>swift_heli_door_slide_move_open_env</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>swift_heli_door_slide_move_open_env</Name>
+   <Header>
+    <Flags value="0x00000415" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="64336" />
+    <Unk04 value="65236" />
+    <UnkInt1 value="600" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="550" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="150" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>swift_heli_door_slide</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>swift_heli_door_slide_move_close_env</Name>
+   <Header>
+    <Flags value="0x00000415" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="64536" />
+    <Unk04 value="65136" />
+    <UnkInt1 value="250" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="550" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="150" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>swift_heli_door_slide</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="SoundSet">
+   <Name>swift_landing_gear</Name>
+   <Header>
+    <Flags value="0xAAAAAAAA" />
+   </Header>
+   <Items>
+    <Item>
+     <ScriptName>hash_8E1F66E6</ScriptName>
+     <SoundName>swift_heli_landing_gear_retract</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_C9200261</ScriptName>
+     <SoundName>swift_heli_landing_gear_deploy</SoundName>
+    </Item>
+   </Items>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>swift_heli_landing_gear_retract</Name>
+   <Header>
+    <Flags value="0x00008014" />
+    <Unk02 value="65336" />
+    <Unk04 value="500" />
+    <Category>vehicles_planes_extras</Category>
+   </Header>
+   <AudioHash0>swift_heli_landing_gear_retract_mt</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>swift_heli_landing_gear_retract_mt</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>swift_heli_landing_gear_deploy</Name>
+   <Header>
+    <Flags value="0x00008014" />
+    <Unk02 value="65136" />
+    <Unk04 value="600" />
+    <Category>vehicles_planes_extras</Category>
+   </Header>
+   <AudioHash0>swift_heli_landing_gear_deploy_mt</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>swift_heli_landing_gear_deploy_mt</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>swift_heli_landing_gear_retract_env</Name>
+   <Header>
+    <Flags value="0x00000105" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="65236" />
+    <Unk08 value="500" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="200" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="150" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>hash_A4D4830B</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>swift_heli_landing_gear_retract_mt</Name>
+   <Header>
+    <Flags value="0x00001401" />
+    <Flags2 value="0xAAA0AAAA" />
+    <UnkInt1 value="200" />
+    <Unk10 value="75" />
+   </Header>
+   <AudioTracks>
+    <Item>swift_heli_resident_vehicles_door_close_wrapper</Item>
+    <Item>swift_heli_landing_gear_retract_env</Item>
+    <Item>swift_heli_landing_gear_retract_env2</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>swift_heli_resident_vehicles_door_close_wrapper</Name>
+   <Header>
+    <Flags value="0x00000114" />
+    <Unk02 value="65036" />
+    <Unk04 value="65336" />
+    <Unk08 value="400" />
+   </Header>
+   <AudioHash0>hash_4CE52FD2</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>hash_4CE52FD2</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>swift_heli_resident_vehicles_landing_gear</Name>
+   <Header>
+    <Flags value="0x00008014" />
+    <Unk02 value="65236" />
+    <Unk04 value="100" />
+    <Category>game_world</Category>
+   </Header>
+   <ContainerName>resident/vehicles</ContainerName>
+   <FileName>hash_626FCA26</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>swift_heli_landing_gear_deploy_mt</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>swift_heli_landing_gear_retract_door_close</Item>
+    <Item>swift_heli_landing_gear_deploy_env</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>swift_heli_landing_gear_retract_door_close</Name>
+   <Header>
+    <Flags value="0x00000010" />
+    <Unk04 value="64936" />
+   </Header>
+   <AudioHash0>hash_4CE52FD2</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>hash_4CE52FD2</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>swift_heli_landing_gear_retract_env2</Name>
+   <Header>
+    <Flags value="0x00000005" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="65336" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="270" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="150" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>swift_heli_resident_vehicles_landing_gear</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>swift_heli_landing_gear_deploy_env</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA1AAAA" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="500" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="150" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>swift_heli_resident_vehicles_landing_gear</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>swift_suspension_up</Name>
+   <Header>
+    <Flags value="0x00008014" />
+    <Unk02 value="65036" />
+    <Unk04 value="65336" />
+    <Category>vehicles_extras_loud</Category>
+   </Header>
+   <AudioHash0>swift_suspension_up_mt</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>swift_suspension_up_mt</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>swift_suspension_down</Name>
+   <Header>
+    <Flags value="0x00008014" />
+    <Unk02 value="65036" />
+    <Unk04 value="65336" />
+    <Category>vehicles_extras_loud</Category>
+   </Header>
+   <AudioHash0>swift_suspension_down_mt</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>swift_suspension_down_mt</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>swift_suspension_up_mt</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>swift_suspension_up_rand</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>swift_suspension_down_mt</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>swift_suspension_down_rand</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>swift_suspension_up_rand</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes />
+   <Items>
+    <Item key="hash_10523E23" value="1" />
+    <Item key="hash_DF1B5BB6" value="1" />
+    <Item key="hash_2CAEF6DC" value="1" />
+   </Items>
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>swift_suspension_down_rand</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes />
+   <Items>
+    <Item key="hash_ADF842E9" value="1" />
+    <Item key="hash_AB3B3D6F" value="1" />
+    <Item key="hash_517409E2" value="1" />
+   </Items>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>besra_idle</Name>
+   <Header>
+    <Flags value="0x00000011" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk04 value="200" />
+   </Header>
+   <AudioTracks>
+    <Item>lazer_idle_mt_wrapper</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>lazer_idle_mt_wrapper</Name>
+   <Header>
+    <Flags value="0x00040004" />
+    <Unk02 value="55536" />
+    <Unk16 value="500" />
+   </Header>
+   <AudioHash0>hash_6D3D9206</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>hash_6D3D9206</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>besra_exhaust</Name>
+   <Header>
+    <Flags value="0x00000011" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk04 value="250" />
+   </Header>
+   <AudioTracks>
+    <Item>lazer_exhaust_pts_wrapper</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>besra_engine</Name>
+   <Header>
+    <Flags value="0x00040011" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk04 value="500" />
+    <Unk16 value="100" />
+   </Header>
+   <AudioTracks>
+    <Item>lazer_engine_mt_wrapper</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>lazer_exhaust_pts_wrapper</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash0>hash_A80AD699</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>hash_A80AD699</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>lazer_engine_mt_wrapper</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash0>hash_13192823</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>hash_13192823</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>besra_afterburner</Name>
+   <Header>
+    <Flags value="0x00000011" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk04 value="200" />
+   </Header>
+   <AudioTracks>
+    <Item>lazer_afterburner_mt_wrapper</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>lazer_afterburner_mt_wrapper</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash0>hash_0E170DA1</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>hash_0E170DA1</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>besra_bank</Name>
+   <Header>
+    <Flags value="0x00040015" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="65236" />
+    <Unk04 value="1000" />
+    <Unk16 value="200" />
+   </Header>
+   <AudioTracks>
+    <Item>lazer_bank_mt_wrapper</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>lazer_bank_mt_wrapper</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash0>hash_0E055B09</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>hash_0E055B09</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>dlc_ps_miljet_suspension_landing_wrapper</Name>
+   <Header>
+    <Flags value="0x00040004" />
+    <Unk02 value="64736" />
+    <Unk16 value="300" />
+   </Header>
+   <AudioHash0>hash_4F0A0DF6</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>hash_4F0A0DF6</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>dlc_ps_miljet_engine_wrapper</Name>
+   <Header>
+    <Flags value="0x00000010" />
+    <Unk04 value="65336" />
+   </Header>
+   <AudioHash0>hash_66737EA7</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>hash_66737EA7</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+ </Items>
+</Dat54>

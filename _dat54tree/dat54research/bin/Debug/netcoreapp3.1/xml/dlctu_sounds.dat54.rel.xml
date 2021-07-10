@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dat54>
+ <Version value="7126027" />
+ <Items>
+  <Item type="WrapperSound">
+   <Name>dummy_sound</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash0 />
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item />
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>hash_1D6E109A</Name>
+   <Header>
+    <Flags value="0x00208000" />
+    <Category>animals_footsteps</Category>
+    <Unk18 value="500" />
+   </Header>
+   <AudioHash0>hash_3D11F0E2</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>hash_3D11F0E2</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+ </Items>
+</Dat54>

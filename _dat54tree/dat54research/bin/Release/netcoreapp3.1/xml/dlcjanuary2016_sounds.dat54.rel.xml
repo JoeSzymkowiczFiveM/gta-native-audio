@@ -1,0 +1,1730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dat54>
+ <Version value="9813679" />
+ <NameTable>
+  <Item>DLC_JA16\SUPERCAR_14_US_V10</Item>
+  <Item>RESIDENT\VEHICLES</Item>
+  <Item>DLC_JA16\SUPERCAR_14_US_V10_NPC</Item>
+  <Item>0</Item>
+  <Item>DLC_JA16\SPORTS_SALOON_4_JP_FLAT4</Item>
+  <Item>DLC_JA16\SPORTS_SALOON_4_JP_FLAT4_NPC</Item>
+  <Item>DLC_JA16\MOD_SHOP_BANSHEE2</Item>
+  <Item>DLC_JA16\MOD_SHOP_SULTANRS</Item>
+ </NameTable>
+ <Items>
+  <Item type="ModularSynthSound">
+   <Name>banshee2_veh_turbo</Name>
+   <Header>
+    <Flags value="0x00008015" />
+    <Flags2 value="0xAAA8AAAA" />
+    <Unk02 value="64136" />
+    <Unk04 value="65336" />
+    <Category>vehicles_engines_loud</Category>
+   </Header>
+   <OptAmpUnkHash>banshee2_synth_turbo_upgraded</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="-1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems />
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>banshee2_veh_sub_idle</Name>
+   <Header>
+    <Flags value="0x00008015" />
+    <Flags2 value="0xAAA8AAAA" />
+    <Unk02 value="64136" />
+    <Unk04 value="1200" />
+    <Category>vehicles_extras_loud</Category>
+   </Header>
+   <OptAmpUnkHash>banshee2_synth_sub_idle</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="-1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>hash_ABD2A3D6</UnkHash>
+     <ParameterHash />
+     <Value value="9.6" />
+    </Item>
+    <Item>
+     <UnkHash>hash_AAED9868</UnkHash>
+     <ParameterHash />
+     <Value value="51" />
+    </Item>
+    <Item>
+     <UnkHash>hash_4E132C3B</UnkHash>
+     <ParameterHash />
+     <Value value="0.2" />
+    </Item>
+    <Item>
+     <UnkHash>hash_18B20B91</UnkHash>
+     <ParameterHash />
+     <Value value="3" />
+    </Item>
+    <Item>
+     <UnkHash>hash_E07986E5</UnkHash>
+     <ParameterHash />
+     <Value value="3" />
+    </Item>
+    <Item>
+     <UnkHash>hash_52E84522</UnkHash>
+     <ParameterHash />
+     <Value value="1.5" />
+    </Item>
+    <Item>
+     <UnkHash>hash_8115C581</UnkHash>
+     <ParameterHash />
+     <Value value="2" />
+    </Item>
+    <Item>
+     <UnkHash>hash_24E7B0B4</UnkHash>
+     <ParameterHash />
+     <Value value="1" />
+    </Item>
+    <Item>
+     <UnkHash>hash_D250E3B7</UnkHash>
+     <ParameterHash />
+     <Value value="1" />
+    </Item>
+    <Item>
+     <UnkHash>hash_15857327</UnkHash>
+     <ParameterHash />
+     <Value value="600" />
+    </Item>
+    <Item>
+     <UnkHash>hash_39B29F61</UnkHash>
+     <ParameterHash />
+     <Value value="0.5" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_ja16_supercar_14_us_v10_start_up_interior_left</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="307" />
+   </Header>
+   <ContainerName>dlc_ja16/supercar_14_us_v10</ContainerName>
+   <FileName>hash_4934CB84</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_ja16_supercar_14_us_v10_start_up_interior_right</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="53" />
+   </Header>
+   <ContainerName>dlc_ja16/supercar_14_us_v10</ContainerName>
+   <FileName>hash_60BE07BB</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_ja16_supercar_14_us_v10_exhaust_pop_09</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_ja16/supercar_14_us_v10</ContainerName>
+   <FileName>hash_916C1E71</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_ja16_supercar_14_us_v10_exhaust_pop_08</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_ja16/supercar_14_us_v10</ContainerName>
+   <FileName>hash_C2A980EB</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_ja16_supercar_14_us_v10_exhaust_pop_07</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_ja16/supercar_14_us_v10</ContainerName>
+   <FileName>hash_F44C6430</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_ja16_supercar_14_us_v10_exhaust_pop_06</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_ja16/supercar_14_us_v10</ContainerName>
+   <FileName>hash_5D24B5E3</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_ja16_supercar_14_us_v10_exhaust_pop_05</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_ja16/supercar_14_us_v10</ContainerName>
+   <FileName>hash_465A884F</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_ja16_supercar_14_us_v10_exhaust_pop_04</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_ja16/supercar_14_us_v10</ContainerName>
+   <FileName>hash_BB387209</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_ja16_supercar_14_us_v10_exhaust_pop_03</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_ja16/supercar_14_us_v10</ContainerName>
+   <FileName>hash_AD84D6A2</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_ja16_supercar_14_us_v10_exhaust_pop_02</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_ja16/supercar_14_us_v10</ContainerName>
+   <FileName>hash_75BBE70D</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_ja16_supercar_14_us_v10_exhaust_pop_01</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_ja16/supercar_14_us_v10</ContainerName>
+   <FileName>hash_1FA33ADD</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>banshee2_start_up_master</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_extras_loud</Category>
+   </Header>
+   <AudioHash0>banshee2_start_up_if</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>banshee2_start_up_if</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>banshee2_exhaust_pops_master</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash0>banshee2_exhaust_pops_rnd</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1>hash_0C2B85F2</AudioHash1>
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>banshee2_exhaust_pops_rnd</Item>
+    <Item>hash_0C2B85F2</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>banshee2_exhaust_pops_rnd</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_extras_loud</Category>
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes>FF FF FF</UnkBytes>
+   <Items>
+    <Item key="dlc_ja16_supercar_14_us_v10_exhaust_pop_04" value="1" />
+    <Item key="dlc_ja16_supercar_14_us_v10_exhaust_pop_03" value="1" />
+    <Item key="dlc_ja16_supercar_14_us_v10_exhaust_pop_02" value="1" />
+    <Item key="dlc_ja16_supercar_14_us_v10_exhaust_pop_01" value="1" />
+    <Item key="dlc_ja16_supercar_14_us_v10_exhaust_pop_05" value="1" />
+    <Item key="dlc_ja16_supercar_14_us_v10_exhaust_pop_06" value="1" />
+    <Item key="dlc_ja16_supercar_14_us_v10_exhaust_pop_07" value="1" />
+    <Item key="dlc_ja16_supercar_14_us_v10_exhaust_pop_08" value="1" />
+    <Item key="dlc_ja16_supercar_14_us_v10_exhaust_pop_09" value="1" />
+   </Items>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>banshee2_shut_down</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Unk02 value="64736" />
+    <Category>vehicles_engines_startup</Category>
+   </Header>
+   <ContainerName>dlc_ja16/supercar_14_us_v10</ContainerName>
+   <FileName>hash_3B393DEA</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>banshee2_start_up_exterior</Name>
+   <Header>
+    <Flags value="0x00000104" />
+    <Unk02 value="64736" />
+    <Unk08 value="160" />
+   </Header>
+   <ContainerName>dlc_ja16/supercar_14_us_v10</ContainerName>
+   <FileName>hash_9D64B840</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>banshee2_start_up_interior_stereo</Name>
+   <Header>
+    <Flags value="0x00000105" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="63736" />
+    <Unk08 value="160" />
+   </Header>
+   <AudioTracks>
+    <Item>dlc_ja16_supercar_14_us_v10_start_up_interior_right</Item>
+    <Item>dlc_ja16_supercar_14_us_v10_start_up_interior_left</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="IfSound">
+   <Name>banshee2_start_up_if</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <AudioHash1>banshee2_start_up_exterior</AudioHash1>
+   <AudioHash2>banshee2_start_up_interior_stereo</AudioHash2>
+   <ParameterHash1>hash_378A1D92</ParameterHash1>
+   <UnkByte value="4" />
+   <UnkFloat value="0" />
+   <ParameterHash2 />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>banshee2_air_intake_upgraded_master</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Unk02 value="64736" />
+    <Category>vehicles_extras_loud</Category>
+   </Header>
+   <AudioHash0>banshee2_air_intake_upgraded_vb</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>banshee2_air_intake_upgraded_vb</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="ParameterTransformSound">
+   <Name>banshee2_air_intake_upgraded_pts</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash>banshee2_veh_synth_air_intake_upgraded</AudioHash>
+   <Items>
+    <Item>
+     <ParameterHash>hash_44D3B231</ParameterHash>
+     <UnkFloat0 value="0" />
+     <UnkFloat1 value="1" />
+     <NestedData>
+      <Item>
+       <UnkFloat0 value="-1" />
+       <UnkInt value="0" />
+       <ParameterHash />
+       <UnkFloat1 value="1E-05" />
+       <UnkFloat2 value="1" />
+       <Vectors>
+        0.25, 0
+        0.5766667, 0.790727
+        0.75, 0.446678
+        1, 0.2818311
+       </Vectors>
+      </Item>
+     </NestedData>
+    </Item>
+    <Item>
+     <ParameterHash>hash_EA0151DC</ParameterHash>
+     <UnkFloat0 value="0" />
+     <UnkFloat1 value="1" />
+     <NestedData>
+      <Item>
+       <UnkFloat0 value="-1" />
+       <UnkInt value="0" />
+       <ParameterHash />
+       <UnkFloat1 value="1E-05" />
+       <UnkFloat2 value="1" />
+       <Vectors>
+        0, 0.3981012
+        0.6466666, 1
+       </Vectors>
+      </Item>
+     </NestedData>
+    </Item>
+   </Items>
+  </Item>
+  <Item type="VariableBlockSound">
+   <Name>banshee2_air_intake_upgraded_vb</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash>banshee2_air_intake_upgraded_pts</AudioHash>
+   <Variables>
+    <Item>
+     <Name>hash_44D3B231</Name>
+     <Value value="0" />
+     <UnkFloat value="0" />
+     <Flags value="1" />
+    </Item>
+    <Item>
+     <Name>hash_EA0151DC</Name>
+     <Value value="0" />
+     <UnkFloat value="0" />
+     <Flags value="1" />
+    </Item>
+   </Variables>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>banshee2_veh_synth_air_intake_upgraded</Name>
+   <Header>
+    <Flags value="0x00000005" />
+    <Flags2 value="0xAAA8AAAA" />
+    <Unk02 value="64736" />
+   </Header>
+   <OptAmpUnkHash>banshee2_synth_air_intake_upgraded</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="-1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>hash_EA0151DC</UnkHash>
+     <ParameterHash>hash_EA0151DC</ParameterHash>
+     <Value value="1" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_ja16_supercar_14_us_v10_vehicles_extras_dump_valve_10b</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_ja16/supercar_14_us_v10</ContainerName>
+   <FileName>hash_693BCAC4</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_ja16_supercar_14_us_v10_vehicles_extras_dump_valve_10a</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_ja16/supercar_14_us_v10</ContainerName>
+   <FileName>hash_22FABE43</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>banshee2_dump_valve_upgraded_master</Name>
+   <Header>
+    <Flags value="0x08000000" />
+    <Unk22 value="60" />
+   </Header>
+   <AudioHash0>banshee2_dump_valve_mt</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1>hash_C0108E98</AudioHash1>
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>banshee2_dump_valve_mt</Item>
+    <Item>hash_C0108E98</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>banshee2_dump_valve_rnd</Name>
+   <Header>
+    <Flags value="0x0000003C" />
+    <Unk02 value="64536" />
+    <Unk03 value="200" />
+    <Unk04 value="200" />
+    <Unk05 value="25" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes>FF</UnkBytes>
+   <Items>
+    <Item key="dlc_ja16_supercar_14_us_v10_vehicles_extras_dump_valve_10a" value="1" />
+    <Item key="dlc_ja16_supercar_14_us_v10_vehicles_extras_dump_valve_10b" value="1" />
+   </Items>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_ja16_supercar_14_us_v10_vehicles_extras_dump_valve_03</Name>
+   <Header>
+    <Flags value="0x0000002C" />
+    <Unk02 value="64136" />
+    <Unk03 value="200" />
+    <Unk05 value="25" />
+   </Header>
+   <ContainerName>dlc_ja16/supercar_14_us_v10</ContainerName>
+   <FileName>hash_9EAF3EE1</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>banshee2_dump_valve_mt</Name>
+   <Header>
+    <Flags value="0x00008015" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="64936" />
+    <Unk04 value="65336" />
+    <Category>vehicles_extras_loud</Category>
+   </Header>
+   <AudioTracks>
+    <Item>banshee2_dump_valve_rnd</Item>
+    <Item>banshee2_resident_waste_gate</Item>
+    <Item>dlc_ja16_supercar_14_us_v10_vehicles_extras_dump_valve_03</Item>
+    <Item>banshee2_resident_dump_valve</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>banshee2_resident_waste_gate</Name>
+   <Header>
+    <Flags value="0x00000030" />
+    <Unk04 value="64336" />
+    <Unk05 value="30" />
+   </Header>
+   <ContainerName>resident/vehicles</ContainerName>
+   <FileName>hash_FF5968E0</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>banshee2_resident_dump_valve</Name>
+   <Header>
+    <Flags value="0x00000004" />
+    <Unk02 value="64336" />
+   </Header>
+   <ContainerName>resident/vehicles</ContainerName>
+   <FileName>hash_B29DAB97</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="EnvironmentSound">
+   <Name>banshee2_exhaust_accel</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>hash_F7C35252</Category>
+   </Header>
+   <UnkByte value="1" />
+  </Item>
+  <Item type="GranularSound">
+   <Name>banshee2_engine_accel_npc</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0x9555AAAA" />
+    <Category>hash_F7C35252</Category>
+   </Header>
+   <WaveSlotIndex value="0" />
+   <Wave1>
+    <ContainerName>dlc_ja16/supercar_14_us_v10_npc</ContainerName>
+    <FileName>engine_accel</FileName>
+   </Wave1>
+   <Wave2>
+    <ContainerName>dlc_ja16/supercar_14_us_v10_npc</ContainerName>
+    <FileName>exhaust_accel</FileName>
+   </Wave2>
+   <Wave3>
+    <ContainerName>0</ContainerName>
+    <FileName />
+   </Wave3>
+   <Wave4>
+    <ContainerName>0</ContainerName>
+    <FileName />
+   </Wave4>
+   <Wave5>
+    <ContainerName>dlc_ja16/supercar_14_us_v10_npc</ContainerName>
+    <FileName>engine_idle</FileName>
+   </Wave5>
+   <Wave6>
+    <ContainerName>dlc_ja16/supercar_14_us_v10_npc</ContainerName>
+    <FileName>exhaust_idle</FileName>
+   </Wave6>
+   <DataItem1>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem1>
+   <DataItem2>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem2>
+   <DataItem3>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem3>
+   <DataItem4>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem4>
+   <DataItem5>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem5>
+   <DataItem6>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem6>
+   <UnkFloat0 value="0.05" />
+   <UnkFloat1 value="0.15" />
+   <UnkShort0 value="-500" />
+   <UnkShort1 value="-500" />
+   <UnkShort2 value="-500" />
+   <UnkShort3 value="0" />
+   <UnkShort4 value="-500" />
+   <UnkShort5 value="-300" />
+   <TrackName>banshee2_engine_accel</TrackName>
+   <UnkVecData>
+    11, 52
+    13, 13
+   </UnkVecData>
+  </Item>
+  <Item type="GranularSound">
+   <Name>banshee2_engine_accel</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0x9555AAAA" />
+    <Category>hash_F7C35252</Category>
+   </Header>
+   <WaveSlotIndex value="0" />
+   <Wave1>
+    <ContainerName>dlc_ja16/supercar_14_us_v10</ContainerName>
+    <FileName>engine_accel</FileName>
+   </Wave1>
+   <Wave2>
+    <ContainerName>dlc_ja16/supercar_14_us_v10</ContainerName>
+    <FileName>exhaust_accel</FileName>
+   </Wave2>
+   <Wave3>
+    <ContainerName>dlc_ja16/supercar_14_us_v10</ContainerName>
+    <FileName>engine_decel</FileName>
+   </Wave3>
+   <Wave4>
+    <ContainerName>dlc_ja16/supercar_14_us_v10</ContainerName>
+    <FileName>exhaust_decel</FileName>
+   </Wave4>
+   <Wave5>
+    <ContainerName>dlc_ja16/supercar_14_us_v10</ContainerName>
+    <FileName>engine_idle</FileName>
+   </Wave5>
+   <Wave6>
+    <ContainerName>dlc_ja16/supercar_14_us_v10</ContainerName>
+    <FileName>exhaust_idle</FileName>
+   </Wave6>
+   <DataItem1>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem1>
+   <DataItem2>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem2>
+   <DataItem3>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem3>
+   <DataItem4>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem4>
+   <DataItem5>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem5>
+   <DataItem6>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem6>
+   <UnkFloat0 value="0.05" />
+   <UnkFloat1 value="0.15" />
+   <UnkShort0 value="-500" />
+   <UnkShort1 value="-500" />
+   <UnkShort2 value="-500" />
+   <UnkShort3 value="0" />
+   <UnkShort4 value="-500" />
+   <UnkShort5 value="-300" />
+   <TrackName />
+   <UnkVecData>
+    11, 52
+    13, 13
+   </UnkVecData>
+  </Item>
+  <Item type="ParameterTransformSound">
+   <Name>banshee2_startup_sequence</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash>hash_7DA2DB72</AudioHash>
+   <Items>
+    <Item>
+     <ParameterHash>hash_A69EF7A1</ParameterHash>
+     <UnkFloat0 value="0" />
+     <UnkFloat1 value="5" />
+     <NestedData>
+      <Item>
+       <UnkFloat0 value="-1" />
+       <UnkInt value="7" />
+       <ParameterHash>hash_0EB27990</ParameterHash>
+       <UnkFloat1 value="0" />
+       <UnkFloat2 value="1" />
+       <Vectors>
+        0, 0
+        0.0009359996, 1
+        0.204756, 1
+        0.3809367, 0
+        1, 0
+       </Vectors>
+      </Item>
+      <Item>
+       <UnkFloat0 value="-1" />
+       <UnkInt value="7" />
+       <ParameterHash>hash_CEB98BEB</ParameterHash>
+       <UnkFloat1 value="0" />
+       <UnkFloat2 value="1" />
+       <Vectors>
+        0, 0.2
+        0.02475534, 1
+        0.1009367, 0.4361334
+        0.28, 0.2066667
+       </Vectors>
+      </Item>
+      <Item>
+       <UnkFloat0 value="-1" />
+       <UnkInt value="7" />
+       <ParameterHash>hash_91DF7F97</ParameterHash>
+       <UnkFloat1 value="0" />
+       <UnkFloat2 value="1" />
+       <Vectors>
+        0, 0
+        0.0009367257, 1
+        0.5976034, 1
+        0.6, 0
+       </Vectors>
+      </Item>
+     </NestedData>
+    </Item>
+   </Items>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>sultanrs_veh_synth_sub_idle</Name>
+   <Header>
+    <Flags value="0x00008015" />
+    <Flags2 value="0xAAA8AAAA" />
+    <Unk02 value="64336" />
+    <Unk04 value="1200" />
+    <Category>vehicles_extras_loud</Category>
+   </Header>
+   <OptAmpUnkHash>sultanrs_synth_sub_idle</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="-1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>hash_ABD2A3D6</UnkHash>
+     <ParameterHash />
+     <Value value="9.5" />
+    </Item>
+    <Item>
+     <UnkHash>hash_AAED9868</UnkHash>
+     <ParameterHash />
+     <Value value="48" />
+    </Item>
+    <Item>
+     <UnkHash>hash_4E132C3B</UnkHash>
+     <ParameterHash />
+     <Value value="0.2" />
+    </Item>
+    <Item>
+     <UnkHash>hash_18B20B91</UnkHash>
+     <ParameterHash />
+     <Value value="3" />
+    </Item>
+    <Item>
+     <UnkHash>hash_E07986E5</UnkHash>
+     <ParameterHash />
+     <Value value="3" />
+    </Item>
+    <Item>
+     <UnkHash>hash_52E84522</UnkHash>
+     <ParameterHash />
+     <Value value="1.5" />
+    </Item>
+    <Item>
+     <UnkHash>hash_8115C581</UnkHash>
+     <ParameterHash />
+     <Value value="2" />
+    </Item>
+    <Item>
+     <UnkHash>hash_24E7B0B4</UnkHash>
+     <ParameterHash />
+     <Value value="1" />
+    </Item>
+    <Item>
+     <UnkHash>hash_D250E3B7</UnkHash>
+     <ParameterHash />
+     <Value value="1" />
+    </Item>
+    <Item>
+     <UnkHash>hash_15857327</UnkHash>
+     <ParameterHash />
+     <Value value="600" />
+    </Item>
+    <Item>
+     <UnkHash>hash_39B29F61</UnkHash>
+     <ParameterHash />
+     <Value value="0.5" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>sultanrs_veh_synth_turbo</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0xAAA8AAAA" />
+    <Category>vehicles_engines_loud</Category>
+   </Header>
+   <OptAmpUnkHash>sultanrs_synth_turbo</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="-1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>speed</UnkHash>
+     <ParameterHash>speed</ParameterHash>
+     <Value value="1" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_ja16_sports_saloon_4_jp_flat4_exhaust_pop_04</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_ja16/sports_saloon_4_jp_flat4</ContainerName>
+   <FileName>hash_9F47D05E</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_ja16_sports_saloon_4_jp_flat4_exhaust_pop_03</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_ja16/sports_saloon_4_jp_flat4</ContainerName>
+   <FileName>hash_91FD35C9</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_ja16_sports_saloon_4_jp_flat4_exhaust_pop_02</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_ja16/sports_saloon_4_jp_flat4</ContainerName>
+   <FileName>hash_83BB1945</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_ja16_sports_saloon_4_jp_flat4_exhaust_pop_01</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_ja16/sports_saloon_4_jp_flat4</ContainerName>
+   <FileName>hash_76AB7F26</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>sultanrs_dump_valve_master</Name>
+   <Header>
+    <Flags value="0x38000004" />
+    <Unk02 value="64136" />
+    <Unk22 value="100" />
+    <Unk23 value="60" />
+    <Unk24 value="5" />
+   </Header>
+   <AudioHash0>sultanrs_dump_valve_rnd_wrapper</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1>hash_C0108E98</AudioHash1>
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>sultanrs_dump_valve_rnd_wrapper</Item>
+    <Item>hash_C0108E98</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>sultanrs_exhaust_pop_master</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash0>sultanrs_exhaust_pop_mt</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1>hash_0C2B85F2</AudioHash1>
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>sultanrs_exhaust_pop_mt</Item>
+    <Item>hash_0C2B85F2</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>sultanrs_exhaust_pop_rnd</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes>FF FF</UnkBytes>
+   <Items>
+    <Item key="dlc_ja16_sports_saloon_4_jp_flat4_exhaust_pop_04" value="1" />
+    <Item key="dlc_ja16_sports_saloon_4_jp_flat4_exhaust_pop_03" value="1" />
+    <Item key="dlc_ja16_sports_saloon_4_jp_flat4_exhaust_pop_02" value="1" />
+    <Item key="dlc_ja16_sports_saloon_4_jp_flat4_exhaust_pop_01" value="1" />
+   </Items>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>sultanrs_upgrade_pops_rnd_wrapper</Name>
+   <Header>
+    <Flags value="0x00000004" />
+    <Unk02 value="64336" />
+   </Header>
+   <AudioHash0>hash_6095AA8D</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>hash_6095AA8D</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>sultanrs_exhaust_pop_mt</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Category>vehicles_extras_loud</Category>
+   </Header>
+   <AudioTracks>
+    <Item>sultanrs_exhaust_pop_rnd</Item>
+    <Item>sultanrs_upgrade_pops_rnd_wrapper</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>sultanrs_air_intake_upgraded_master</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Unk02 value="64336" />
+    <Category>vehicles_extras_loud</Category>
+   </Header>
+   <AudioHash0>sultanrs_air_intake_upgraded_vb</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>sultanrs_air_intake_upgraded_vb</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>sultanrs_veh_synth_air_intake_upgraded</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <OptAmpUnkHash>sultanrs_synth_air_intake_upgraded</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="-1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>hash_EA0151DC</UnkHash>
+     <ParameterHash>hash_EA0151DC</ParameterHash>
+     <Value value="1" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_ja16_sports_saloon_4_jp_flat4_vehicles_extras_dump_valve_10a</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_ja16/sports_saloon_4_jp_flat4</ContainerName>
+   <FileName>hash_22FABE43</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_ja16_sports_saloon_4_jp_flat4_vehicles_extras_dump_valve_10b</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_ja16/sports_saloon_4_jp_flat4</ContainerName>
+   <FileName>hash_693BCAC4</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_ja16_sports_saloon_4_jp_flat4_vehicles_extras_dump_valve_10c</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_ja16/sports_saloon_4_jp_flat4</ContainerName>
+   <FileName>hash_787F694B</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>sultanrs_dump_valve_rnd</Name>
+   <Header>
+    <Flags value="0x0000802C" />
+    <Unk02 value="65336" />
+    <Unk03 value="200" />
+    <Unk05 value="25" />
+    <Category>vehicles_extras_loud</Category>
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes>FF</UnkBytes>
+   <Items>
+    <Item key="dlc_ja16_sports_saloon_4_jp_flat4_vehicles_extras_dump_valve_10a" value="1" />
+    <Item key="dlc_ja16_sports_saloon_4_jp_flat4_vehicles_extras_dump_valve_10b" value="1" />
+    <Item key="dlc_ja16_sports_saloon_4_jp_flat4_vehicles_extras_dump_valve_10c" value="1" />
+   </Items>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_ja16_sports_saloon_4_jp_flat4_shut_down</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Unk02 value="64336" />
+    <Category>vehicles_extras_loud</Category>
+   </Header>
+   <ContainerName>dlc_ja16/sports_saloon_4_jp_flat4</ContainerName>
+   <FileName>hash_3B393DEA</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="GranularSound">
+   <Name>sports_saloon_4_jp_flat4_engine_accel</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0x9555AAAA" />
+    <Category>hash_F7C35252</Category>
+   </Header>
+   <WaveSlotIndex value="0" />
+   <Wave1>
+    <ContainerName>dlc_ja16/sports_saloon_4_jp_flat4</ContainerName>
+    <FileName>engine_accel</FileName>
+   </Wave1>
+   <Wave2>
+    <ContainerName>dlc_ja16/sports_saloon_4_jp_flat4</ContainerName>
+    <FileName>exhaust_accel</FileName>
+   </Wave2>
+   <Wave3>
+    <ContainerName>dlc_ja16/sports_saloon_4_jp_flat4</ContainerName>
+    <FileName>engine_decel</FileName>
+   </Wave3>
+   <Wave4>
+    <ContainerName>dlc_ja16/sports_saloon_4_jp_flat4</ContainerName>
+    <FileName>exhaust_decel</FileName>
+   </Wave4>
+   <Wave5>
+    <ContainerName>dlc_ja16/sports_saloon_4_jp_flat4</ContainerName>
+    <FileName>engine_idle</FileName>
+   </Wave5>
+   <Wave6>
+    <ContainerName>dlc_ja16/sports_saloon_4_jp_flat4</ContainerName>
+    <FileName>exhaust_idle</FileName>
+   </Wave6>
+   <DataItem1>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem1>
+   <DataItem2>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem2>
+   <DataItem3>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem3>
+   <DataItem4>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem4>
+   <DataItem5>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem5>
+   <DataItem6>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem6>
+   <UnkFloat0 value="0.01" />
+   <UnkFloat1 value="0.05" />
+   <UnkShort0 value="-1000" />
+   <UnkShort1 value="-500" />
+   <UnkShort2 value="-1000" />
+   <UnkShort3 value="0" />
+   <UnkShort4 value="-1500" />
+   <UnkShort5 value="-500" />
+   <TrackName />
+   <UnkVecData>
+    9.5, 50
+    6.5, 6.5
+   </UnkVecData>
+  </Item>
+  <Item type="GranularSound">
+   <Name>sports_saloon_4_jp_flat4_engine_accel_npc</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0x9555AAAA" />
+    <Category>hash_F7C35252</Category>
+   </Header>
+   <WaveSlotIndex value="0" />
+   <Wave1>
+    <ContainerName>dlc_ja16/sports_saloon_4_jp_flat4_npc</ContainerName>
+    <FileName>engine_accel</FileName>
+   </Wave1>
+   <Wave2>
+    <ContainerName>dlc_ja16/sports_saloon_4_jp_flat4_npc</ContainerName>
+    <FileName>exhaust_accel</FileName>
+   </Wave2>
+   <Wave3>
+    <ContainerName>0</ContainerName>
+    <FileName />
+   </Wave3>
+   <Wave4>
+    <ContainerName>0</ContainerName>
+    <FileName />
+   </Wave4>
+   <Wave5>
+    <ContainerName>dlc_ja16/sports_saloon_4_jp_flat4_npc</ContainerName>
+    <FileName>engine_idle</FileName>
+   </Wave5>
+   <Wave6>
+    <ContainerName>dlc_ja16/sports_saloon_4_jp_flat4_npc</ContainerName>
+    <FileName>exhaust_idle</FileName>
+   </Wave6>
+   <DataItem1>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem1>
+   <DataItem2>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem2>
+   <DataItem3>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem3>
+   <DataItem4>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem4>
+   <DataItem5>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem5>
+   <DataItem6>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem6>
+   <UnkFloat0 value="0.01" />
+   <UnkFloat1 value="0.05" />
+   <UnkShort0 value="-1000" />
+   <UnkShort1 value="-500" />
+   <UnkShort2 value="-1000" />
+   <UnkShort3 value="0" />
+   <UnkShort4 value="-1500" />
+   <UnkShort5 value="-500" />
+   <TrackName>sports_saloon_4_jp_flat4_engine_accel</TrackName>
+   <UnkVecData>
+    9.5, 50
+    6.5, 6.5
+   </UnkVecData>
+  </Item>
+  <Item type="EnvironmentSound">
+   <Name>sports_saloon_4_jp_flat4_exhaust_accel</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>hash_F7C35252</Category>
+   </Header>
+   <UnkByte value="1" />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>sultanrs_start_up_master</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_extras_loud</Category>
+   </Header>
+   <AudioHash0>sultanrs_start_up_if</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1>hash_B807DF3E</AudioHash1>
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>sultanrs_start_up_if</Item>
+    <Item>hash_B807DF3E</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="IfSound">
+   <Name>sultanrs_start_up_if</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <AudioHash1>dlc_ja16_sports_saloon_4_jp_flat4_start_up_exterior</AudioHash1>
+   <AudioHash2>sultanrs_start_up_interior_stereo</AudioHash2>
+   <ParameterHash1>hash_378A1D92</ParameterHash1>
+   <UnkByte value="4" />
+   <UnkFloat value="0" />
+   <ParameterHash2 />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>sultanrs_start_up_interior_stereo</Name>
+   <Header>
+    <Flags value="0x00000005" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="63936" />
+   </Header>
+   <AudioTracks>
+    <Item>dlc_ja16_sports_saloon_4_jp_flat4_start_up_interior_right</Item>
+    <Item>dlc_ja16_sports_saloon_4_jp_flat4_start_up_interior_left</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_ja16_sports_saloon_4_jp_flat4_start_up_interior_right</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="53" />
+   </Header>
+   <ContainerName>dlc_ja16/sports_saloon_4_jp_flat4</ContainerName>
+   <FileName>hash_60BE07BB</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_ja16_sports_saloon_4_jp_flat4_start_up_interior_left</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="307" />
+   </Header>
+   <ContainerName>dlc_ja16/sports_saloon_4_jp_flat4</ContainerName>
+   <FileName>hash_4934CB84</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_ja16_sports_saloon_4_jp_flat4_start_up_exterior</Name>
+   <Header>
+    <Flags value="0x00000004" />
+    <Unk02 value="64336" />
+   </Header>
+   <ContainerName>dlc_ja16/sports_saloon_4_jp_flat4</ContainerName>
+   <FileName>hash_9D64B840</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="ParameterTransformSound">
+   <Name>sultanrs_air_intake_upgraded_pts</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash>sultanrs_veh_synth_air_intake_upgraded</AudioHash>
+   <Items>
+    <Item>
+     <ParameterHash>hash_44D3B231</ParameterHash>
+     <UnkFloat0 value="0" />
+     <UnkFloat1 value="1" />
+     <NestedData>
+      <Item>
+       <UnkFloat0 value="-1" />
+       <UnkInt value="0" />
+       <ParameterHash />
+       <UnkFloat1 value="1E-05" />
+       <UnkFloat2 value="1" />
+       <Vectors>
+        0.25, 0
+        0.5766667, 0.790727
+        0.75, 0.446678
+        1, 0.2818311
+       </Vectors>
+      </Item>
+     </NestedData>
+    </Item>
+    <Item>
+     <ParameterHash>hash_EA0151DC</ParameterHash>
+     <UnkFloat0 value="0" />
+     <UnkFloat1 value="1" />
+     <NestedData>
+      <Item>
+       <UnkFloat0 value="-1" />
+       <UnkInt value="0" />
+       <ParameterHash />
+       <UnkFloat1 value="1E-05" />
+       <UnkFloat2 value="1" />
+       <Vectors>
+        0, 0.3981012
+        0.6466666, 1
+       </Vectors>
+      </Item>
+     </NestedData>
+    </Item>
+   </Items>
+  </Item>
+  <Item type="VariableBlockSound">
+   <Name>sultanrs_air_intake_upgraded_vb</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash>sultanrs_air_intake_upgraded_pts</AudioHash>
+   <Variables>
+    <Item>
+     <Name>hash_44D3B231</Name>
+     <Value value="0" />
+     <UnkFloat value="0" />
+     <Flags value="1" />
+    </Item>
+    <Item>
+     <Name>hash_EA0151DC</Name>
+     <Value value="0" />
+     <UnkFloat value="0" />
+     <Flags value="1" />
+    </Item>
+   </Variables>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>sultanrs_veh_synth_transmission_wobble</Name>
+   <Header>
+    <Flags value="0x00000011" />
+    <Flags2 value="0xAAA8AAAA" />
+    <Unk04 value="1200" />
+   </Header>
+   <OptAmpUnkHash>sultanrs_synth_transmission_whine_wobble_v2</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="-1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>hash_BE74155D</UnkHash>
+     <ParameterHash>hash_BE74155D</ParameterHash>
+     <Value value="1" />
+    </Item>
+    <Item>
+     <UnkHash>hash_5B924509</UnkHash>
+     <ParameterHash>hash_5B924509</ParameterHash>
+     <Value value="1" />
+    </Item>
+    <Item>
+     <UnkHash>hash_5B5D1BD6</UnkHash>
+     <ParameterHash>hash_5C31BE9C</ParameterHash>
+     <Value value="1" />
+    </Item>
+    <Item>
+     <UnkHash>hash_63C728CE</UnkHash>
+     <ParameterHash>hash_30FBBB42</ParameterHash>
+     <Value value="1" />
+    </Item>
+    <Item>
+     <UnkHash>hash_9982A990</UnkHash>
+     <ParameterHash>hash_4DAC2C57</ParameterHash>
+     <Value value="8" />
+    </Item>
+    <Item>
+     <UnkHash>hash_8FEC6D91</UnkHash>
+     <ParameterHash>hash_C23BF9F9</ParameterHash>
+     <Value value="0.5" />
+    </Item>
+    <Item>
+     <UnkHash>speed</UnkHash>
+     <ParameterHash>speed</ParameterHash>
+     <Value value="1" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="VariableBlockSound">
+   <Name>sultanrs_resident_gear_transmission</Name>
+   <Header>
+    <Flags value="0x0020A000" />
+    <Unk11 value="30" />
+    <Category>vehicles_engines_startup</Category>
+    <Unk18 value="150" />
+   </Header>
+   <AudioHash>sultanrs_transmission_pts</AudioHash>
+   <Variables>
+    <Item>
+     <Name>hash_BE74155D</Name>
+     <Value value="5" />
+     <UnkFloat value="0" />
+     <Flags value="1" />
+    </Item>
+    <Item>
+     <Name>hash_5B924509</Name>
+     <Value value="0.5" />
+     <UnkFloat value="0" />
+     <Flags value="1" />
+    </Item>
+    <Item>
+     <Name>hash_5C31BE9C</Name>
+     <Value value="0" />
+     <UnkFloat value="0" />
+     <Flags value="1" />
+    </Item>
+    <Item>
+     <Name>hash_C23BF9F9</Name>
+     <Value value="2.5" />
+     <UnkFloat value="0" />
+     <Flags value="1" />
+    </Item>
+    <Item>
+     <Name>hash_30FBBB42</Name>
+     <Value value="0.5" />
+     <UnkFloat value="0" />
+     <Flags value="1" />
+    </Item>
+    <Item>
+     <Name>hash_4DAC2C57</Name>
+     <Value value="3" />
+     <UnkFloat value="0" />
+     <Flags value="1" />
+    </Item>
+   </Variables>
+  </Item>
+  <Item type="ParameterTransformSound">
+   <Name>sultanrs_transmission_pts</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash>sultanrs_veh_synth_transmission_wobble</AudioHash>
+   <Items>
+    <Item>
+     <ParameterHash>hash_5B924509</ParameterHash>
+     <UnkFloat0 value="0" />
+     <UnkFloat1 value="1" />
+     <NestedData>
+      <Item>
+       <UnkFloat0 value="-1" />
+       <UnkInt value="0" />
+       <ParameterHash />
+       <UnkFloat1 value="0.06309573" />
+       <UnkFloat2 value="1" />
+       <Vectors>
+        0.2, 0
+        0.5266666, 0.5066667
+        0.75, 0.7133334
+        1, 0.5966667
+       </Vectors>
+      </Item>
+     </NestedData>
+    </Item>
+   </Items>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>sultanrs_dump_valve_upgraded_master</Name>
+   <Header>
+    <Flags value="0x38000004" />
+    <Unk02 value="64136" />
+    <Unk22 value="100" />
+    <Unk23 value="60" />
+    <Unk24 value="5" />
+   </Header>
+   <AudioHash0>sultanrs_dump_valve_rnd</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1>hash_C0108E98</AudioHash1>
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>sultanrs_dump_valve_rnd</Item>
+    <Item>hash_C0108E98</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>sultanrs_dump_valve_rnd_wrapper</Name>
+   <Header>
+    <Flags value="0x00000004" />
+    <Unk02 value="65236" />
+   </Header>
+   <AudioHash0>sultanrs_dump_valve_rnd</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>sultanrs_dump_valve_rnd</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="SoundSet">
+   <Name>ja16_super_mod_garage_sounds</Name>
+   <Header>
+    <Flags value="0xAAAAAAAA" />
+   </Header>
+   <Items>
+    <Item>
+     <ScriptName>hash_2FF8FCB9</ScriptName>
+     <SoundName>ja_16_mod_shop_upgrade_sultanrs</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_AB8CC219</ScriptName>
+     <SoundName>ja_16_mod_shop_upgrade_banshee2</SoundName>
+    </Item>
+   </Items>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>ja_16_mod_shop_upgrade_sultanrs_revs</Name>
+   <Header>
+    <Flags value="0x38800105" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="64436" />
+    <Unk08 value="150" />
+    <Unk20 value="3" />
+    <Unk22 value="10" />
+    <Unk23 value="20" />
+    <Unk24 value="10" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="2500" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="1000" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>dlc_ja16_mod_shop_sultanrs_start_up</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>ja_16_mod_shop_upgrade_banshee2_revs</Name>
+   <Header>
+    <Flags value="0x38800105" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="64936" />
+    <Unk08 value="100" />
+    <Unk20 value="3" />
+    <Unk22 value="10" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="2000" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="1000" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>dlc_ja16_mod_shop_banshee2_start_up</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_ja16_mod_shop_banshee2_start_up</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_ja16/mod_shop_banshee2</ContainerName>
+   <FileName>hash_9D64B840</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_ja16_mod_shop_sultanrs_start_up</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_ja16/mod_shop_sultanrs</ContainerName>
+   <FileName>hash_9D64B840</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>ja_16_mod_shop_upgrade_sultanrs</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>scripted_louder</Category>
+   </Header>
+   <AudioHash0>ja_16_mod_shop_upgrade_sultanrs_mt</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1>hash_CEB0889F</AudioHash1>
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>ja_16_mod_shop_upgrade_sultanrs_mt</Item>
+    <Item>hash_CEB0889F</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>ja_16_mod_shop_upgrade_banshee2</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>scripted_louder</Category>
+   </Header>
+   <AudioHash0>ja_16_mod_shop_upgrade_banshee2_mt</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1>hash_CEB0889F</AudioHash1>
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>ja_16_mod_shop_upgrade_banshee2_mt</Item>
+    <Item>hash_CEB0889F</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>ja_16_mod_shop_upgrade_banshee2_mt</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>hash_CEB0889F</Item>
+    <Item>ja_16_mod_shop_upgrade_banshee2_revs</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>ja_16_mod_shop_upgrade_sultanrs_mt</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>hash_CEB0889F</Item>
+    <Item>ja_16_mod_shop_upgrade_sultanrs_revs</Item>
+   </AudioTracks>
+  </Item>
+ </Items>
+</Dat54>

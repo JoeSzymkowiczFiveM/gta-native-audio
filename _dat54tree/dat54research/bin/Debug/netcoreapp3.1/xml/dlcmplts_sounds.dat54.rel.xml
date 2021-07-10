@@ -1,0 +1,1287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dat54>
+ <Version value="6353778" />
+ <NameTable>
+  <Item>RESIDENT\WEAPONS</Item>
+ </NameTable>
+ <Items>
+  <Item type="WrapperSound">
+   <Name>dummy</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash0>hash_5CE64410</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>hash_5CE64410</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="SoundSet">
+   <Name>hud_mini_game_soundset</Name>
+   <Header>
+    <Flags value="0xAAAAAAAA" />
+   </Header>
+   <Items>
+    <Item>
+     <ScriptName>hash_12801B4F</ScriptName>
+     <SoundName>hash_5F872BD0</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_19FE68F2</ScriptName>
+     <SoundName>hash_A7A24308</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_1D997F4D</ScriptName>
+     <SoundName>hash_A7A24308</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_2BD2C1B7</ScriptName>
+     <SoundName>hash_5FF3DD2E</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_3161B792</ScriptName>
+     <SoundName>hash_46C4E9DF</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_37418674</ScriptName>
+     <SoundName>hash_C2386E7F</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_3A93F054</ScriptName>
+     <SoundName>hash_67A30796</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_3CF81389</ScriptName>
+     <SoundName>hash_5082F200</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_4122C687</ScriptName>
+     <SoundName>hud_mini_game_checkpoint_missed_master</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_427AC52F</ScriptName>
+     <SoundName>hash_DB39CCEC</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_45021B6F</ScriptName>
+     <SoundName>hash_554D24EB</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_4B65D457</ScriptName>
+     <SoundName>hash_67296FEC</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_517387B2</ScriptName>
+     <SoundName>hash_8F348D4C</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_5DBE1227</ScriptName>
+     <SoundName>hash_AB8C4F4B</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_781ED94E</ScriptName>
+     <SoundName>hash_149748B5</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_7EC35C3E</ScriptName>
+     <SoundName>hash_5F872BD0</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_82B0444A</ScriptName>
+     <SoundName>hash_CFC09DD8</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_88BE2D96</ScriptName>
+     <SoundName>hash_74BCE202</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_897DA2B4</ScriptName>
+     <SoundName>hash_B2F07645</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_8D9D2820</ScriptName>
+     <SoundName>hash_E580584C</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_93A0F0B5</ScriptName>
+     <SoundName>hash_EB502FC1</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_97DC8CE8</ScriptName>
+     <SoundName>hash_845A685A</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_9E3B7E91</ScriptName>
+     <SoundName>hash_8EAC5B20</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_9E4F61CA</ScriptName>
+     <SoundName>hash_D54A7225</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_A2B578B4</ScriptName>
+     <SoundName>hash_A7A24308</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_B2A2CAA6</ScriptName>
+     <SoundName>hash_67A30796</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_B72ECFC3</ScriptName>
+     <SoundName>hash_08F446C1</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_B8EB3967</ScriptName>
+     <SoundName>hash_67A30796</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_C83295A8</ScriptName>
+     <SoundName>hash_ABA0D179</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_C9206CAC</ScriptName>
+     <SoundName>hash_28B465D2</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_C949997C</ScriptName>
+     <SoundName>hash_CA15278B</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_CABC6CC3</ScriptName>
+     <SoundName>hash_0B6C57B9</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_CC1D758B</ScriptName>
+     <SoundName>hash_5F872BD0</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_D2C42FC1</ScriptName>
+     <SoundName>hash_05A7E906</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_DB40C277</ScriptName>
+     <SoundName>hash_8711260B</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_DB83DCDB</ScriptName>
+     <SoundName>hash_BC6482EE</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_DC1C69DD</ScriptName>
+     <SoundName>hash_C2386E7F</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_EEAB8FC3</ScriptName>
+     <SoundName>hash_ABA0D179</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_F58BD98D</ScriptName>
+     <SoundName>hash_A7A24308</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_F9B06FE8</ScriptName>
+     <SoundName>hash_8E07DF91</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_FD408E67</ScriptName>
+     <SoundName>hash_FAB4889C</SoundName>
+    </Item>
+   </Items>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>hud_mini_game_checkpoint_missed_master</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>frontend_menu_loud</Category>
+   </Header>
+   <AudioHash0>hash_15FB520B</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>hash_15FB520B</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>dlc_lts_dmrsniper_backup_master</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Category>hash_80722AAA</Category>
+   </Header>
+   <AudioTracks>
+    <Item>dlc_lts_dmrsniper_npc_shot_env</Item>
+    <Item>dlc_lts_dmrsniper_npc_thud_env</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>dlc_lts_heavyshotgun_backup_master</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Category>hash_80722AAA</Category>
+   </Header>
+   <AudioTracks>
+    <Item>dlc_lts_heavyshotgun_backup_shot_stereo_env</Item>
+    <Item>dlc_lts_heavyshotgun_npc_expl_high_</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>dlc_lts_heavyshotgun_backup_close_mlt</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>hash_25E69103</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>dlc_lts_heavyshotgun_backup_shot_stereo_env</Name>
+   <Header>
+    <Flags value="0x00040031" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk04 value="1100" />
+    <Unk05 value="100" />
+    <Unk16 value="90" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="50" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="150" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="50" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>dlc_lts_heavyshotgun_backup_close_mlt</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="SoundSet">
+   <Name>dlc_lts_dmrsniper_plyr_reloads_mono_ss</Name>
+   <Header>
+    <Flags value="0xAAAAAAAA" />
+   </Header>
+   <Items>
+    <Item>
+     <ScriptName>hash_069BC01A</ScriptName>
+     <SoundName>hash_264AB473</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_304960F8</ScriptName>
+     <SoundName>hash_5F246A22</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_42488321</ScriptName>
+     <SoundName>snp_heavy_plyr_clip_out_mono_master_wrapper</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_457C3DDE</ScriptName>
+     <SoundName>hash_DAAF5FBB</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_468B8D7C</ScriptName>
+     <SoundName>null_sound</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_54C729F3</ScriptName>
+     <SoundName>null_sound</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_60EFF4C5</ScriptName>
+     <SoundName>hash_3EBF2495</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_A0452728</ScriptName>
+     <SoundName>null_sound</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_AE97C3CD</ScriptName>
+     <SoundName>null_sound</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_B8F361C5</ScriptName>
+     <SoundName>snp_heavy_plyr_clip_in_mono_master_wrapper</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_EC423F2D</ScriptName>
+     <SoundName>null_sound</SoundName>
+    </Item>
+   </Items>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>snp_heavy_plyr_clip_in_mono_master_wrapper</Name>
+   <Header>
+    <Flags value="0x00000400" />
+    <UnkInt1 value="250" />
+   </Header>
+   <AudioHash0>hash_CF082936</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>hash_CF082936</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>snp_heavy_plyr_clip_out_mono_master_wrapper</Name>
+   <Header>
+    <Flags value="0x00000400" />
+    <UnkInt1 value="150" />
+   </Header>
+   <AudioHash0>hash_E414868B</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>hash_E414868B</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="SoundSet">
+   <Name>dlc_lts_heavyshotgun_plyr_reloads_soundset</Name>
+   <Header>
+    <Flags value="0xAAAAAAAA" />
+   </Header>
+   <Items>
+    <Item>
+     <ScriptName>hash_069BC01A</ScriptName>
+     <SoundName>hash_264AB473</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_304960F8</ScriptName>
+     <SoundName>dlc_lts_heavyshotgun_plyr_chamber_mono_master_</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_42488321</ScriptName>
+     <SoundName>hash_3A716A85</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_457C3DDE</ScriptName>
+     <SoundName>hash_DAAF5FBB</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_468B8D7C</ScriptName>
+     <SoundName>null_sound</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_54C729F3</ScriptName>
+     <SoundName>null_sound</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_60EFF4C5</ScriptName>
+     <SoundName>hash_3EBF2495</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_A0452728</ScriptName>
+     <SoundName>null_sound</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_AE97C3CD</ScriptName>
+     <SoundName>null_sound</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_B8F361C5</ScriptName>
+     <SoundName>hash_6B0718C1</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>hash_EC423F2D</ScriptName>
+     <SoundName>null_sound</SoundName>
+    </Item>
+   </Items>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>dlc_lts_heavyshotgun_plyr_chamber_mono_master_</Name>
+   <Header>
+    <Flags value="0x00008015" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="65336" />
+    <Unk04 value="65436" />
+    <Category>hash_414231B5</Category>
+   </Header>
+   <AudioTracks>
+    <Item>hash_D5DB3914</Item>
+    <Item>hash_7A6E6A61</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>dlc_lts_dmrsniper_npc_test</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Category>hash_80722AAA</Category>
+   </Header>
+   <AudioTracks>
+    <Item>lmg_assault_player_hi_rdm_wrapper</Item>
+    <Item>dlc_lts_dmrsniper_player_thud_env</Item>
+    <Item>dlc_lts_dmrsniper_player_shot_env</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>dlc_lts_dmrsniper_npc_rprt_master</Name>
+   <Header>
+    <Flags value="0x00008115" />
+    <Flags2 value="0xAAA0AAA2" />
+    <Unk02 value="65236" />
+    <Unk04 value="400" />
+    <Unk08 value="120" />
+    <Category>hash_9C6A4771</Category>
+   </Header>
+   <AudioTracks>
+    <Item>hash_E4913523</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>dlc_lts_dmrsniper_npc_master</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Category>hash_85B8BFD4</Category>
+   </Header>
+   <AudioTracks>
+    <Item>dlc_lts_dmrsniper_npc_crossfade</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>dlc_lts_dmrsniper_npc_close_mlt</Name>
+   <Header>
+    <Flags value="0x00000031" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk04 value="65236" />
+    <Unk05 value="100" />
+   </Header>
+   <AudioTracks>
+    <Item>lmg_assault_player_hi_rdm_wrapper</Item>
+    <Item>dlc_lts_dmrsniper_npc_shot_env</Item>
+    <Item>dlc_lts_dmrsniper_npc_thud_env</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="CrossfadeSound">
+   <Name>dlc_lts_dmrsniper_npc_crossfade</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash0>dlc_lts_dmrsniper_npc_close_mlt</AudioHash0>
+   <AudioHash1>dlc_lts_dmrsniper_npc_far_mlt</AudioHash1>
+   <UnkByte value="0" />
+   <UnkFloat0 value="50" />
+   <UnkFloat1 value="120" />
+   <UnkInt value="0" />
+   <UnkCurvesHash>hash_FF42C289</UnkCurvesHash>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>dlc_lts_dmrsniper_npc_thud_env</Name>
+   <Header>
+    <Flags value="0x00000015" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="200" />
+    <Unk04 value="65336" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="200" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="100" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>hash_3454BB67</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>dlc_lts_dmrsniper_npc_far_mlt</Name>
+   <Header>
+    <Flags value="0x00608035" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="65036" />
+    <Unk04 value="500" />
+    <Unk05 value="250" />
+    <Category>hash_BF162C33</Category>
+    <Unk18 value="2300" />
+    <Unk19 value="40" />
+   </Header>
+   <AudioTracks>
+    <Item>dlc_lts_dmrsniper_npc_far_rdm</Item>
+    <Item>dlc_lts_dmrsniper_npc_far_swtnrs_rdm</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>dlc_lts_dmrsniper_suppressed_npc_master</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash0>hash_C84D7D05</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>hash_C84D7D05</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>dlc_lts_dmrsniper_npc_shot_env</Name>
+   <Header>
+    <Flags value="0x00040135" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="65236" />
+    <Unk04 value="300" />
+    <Unk05 value="70" />
+    <Unk08 value="45" />
+    <Unk16 value="500" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="100" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="100" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="300" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>dlc_lts_dmrsniper_ncp_shot_a_l</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_lts_dmrsniper_ncp_shot_a_l</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_3E0651DE</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>dlc_lts_dmrsniper_npc_far_rdm</Name>
+   <Header>
+    <Flags value="0x00000015" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk02 value="100" />
+    <Unk04 value="600" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes />
+   <Items>
+    <Item key="hash_EEBCA98A" value="1" />
+    <Item key="hash_DC8A8526" value="1" />
+   </Items>
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>dlc_lts_dmrsniper_npc_far_swtnrs_rdm</Name>
+   <Header>
+    <Flags value="0x00000104" />
+    <Unk02 value="300" />
+    <Unk08 value="2" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes>FF FF</UnkBytes>
+   <Items>
+    <Item key="hash_CD017314" value="6" />
+    <Item key="hash_CC83256E" value="1" />
+    <Item key="hash_33F3744D" value="1" />
+    <Item key="hash_1E9B499D" value="1" />
+   </Items>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>dlc_lts_heavyshotgun_npc_master</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Category>hash_80722AAA</Category>
+   </Header>
+   <AudioTracks>
+    <Item>dlc_lts_heavyshotgun_npc_shot_stereo_env_</Item>
+    <Item>dlc_lts_heavyshotgun_npc_expl_high_</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>dlc_lts_heavyshotgun_npc_shot_stereo_env_</Name>
+   <Header>
+    <Flags value="0x00040031" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk04 value="1100" />
+    <Unk05 value="100" />
+    <Unk16 value="90" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="50" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="150" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="50" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>hash_C570D25A</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>dlc_lts_heavyshotgun_npc_sweetners_</Name>
+   <Header>
+    <Flags value="0x00000005" />
+    <Flags2 value="0xAAA06AAA" />
+    <Unk02 value="300" />
+   </Header>
+   <AudioTracks>
+    <Item>dlc_lts_heavyshotgun_mech_env</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>dlc_lts_heavyshotgun_npc_expl_high_</Name>
+   <Header>
+    <Flags value="0x00000501" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk08 value="80" />
+    <UnkInt1 value="10" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="100" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="100" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="100" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>hash_20B47973</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>dlc_lts_dmrsniper_player_master</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Category>hash_80722AAA</Category>
+   </Header>
+   <AudioTracks>
+    <Item>dlc_lts_dmrsniper_player_mid_thud</Item>
+    <Item>lmg_assault_player_hi_rdm_wrapper</Item>
+    <Item>dlc_lts_dmrsniper_player_thud_env</Item>
+    <Item>dlc_lts_dmrsniper_player_heavy_sweetner_env</Item>
+    <Item>dlc_lts_dmrsniper_player_shot_env</Item>
+    <Item>dlc_lts_dmrsniper_player_ring_env</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>dlc_lts_dmrsniper_player_shot_env</Name>
+   <Header>
+    <Flags value="0x00040135" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="65236" />
+    <Unk04 value="300" />
+    <Unk05 value="70" />
+    <Unk08 value="45" />
+    <Unk16 value="500" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="100" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="100" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="300" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>hash_D839B0D9</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>dlc_lts_dmrsniper_player_thud_env</Name>
+   <Header>
+    <Flags value="0x00000015" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="200" />
+    <Unk04 value="65336" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="200" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="100" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>hash_3454BB67</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>dlc_lts_dmrsniper_player_mid_thud</Name>
+   <Header>
+    <Flags value="0x00000111" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk04 value="300" />
+    <Unk08 value="40" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="100" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="-1" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>hash_787D9B58</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>lmg_assault_player_hi_rdm_wrapper</Name>
+   <Header>
+    <Flags value="0x00000030" />
+    <Unk04 value="400" />
+    <Unk05 value="100" />
+   </Header>
+   <AudioHash0>hash_D123652B</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>hash_D123652B</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>dlc_lts_dmrsniper_player_heavy_sweetner_env</Name>
+   <Header>
+    <Flags value="0x00000105" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="64936" />
+    <Unk08 value="13" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="200" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="200" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>hash_F051A54F</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>dlc_lts_dmrsniper_player_ring_env</Name>
+   <Header>
+    <Flags value="0x00000115" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="65236" />
+    <Unk04 value="1800" />
+    <Unk08 value="10" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="100" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="150" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="2000" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>hash_06445FF0</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>dlc_lts_dmrsniper_player_rprt_master</Name>
+   <Header>
+    <Flags value="0x00008135" />
+    <Flags2 value="0xAAA0AAA2" />
+    <Unk02 value="65236" />
+    <Unk04 value="300" />
+    <Unk05 value="150" />
+    <Unk08 value="200" />
+    <Category>hash_9C6A4771</Category>
+   </Header>
+   <AudioTracks>
+    <Item>dlc_lts_dmrsniper_player_far_rprt</Item>
+    <Item>dlc_lts_dmrsniper_player_rprt_end_a_env</Item>
+    <Item>dlc_lts_dmrsniper_player_rprt_end_b_env</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_lts_dmrsniper_player_far_rprt</Name>
+   <Header>
+    <Flags value="0x00040100" />
+    <Unk08 value="160" />
+    <Unk16 value="200" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_D6A82257</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>dlc_lts_dmrsniper_player_rprt_end_b_env</Name>
+   <Header>
+    <Flags value="0x00000005" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="900" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="700" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="300" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_283B9215</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>hash_93C5E1A3</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>dlc_lts_dmrsniper_player_rprt_end_a_env</Name>
+   <Header>
+    <Flags value="0x00000335" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="1000" />
+    <Unk04 value="64636" />
+    <Unk05 value="150" />
+    <Unk08 value="500" />
+    <Unk09 value="10" />
+   </Header>
+   <UnkShort0 value="1000" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="700" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="200" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_3C432640</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>hash_89FA89F1</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>dlc_lts_dmrsniper_suppressed_player_master</Name>
+   <Header>
+    <Flags value="0x00008011" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk04 value="300" />
+    <Category>hash_0D3C9D38</Category>
+   </Header>
+   <AudioTracks>
+    <Item>hash_15809100</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>dlc_lts_heavyshotgun_player_master</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Category>hash_80722AAA</Category>
+   </Header>
+   <AudioTracks>
+    <Item>dlc_lts_heavyshotgun_player_shot_stereo_env</Item>
+    <Item>dlc_lts_heavyshotgun_player_sweetners</Item>
+    <Item>dlc_lts_heavyshotgun_expl_high_filter</Item>
+    <Item>dlc_lts_heavyshotgun_player_whizzes</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>dlc_lts_heavyshotgun_player_shot_stereo_env</Name>
+   <Header>
+    <Flags value="0x00040035" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="65336" />
+    <Unk04 value="1200" />
+    <Unk05 value="230" />
+    <Unk16 value="100" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="50" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="120" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="50" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>dlc_lts_heavyshotgun_player_shot_stereo</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="ParameterTransformSound">
+   <Name>dlc_lts_heavyshotgun_expl_high_filter</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash>dlc_lts_heavyshotgun_expl_high</AudioHash>
+   <Items>
+    <Item>
+     <ParameterHash>hash_A69EF7A1</ParameterHash>
+     <UnkFloat0 value="0" />
+     <UnkFloat1 value="1" />
+     <NestedData>
+      <Item>
+       <UnkFloat0 value="-1" />
+       <UnkInt value="6" />
+       <ParameterHash />
+       <UnkFloat1 value="0" />
+       <UnkFloat2 value="1" />
+       <Vectors>
+        0.3066667, 0
+        0.31, 0.2
+       </Vectors>
+      </Item>
+     </NestedData>
+    </Item>
+   </Items>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>dlc_lts_heavyshotgun_mech_env</Name>
+   <Header>
+    <Flags value="0x00040531" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk04 value="65236" />
+    <Unk05 value="70" />
+    <Unk08 value="120" />
+    <UnkInt1 value="50" />
+    <Unk16 value="3000" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="120" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="-1" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>heavy_shot_player_mech_</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>dlc_lts_heavyshotgun_player_sweetners</Name>
+   <Header>
+    <Flags value="0x00000005" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="300" />
+   </Header>
+   <AudioTracks>
+    <Item>dlc_lts_heavyshotgun_player_sub_rdm</Item>
+    <Item>dlc_lts_heavyshotgun_mech_env</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>dlc_lts_heavyshotgun_player_sub_rdm</Name>
+   <Header>
+    <Flags value="0x00000115" />
+    <Flags2 value="0xAAAA9AAA" />
+    <Unk02 value="200" />
+    <Unk04 value="100" />
+    <Unk08 value="20" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes>FF</UnkBytes>
+   <Items>
+    <Item key="hash_599A01ED" value="1" />
+    <Item key="hash_6DC72A47" value="1" />
+    <Item key="hash_EB2C24DF" value="1" />
+   </Items>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>dlc_lts_heavyshotgun_expl_high</Name>
+   <Header>
+    <Flags value="0x00000525" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="65336" />
+    <Unk05 value="300" />
+    <Unk08 value="80" />
+    <UnkInt1 value="10" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="100" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="250" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="75" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>hash_20B47973</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>dlc_lts_heavyshotgun_suppressed_player_master</Name>
+   <Header>
+    <Flags value="0x00008011" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk04 value="100" />
+    <Category>hash_0D3C9D38</Category>
+   </Header>
+   <AudioTracks>
+    <Item>hash_8E7E6147</Item>
+    <Item>hash_5BBE241E</Item>
+    <Item>hash_689427F6</Item>
+    <Item>hash_141E0689</Item>
+    <Item>hash_C7EBEB72</Item>
+    <Item>hash_06045652</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>dlc_lts_heavyshotgun_player_shot_stereo</Name>
+   <Header>
+    <Flags value="0x00000105" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="65136" />
+    <Unk08 value="20" />
+   </Header>
+   <AudioTracks>
+    <Item>hash_1BD92C6C</Item>
+    <Item>hash_367A61A6</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>dlc_lts_heavyshotgun_plyr_rprt_master</Name>
+   <Header>
+    <Flags value="0x00001135" />
+    <Flags2 value="0xAAAAAAA2" />
+    <Unk02 value="65236" />
+    <Unk04 value="300" />
+    <Unk05 value="100" />
+    <Unk08 value="70" />
+    <Unk10 value="100" />
+   </Header>
+   <AudioHash0>hash_CFC0AA29</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>hash_CFC0AA29</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>dlc_lts_heavyshotgun_player_whizzes</Name>
+   <Header>
+    <Flags value="0x00041534" />
+    <Unk02 value="65036" />
+    <Unk04 value="64936" />
+    <Unk05 value="100" />
+    <Unk08 value="100" />
+    <UnkInt1 value="60" />
+    <Unk10 value="10" />
+    <Unk16 value="1000" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes>FF FF</UnkBytes>
+   <Items>
+    <Item key="hash_2F9302D7" value="1" />
+    <Item key="hash_13C54B3C" value="1" />
+    <Item key="hash_5ED8E162" value="1" />
+    <Item key="hash_7A559863" value="1" />
+   </Items>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>heavy_shot_player_mech_</Name>
+   <Header>
+    <Flags value="0x00000134" />
+    <Unk02 value="65136" />
+    <Unk04 value="600" />
+    <Unk05 value="50" />
+    <Unk08 value="70" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_BF93FFEC</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+ </Items>
+</Dat54>

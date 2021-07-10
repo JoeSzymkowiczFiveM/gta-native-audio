@@ -1,0 +1,14 @@
+NOTE: ffmpeg and ffprobe need to be in your PATH variable. (i.e. open CMD and see if you can run ffmpeg from there).
+      A python installation would also be very handy.
+
+IMPORTANT: Use lowercase for everything, this is only a proof-of-concept program.
+
+a) cd to this directory where baker.py
+b) open a command prompt at this location.
+c) run baker.py: `py baker.py -i <input_folder_with_mp3> -o <output_folder> -n "<name_of_sound>"
+d) open the <name> folder, run oac through openIV and dat54.rel.xml through codewalker (CW from discord).
+e) place dat54.rel into data folder, place .awc into the dlc_<name> folder.
+f) copy the entire folder to your FiveM server.
+
+
+

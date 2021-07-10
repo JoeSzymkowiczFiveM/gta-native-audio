@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dat54>
+ <Version value="7314721" />
+ <NameTable>
+  <Item>dlc_example2\example2</Item>
+ </NameTable>
+ <Items>
+  <Item type="SimpleSound">
+   <Name>dlc_example2_borgir_l</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="270" />
+   </Header>
+   <ContainerName>dlc_example2/example2</ContainerName>
+   <FileName>borgir_left</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_example2_bruh_l</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="270" />
+   </Header>
+   <ContainerName>dlc_example2/example2</ContainerName>
+   <FileName>bruh_left</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_example2_da_way_l</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="270" />
+   </Header>
+   <ContainerName>dlc_example2/example2</ContainerName>
+   <FileName>da_way_left</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_example2_doesnt_know_tda_way_l</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="270" />
+   </Header>
+   <ContainerName>dlc_example2/example2</ContainerName>
+   <FileName>doesnt_know_tda_way_left</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_example2_fuckoff_l</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="270" />
+   </Header>
+   <ContainerName>dlc_example2/example2</ContainerName>
+   <FileName>fuckoff_left</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_example2_ja_pierdole_kurwa_l</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="270" />
+   </Header>
+   <ContainerName>dlc_example2/example2</ContainerName>
+   <FileName>ja_pierdole_kurwa_left</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_example2_borgir_r</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="90" />
+   </Header>
+   <ContainerName>dlc_example2/example2</ContainerName>
+   <FileName>borgir_right</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_example2_bruh_r</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="90" />
+   </Header>
+   <ContainerName>dlc_example2/example2</ContainerName>
+   <FileName>bruh_right</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_example2_da_way_r</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="90" />
+   </Header>
+   <ContainerName>dlc_example2/example2</ContainerName>
+   <FileName>da_way_right</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_example2_doesnt_know_tda_way_r</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="90" />
+   </Header>
+   <ContainerName>dlc_example2/example2</ContainerName>
+   <FileName>doesnt_know_tda_way_right</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_example2_fuckoff_r</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="90" />
+   </Header>
+   <ContainerName>dlc_example2/example2</ContainerName>
+   <FileName>fuckoff_right</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_example2_ja_pierdole_kurwa_r</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="90" />
+   </Header>
+   <ContainerName>dlc_example2/example2</ContainerName>
+   <FileName>ja_pierdole_kurwa_right</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SoundSet">
+   <Name>dlc_example2_sounds</Name>
+   <Header>
+    <Flags value="0xAAAAAAAA" />
+   </Header>
+   <Items>
+    <Item>
+     <ScriptName>example2_doesnt_know_tda_way</ScriptName>
+     <SoundName>dlc_example2_doesnt_know_tda_way_mt</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>example2_bruh</ScriptName>
+     <SoundName>dlc_example2_bruh_mt</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>example2_fuckoff</ScriptName>
+     <SoundName>dlc_example2_fuckoff_mt</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>example2_da_way</ScriptName>
+     <SoundName>dlc_example2_da_way_mt</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>example2_ja_pierdole_kurwa</ScriptName>
+     <SoundName>dlc_example2_ja_pierdole_kurwa_mt</SoundName>
+    </Item>
+    <Item>
+     <ScriptName>example2_borgir</ScriptName>
+     <SoundName>dlc_example2_borgir_mt</SoundName>
+    </Item>
+   </Items>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>dlc_example2_borgir_mt</Name>
+   <Header>
+    <Flags value="0x00008005" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="65236" />
+    <Category>hash_02C7B342</Category>
+   </Header>
+   <AudioTracks>
+    <Item>dlc_example2_borgir_r</Item>
+    <Item>dlc_example2_borgir_l</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>dlc_example2_bruh_mt</Name>
+   <Header>
+    <Flags value="0x00008005" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="65236" />
+    <Category>hash_02C7B342</Category>
+   </Header>
+   <AudioTracks>
+    <Item>dlc_example2_bruh_r</Item>
+    <Item>dlc_example2_bruh_l</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>dlc_example2_da_way_mt</Name>
+   <Header>
+    <Flags value="0x00008005" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="65236" />
+    <Category>hash_02C7B342</Category>
+   </Header>
+   <AudioTracks>
+    <Item>dlc_example2_da_way_r</Item>
+    <Item>dlc_example2_da_way_l</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>dlc_example2_doesnt_know_tda_way_mt</Name>
+   <Header>
+    <Flags value="0x00008005" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="65236" />
+    <Category>hash_02C7B342</Category>
+   </Header>
+   <AudioTracks>
+    <Item>dlc_example2_doesnt_know_tda_way_r</Item>
+    <Item>dlc_example2_doesnt_know_tda_way_l</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>dlc_example2_fuckoff_mt</Name>
+   <Header>
+    <Flags value="0x00008005" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="65236" />
+    <Category>hash_02C7B342</Category>
+   </Header>
+   <AudioTracks>
+    <Item>dlc_example2_fuckoff_r</Item>
+    <Item>dlc_example2_fuckoff_l</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>dlc_example2_ja_pierdole_kurwa_mt</Name>
+   <Header>
+    <Flags value="0x00008005" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="65236" />
+    <Category>hash_02C7B342</Category>
+   </Header>
+   <AudioTracks>
+    <Item>dlc_example2_ja_pierdole_kurwa_r</Item>
+    <Item>dlc_example2_ja_pierdole_kurwa_l</Item>
+   </AudioTracks>
+  </Item>
+ </Items>
+</Dat54>
+    

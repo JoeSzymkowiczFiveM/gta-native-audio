@@ -1,0 +1,1276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dat54>
+ <Version value="6353778" />
+ <NameTable>
+  <Item>STREAMED_VEHICLES_GRANULAR\MUSCLECAR_1_US_V8</Item>
+  <Item>DLC_VALENTINES\BTYPE_NPC</Item>
+  <Item>0</Item>
+  <Item>DLC_VALENTINES\BTYPE</Item>
+  <Item>RESIDENT\WEAPONS</Item>
+  <Item>WEAPONS_PLAYER\LMG_MG_PLAYER</Item>
+ </NameTable>
+ <Items>
+  <Item type="SimpleSound">
+   <Name>btype_start_up</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_engines_startup</Category>
+   </Header>
+   <ContainerName>streamed_vehicles_granular/musclecar_1_us_v8</ContainerName>
+   <FileName>hash_9D64B840</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>btype_shut_down</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_engines_startup</Category>
+   </Header>
+   <ContainerName>streamed_vehicles_granular/musclecar_1_us_v8</ContainerName>
+   <FileName>hash_3B393DEA</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="GranularSound">
+   <Name>btype_engine_accel_npc</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0x9555AAAA" />
+    <Category>hash_F7C35252</Category>
+   </Header>
+   <WaveSlotIndex value="0" />
+   <Wave1>
+    <ContainerName>dlc_valentines/btype_npc</ContainerName>
+    <FileName>engine_accel</FileName>
+   </Wave1>
+   <Wave2>
+    <ContainerName>dlc_valentines/btype_npc</ContainerName>
+    <FileName>exhaust_accel</FileName>
+   </Wave2>
+   <Wave3>
+    <ContainerName>0</ContainerName>
+    <FileName />
+   </Wave3>
+   <Wave4>
+    <ContainerName>0</ContainerName>
+    <FileName />
+   </Wave4>
+   <Wave5>
+    <ContainerName>dlc_valentines/btype_npc</ContainerName>
+    <FileName>engine_idle</FileName>
+   </Wave5>
+   <Wave6>
+    <ContainerName>dlc_valentines/btype_npc</ContainerName>
+    <FileName>exhaust_idle</FileName>
+   </Wave6>
+   <DataItem1>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem1>
+   <DataItem2>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem2>
+   <DataItem3>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem3>
+   <DataItem4>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem4>
+   <DataItem5>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem5>
+   <DataItem6>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem6>
+   <UnkFloat0 value="0.01" />
+   <UnkFloat1 value="0.05" />
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="-100" />
+   <UnkShort3 value="0" />
+   <UnkShort4 value="-500" />
+   <UnkShort5 value="0" />
+   <TrackName>btype_engine_accel</TrackName>
+   <UnkVecData>
+    12, 44
+    10, 10
+   </UnkVecData>
+  </Item>
+  <Item type="EnvironmentSound">
+   <Name>ch1_02_73_lod</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>hash_F7C35252</Category>
+   </Header>
+   <UnkByte value="1" />
+  </Item>
+  <Item type="GranularSound">
+   <Name>btype_engine_accel</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0x9555AAAA" />
+    <Category>hash_F7C35252</Category>
+   </Header>
+   <WaveSlotIndex value="0" />
+   <Wave1>
+    <ContainerName>dlc_valentines/btype</ContainerName>
+    <FileName>engine_accel</FileName>
+   </Wave1>
+   <Wave2>
+    <ContainerName>dlc_valentines/btype</ContainerName>
+    <FileName>exhaust_accel</FileName>
+   </Wave2>
+   <Wave3>
+    <ContainerName>dlc_valentines/btype</ContainerName>
+    <FileName>engine_decel</FileName>
+   </Wave3>
+   <Wave4>
+    <ContainerName>dlc_valentines/btype</ContainerName>
+    <FileName>exhaust_decel</FileName>
+   </Wave4>
+   <Wave5>
+    <ContainerName>dlc_valentines/btype</ContainerName>
+    <FileName>engine_idle</FileName>
+   </Wave5>
+   <Wave6>
+    <ContainerName>dlc_valentines/btype</ContainerName>
+    <FileName>exhaust_idle</FileName>
+   </Wave6>
+   <DataItem1>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem1>
+   <DataItem2>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem2>
+   <DataItem3>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="1" />
+    <UnkFloat value="1" />
+   </DataItem3>
+   <DataItem4>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="1" />
+    <UnkFloat value="1" />
+   </DataItem4>
+   <DataItem5>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem5>
+   <DataItem6>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem6>
+   <UnkFloat0 value="0.01" />
+   <UnkFloat1 value="0.05" />
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="-100" />
+   <UnkShort3 value="0" />
+   <UnkShort4 value="-500" />
+   <UnkShort5 value="0" />
+   <TrackName />
+   <UnkVecData>
+    13.4, 37
+    10, 10
+   </UnkVecData>
+  </Item>
+  <Item type="LoopingSound">
+   <Name>btype_horn_loop</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <UnkShort0 value="-1" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <AudioHash>dlc_valentines_btype_old_horn_loop</AudioHash>
+   <ParameterHash />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_valentines_btype_old_horn_tail</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_valentines/btype</ContainerName>
+   <FileName>hash_6537BD06</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_valentines_btype_old_horn_loop</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_valentines/btype</ContainerName>
+   <FileName>hash_C90D4EC3</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="OnStopSound">
+   <Name>btype_horn_onstop</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash0>btype_horn_loop</AudioHash0>
+   <AudioHash1>dlc_valentines_btype_old_horn_tail</AudioHash1>
+   <AudioHash2 />
+  </Item>
+  <Item type="LoopingSound">
+   <Name>btype_horn_npc_loop</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <UnkShort0 value="-1" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <AudioHash>dlc_valentines_btype_npc_old_horn_loop</AudioHash>
+   <ParameterHash />
+  </Item>
+  <Item type="OnStopSound">
+   <Name>btype_horn_npc_onstop</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash0>btype_horn_npc_loop</AudioHash0>
+   <AudioHash1>dlc_valentines_btype_npc_old_horn_tail</AudioHash1>
+   <AudioHash2 />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_valentines_btype_npc_old_horn_loop</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_valentines/btype_npc</ContainerName>
+   <FileName>hash_C90D4EC3</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_valentines_btype_npc_old_horn_tail</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_valentines/btype_npc</ContainerName>
+   <FileName>hash_6537BD06</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>btype_horn_npc</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_horns_loud</Category>
+   </Header>
+   <AudioHash0>btype_horn_npc_onstop</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>btype_horn_npc_onstop</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>btype_horn</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_horns_loud</Category>
+   </Header>
+   <AudioHash0>btype_horn_onstop</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>btype_horn_onstop</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="SoundList">
+   <Name>horn_list_btype</Name>
+   <Header>
+    <Flags value="0xAAAAAAAA" />
+   </Header>
+   <UnkShort value="0" />
+   <Items>
+    <Item>btype_horn</Item>
+   </Items>
+  </Item>
+  <Item type="SoundList">
+   <Name>horn_list_btype_npc</Name>
+   <Header>
+    <Flags value="0xAAAAAAAA" />
+   </Header>
+   <UnkShort value="0" />
+   <Items>
+    <Item>btype_horn_npc</Item>
+   </Items>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>smg_gusenberg_player_end</Name>
+   <Header>
+    <Flags value="0x00008011" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk04 value="500" />
+    <Category>hash_80722AAA</Category>
+   </Header>
+   <AudioTracks>
+    <Item>smg_gusenberg_player_shot_rdm</Item>
+    <Item>smg_gusenberg_player_rprt_master</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>smg_gusenberg_player_end_env</Name>
+   <Header>
+    <Flags value="0x00000405" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="64836" />
+    <UnkInt1 value="180" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="300" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="350" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_283B9215</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>smg_gusenberg_player_end</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>smg_gusenberg_player_env</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA1AAAA" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="200" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="10" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_283B9215</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>smg_gusenberg_player_mlt</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>smg_gusenberg_player_mlt</Name>
+   <Header>
+    <Flags value="0x00008005" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="65236" />
+    <Category>hash_80722AAA</Category>
+   </Header>
+   <AudioTracks>
+    <Item>smg_gusenberg_player_mech_rdm</Item>
+    <Item>smg_gusenberg_player_mech</Item>
+    <Item>smg_gusenberg_player_rdm</Item>
+    <Item>smg_gusenberg_player_shot_env</Item>
+    <Item>smg_gusenberg_sub_rdm</Item>
+    <Item>smg_gusenberg_player_punch_env</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>smg_gusenberg_player_punch_env</Name>
+   <Header>
+    <Flags value="0x00000039" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk03 value="100" />
+    <Unk04 value="300" />
+    <Unk05 value="40" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="55" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="20" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_283B9215</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>smg_gusenberg_player_punch_rdm</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>smg_gusenberg_player_punch_rdm</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes>FF FF</UnkBytes>
+   <Items>
+    <Item key="smg_gusenberg_lo_01" value="1" />
+    <Item key="smg_gusenberg_lo_02" value="1" />
+    <Item key="smg_gusenberg_lo_03" value="1" />
+    <Item key="smg_gusenberg_lo_04" value="1" />
+   </Items>
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>smg_gusenberg_player_rdm</Name>
+   <Header>
+    <Flags value="0x00000135" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk02 value="65036" />
+    <Unk04 value="1300" />
+    <Unk05 value="100" />
+    <Unk08 value="30" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes />
+   <Items>
+    <Item key="smg_gusenberg_player_thud_a" value="1" />
+    <Item key="smg_gusenberg_player_thud_c" value="1" />
+   </Items>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>smg_gusenberg_player_rprt_master</Name>
+   <Header>
+    <Flags value="0x00008015" />
+    <Flags2 value="0xAAA0AAA2" />
+    <Unk02 value="64736" />
+    <Unk04 value="300" />
+    <Category>hash_9C6A4771</Category>
+   </Header>
+   <AudioTracks>
+    <Item>smg_gusenberg_player_rprt</Item>
+    <Item>smg_gusenberg_player_rprt_end_rdm</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>smg_gusenberg_player_shot_a_stereo</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Category>hash_80722AAA</Category>
+   </Header>
+   <AudioTracks>
+    <Item>smg_gusenberg_player_shot_a_l</Item>
+    <Item>smg_gusenberg_player_shot_a_r</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>smg_gusenberg_player_shot_b_stereo</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Category>hash_80722AAA</Category>
+   </Header>
+   <AudioTracks>
+    <Item>smg_gusenberg_player_shot_b_l</Item>
+    <Item>smg_gusenberg_player_shot_b_r</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>smg_gusenberg_player_shot_env</Name>
+   <Header>
+    <Flags value="0x00008535" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="64736" />
+    <Unk04 value="500" />
+    <Unk05 value="100" />
+    <Unk08 value="50" />
+    <UnkInt1 value="50" />
+    <Category>hash_80722AAA</Category>
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="135" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="500" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_283B9215</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>smg_gusenberg_player_shot_rdm</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>smg_gusenberg_player_shot_rdm</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA9AAAA" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes />
+   <Items>
+    <Item key="smg_gusenberg_player_shot_a_stereo" value="1" />
+    <Item key="smg_gusenberg_player_shot_b_stereo" value="1" />
+   </Items>
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>smg_gusenberg_sub_rdm</Name>
+   <Header>
+    <Flags value="0x00000100" />
+    <Unk08 value="18" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes>FF</UnkBytes>
+   <Items>
+    <Item key="smg_gusenberg_sub_sweetner_1" value="1" />
+    <Item key="smg_gusenberg_sub_sweetner_2" value="1" />
+    <Item key="smg_gusenberg_sub_sweetner_3" value="1" />
+   </Items>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>smg_gusenberg_sub_sweetner_1</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_599A01ED</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>smg_gusenberg_sub_sweetner_2</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_6DC72A47</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>smg_gusenberg_sub_sweetner_3</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_EB2C24DF</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>smg_gusenberg_player_rprt_end_rdm</Name>
+   <Header>
+    <Flags value="0x00001734" />
+    <Unk02 value="64736" />
+    <Unk04 value="65236" />
+    <Unk05 value="125" />
+    <Unk08 value="300" />
+    <Unk09 value="20" />
+    <UnkInt1 value="250" />
+    <Unk10 value="100" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes>FF</UnkBytes>
+   <Items>
+    <Item key="smg_gusenberg_player_rprt_end_1" value="1" />
+    <Item key="smg_gusenberg_player_rprt_end_2" value="1" />
+    <Item key="smg_gusenberg_player_rprt_end_3" value="1" />
+   </Items>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>smg_gusenberg_player_rprt</Name>
+   <Header>
+    <Flags value="0x00001C30" />
+    <Unk04 value="65486" />
+    <Unk05 value="50" />
+    <UnkInt1 value="80" />
+    <UnkInt2 value="80" />
+    <Unk10 value="150" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_DFB03130</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>smg_gusenberg_player_rprt_end_1</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_CFE06640</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>smg_gusenberg_player_rprt_end_2</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_BDD9C233</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>smg_gusenberg_player_rprt_end_3</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_F174675E</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>smg_gusenberg_player_mech</Name>
+   <Header>
+    <Flags value="0x00008331" />
+    <Flags2 value="0xAAAA2AAA" />
+    <Unk04 value="65136" />
+    <Unk05 value="200" />
+    <Unk08 value="65" />
+    <Unk09 value="6" />
+    <Category>hash_EB0865AB</Category>
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_52EA17C7</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>smg_gusenberg_player_shot_a_l</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="315" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_3E0651DE</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>smg_gusenberg_player_shot_a_r</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="45" />
+   </Header>
+   <ContainerName>weapons_player/lmg_mg_player</ContainerName>
+   <FileName>hash_1038F650</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>smg_gusenberg_player_shot_b_l</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="315" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_B8595065</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>smg_gusenberg_player_shot_b_r</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="45" />
+   </Header>
+   <ContainerName>weapons_player/lmg_mg_player</ContainerName>
+   <FileName>hash_8A6FF46B</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>smg_gusenberg_player_thud_a</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_63999EB2</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>smg_gusenberg_player_thud_c</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_63999EB2</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>smg_gusenberg_lo_01</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_F63CB79F</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>smg_gusenberg_lo_02</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_0BF5021B</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>smg_gusenberg_lo_03</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_F2438373</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>smg_gusenberg_lo_04</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_63AC9DBE</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="RetriggeredOverlappedSound">
+   <Name>smg_gusenberg_player_master</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0xAAA6AAA2" />
+    <Category>hash_80722AAA</Category>
+   </Header>
+   <UnkShort0 value="65535" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="77" />
+   <UnkShort3 value="0" />
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <AudioHash0>smg_gusenberg_player_env</AudioHash0>
+   <AudioHash1>smg_gusenberg_player_env</AudioHash1>
+   <AudioHash2>smg_gusenberg_player_end_env</AudioHash2>
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>smg_gusenberg_player_mech_rdm</Name>
+   <Header>
+    <Flags value="0x00008111" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="65236" />
+    <Unk08 value="20" />
+    <Category>hash_EB0865AB</Category>
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes />
+   <Items>
+    <Item key="smg_gusenberg_player_mech_overlay_a_1" value="1" />
+    <Item key="smg_gusenberg_player_mech_overlay_a_2" value="1" />
+   </Items>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>smg_gusenberg_player_mech_overlay_a_1</Name>
+   <Header>
+    <Flags value="0x00000404" />
+    <Unk02 value="65036" />
+    <UnkInt1 value="50" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_BF93FFEC</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>smg_gusenberg_player_mech_overlay_a_2</Name>
+   <Header>
+    <Flags value="0x00040C10" />
+    <Unk04 value="600" />
+    <UnkInt1 value="55" />
+    <UnkInt2 value="3" />
+    <Unk16 value="2000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_A0CFC264</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>smg_gusenberg_player_slow_mo_smg_gusenberg_player_mech_rdm</Name>
+   <Header>
+    <Flags value="0x00008111" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="65236" />
+    <Unk08 value="20" />
+    <Category>hash_EB0865AB</Category>
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes />
+   <Items>
+    <Item key="smg_gusenberg_player_slow_mo_smg_gusenberg_player_mech_overlay_a_1" value="1" />
+    <Item key="smg_gusenberg_player_slow_mo_smg_gusenberg_player_mech_overlay_a_2" value="1" />
+   </Items>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>smg_gusenberg_player_slow_mo_smg_gusenberg_player_mech_overlay_a_1</Name>
+   <Header>
+    <Flags value="0x00000404" />
+    <Unk02 value="65036" />
+    <UnkInt1 value="50" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_BF93FFEC</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>smg_gusenberg_player_slow_mo_smg_gusenberg_player_mech_overlay_a_2</Name>
+   <Header>
+    <Flags value="0x00040C10" />
+    <Unk04 value="600" />
+    <UnkInt1 value="55" />
+    <UnkInt2 value="3" />
+    <Unk16 value="2000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_A0CFC264</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>smg_gusenberg_player_slow_mo_smg_gusenberg_player_mech</Name>
+   <Header>
+    <Flags value="0x00008331" />
+    <Flags2 value="0xAAAA2AAA" />
+    <Unk04 value="65136" />
+    <Unk05 value="200" />
+    <Unk08 value="65" />
+    <Unk09 value="6" />
+    <Category>hash_EB0865AB</Category>
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_52EA17C7</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>smg_gusenberg_player_slow_mo_smg_gusenberg_player_rdm</Name>
+   <Header>
+    <Flags value="0x00000135" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk02 value="65036" />
+    <Unk04 value="1300" />
+    <Unk05 value="100" />
+    <Unk08 value="30" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes />
+   <Items>
+    <Item key="smg_gusenberg_player_slow_mo_smg_gusenberg_player_thud_a" value="1" />
+    <Item key="smg_gusenberg_player_slow_mo_smg_gusenberg_player_thud_c" value="1" />
+   </Items>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>smg_gusenberg_player_slow_mo_smg_gusenberg_player_thud_a</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_63999EB2</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>smg_gusenberg_player_slow_mo_smg_gusenberg_player_thud_c</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_63999EB2</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>smg_gusenberg_player_slow_mo_smg_gusenberg_player_shot_env</Name>
+   <Header>
+    <Flags value="0x00008535" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="64736" />
+    <Unk04 value="500" />
+    <Unk05 value="100" />
+    <Unk08 value="50" />
+    <UnkInt1 value="50" />
+    <Category>hash_80722AAA</Category>
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="135" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="500" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_283B9215</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>smg_gusenberg_player_slow_mo_smg_gusenberg_player_shot_rdm</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>smg_gusenberg_player_slow_mo_smg_gusenberg_player_shot_rdm</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA9AAAA" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes />
+   <Items>
+    <Item key="smg_gusenberg_player_slow_mo_smg_gusenberg_player_shot_a_stereo" value="1" />
+    <Item key="smg_gusenberg_player_slow_mo_smg_gusenberg_player_shot_b_stereo" value="1" />
+   </Items>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>smg_gusenberg_player_slow_mo_smg_gusenberg_player_shot_a_stereo</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Category>hash_80722AAA</Category>
+   </Header>
+   <AudioTracks>
+    <Item>smg_gusenberg_player_slow_mo_smg_gusenberg_player_shot_a_l</Item>
+    <Item>smg_gusenberg_player_slow_mo_smg_gusenberg_player_shot_a_r</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>smg_gusenberg_player_slow_mo_smg_gusenberg_player_shot_a_l</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="315" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_3E0651DE</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>smg_gusenberg_player_slow_mo_smg_gusenberg_player_shot_a_r</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="45" />
+   </Header>
+   <ContainerName>weapons_player/lmg_mg_player</ContainerName>
+   <FileName>hash_1038F650</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>smg_gusenberg_player_slow_mo_smg_gusenberg_player_shot_b_stereo</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Category>hash_80722AAA</Category>
+   </Header>
+   <AudioTracks>
+    <Item>smg_gusenberg_player_slow_mo_smg_gusenberg_player_shot_b_l</Item>
+    <Item>smg_gusenberg_player_slow_mo_smg_gusenberg_player_shot_b_r</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>smg_gusenberg_player_slow_mo_smg_gusenberg_player_shot_b_l</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="315" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_B8595065</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>smg_gusenberg_player_slow_mo_smg_gusenberg_player_shot_b_r</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="45" />
+   </Header>
+   <ContainerName>weapons_player/lmg_mg_player</ContainerName>
+   <FileName>hash_8A6FF46B</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>smg_gusenberg_player_slow_mo_smg_gusenberg_sub_rdm</Name>
+   <Header>
+    <Flags value="0x00000100" />
+    <Unk08 value="18" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes>FF</UnkBytes>
+   <Items>
+    <Item key="smg_gusenberg_player_slow_mo_smg_gusenberg_sub_sweetner_1" value="1" />
+    <Item key="smg_gusenberg_player_slow_mo_smg_gusenberg_sub_sweetner_2" value="1" />
+    <Item key="smg_gusenberg_player_slow_mo_smg_gusenberg_sub_sweetner_3" value="1" />
+   </Items>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>smg_gusenberg_player_slow_mo_smg_gusenberg_sub_sweetner_1</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_599A01ED</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>smg_gusenberg_player_slow_mo_smg_gusenberg_sub_sweetner_2</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_6DC72A47</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>smg_gusenberg_player_slow_mo_smg_gusenberg_sub_sweetner_3</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_EB2C24DF</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>smg_gusenberg_player_slow_mo_smg_gusenberg_player_punch_env</Name>
+   <Header>
+    <Flags value="0x00000039" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk03 value="100" />
+    <Unk04 value="300" />
+    <Unk05 value="40" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="55" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="20" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_283B9215</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>smg_gusenberg_player_slow_mo_smg_gusenberg_player_punch_rdm</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>smg_gusenberg_player_slow_mo_smg_gusenberg_player_punch_rdm</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes>FF FF</UnkBytes>
+   <Items>
+    <Item key="smg_gusenberg_player_slow_mo_smg_gusenberg_lo_01" value="1" />
+    <Item key="smg_gusenberg_player_slow_mo_smg_gusenberg_lo_02" value="1" />
+    <Item key="smg_gusenberg_player_slow_mo_smg_gusenberg_lo_03" value="1" />
+    <Item key="smg_gusenberg_player_slow_mo_smg_gusenberg_lo_04" value="1" />
+   </Items>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>smg_gusenberg_player_slow_mo_smg_gusenberg_lo_01</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_F63CB79F</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>smg_gusenberg_player_slow_mo_smg_gusenberg_lo_02</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_0BF5021B</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>smg_gusenberg_player_slow_mo_smg_gusenberg_lo_03</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_F2438373</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>smg_gusenberg_player_slow_mo_smg_gusenberg_lo_04</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_63AC9DBE</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="CollapsingStereoSound">
+   <Name>smg_gusenberg_player_slow_mo_fire_stereo</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash0>hash_A3CE773C</AudioHash0>
+   <AudioHash1>hash_CBA98AC4</AudioHash1>
+   <UnkFloat0 value="1" />
+   <UnkFloat1 value="3" />
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <UnkInt value="1065353216" />
+   <ParameterHash5 />
+   <UnkByte value="1" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>smg_gusenberg_player_slow_mo_offset</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>smg_gusenberg_player_slow_mo_mt</Item>
+    <Item>hash_29ACEB77</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>smg_gusenberg_player_slow_mo</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Category>hash_6805AAC2</Category>
+   </Header>
+   <AudioTracks>
+    <Item>smg_gusenberg_player_slow_mo_offset</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>smg_gusenberg_player_slow_mo_action_mt</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Category>hash_8A91FE75</Category>
+   </Header>
+   <AudioTracks>
+    <Item>hash_7AFA2D72</Item>
+    <Item>hash_690F899D</Item>
+    <Item>resident_weapons_slow_mo_weapon_anim_12_wrapper_3</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>smg_gusenberg_player_slow_mo_mt</Name>
+   <Header>
+    <Flags value="0x00000105" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="65236" />
+    <Unk08 value="70" />
+   </Header>
+   <AudioTracks>
+    <Item>smg_gusenberg_player_slow_mo_smg_gusenberg_player_mech_rdm</Item>
+    <Item>smg_gusenberg_player_slow_mo_smg_gusenberg_player_mech</Item>
+    <Item>smg_gusenberg_player_slow_mo_smg_gusenberg_player_rdm</Item>
+    <Item>smg_gusenberg_player_slow_mo_smg_gusenberg_player_shot_env</Item>
+    <Item>smg_gusenberg_player_slow_mo_smg_gusenberg_sub_rdm</Item>
+    <Item>smg_gusenberg_player_slow_mo_smg_gusenberg_player_punch_env</Item>
+    <Item>smg_gusenberg_player_slow_mo_fire_stereo</Item>
+    <Item>smg_gusenberg_player_slow_mo_action_mt</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>resident_weapons_slow_mo_weapon_anim_12_wrapper_3</Name>
+   <Header>
+    <Flags value="0x00000114" />
+    <Unk02 value="64736" />
+    <Unk04 value="64736" />
+    <Unk08 value="530" />
+   </Header>
+   <AudioHash0>hash_20673A31</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>hash_20673A31</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+ </Items>
+</Dat54>

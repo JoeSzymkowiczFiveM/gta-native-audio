@@ -1,0 +1,3856 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dat54>
+ <Version value="6353778" />
+ <NameTable>
+  <Item>RESIDENT\WEAPONS</Item>
+  <Item>WEAPONS_PLAYER\PTL_50CAL</Item>
+  <Item>WEAPONS_PLAYER\MGN_SML_AM83_verB</Item>
+  <Item>WEAPONS_PLAYER\LMG_COMBAT</Item>
+ </NameTable>
+ <Items>
+  <Item type="MultitrackSound">
+   <Name>musical_horn_business_3</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>hash_63EC09EB</Item>
+    <Item>sugar_plum_rh</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>sugar_plum_rh</Name>
+   <Header>
+    <Flags value="0x00000015" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="64936" />
+    <Unk04 value="300" />
+   </Header>
+   <AudioTracks>
+    <Item>sugar_plum_rh_2</Item>
+    <Item>sugar_plum_rh_1</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SequentialOverlapSound">
+   <Name>sugar_plum_rh_1</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0xA000AAAA" />
+    <Category>vehicles_horns_loud</Category>
+   </Header>
+   <UnkShort value="180" />
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <AudioTracks>
+    <Item>air_horn_note_g0</Item>
+    <Item>air_horn_note_e0</Item>
+    <Item>air_horn_note_g0</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_f#0</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_d#0</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_e0</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_d0</Item>
+    <Item>air_horn_note_d0</Item>
+    <Item>air_horn_note_d0</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_c#0</Item>
+    <Item>air_horn_note_c#0</Item>
+    <Item>air_horn_note_c#0</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_c0</Item>
+    <Item>air_horn_note_c0</Item>
+    <Item>air_horn_note_c0</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_b-1</Item>
+    <Item>air_horn_note_e0</Item>
+    <Item>air_horn_note_c0</Item>
+    <Item>air_horn_note_e0</Item>
+    <Item>air_horn_note_b-1</Item>
+    <Item>air_horn_note_rest</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SequentialOverlapSound">
+   <Name>sugar_plum_rh_2</Name>
+   <Header>
+    <Flags value="0x00008015" />
+    <Flags2 value="0xA000AAAA" />
+    <Unk02 value="65336" />
+    <Unk04 value="64336" />
+    <Category>vehicles_horns_loud</Category>
+   </Header>
+   <UnkShort value="180" />
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <AudioTracks>
+    <Item>air_horn_note_b0</Item>
+    <Item>air_horn_note_g0</Item>
+    <Item>air_horn_note_b0</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_a0</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_f#0</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_g0</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_f0</Item>
+    <Item>air_horn_note_f0</Item>
+    <Item>air_horn_note_f0</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_e0</Item>
+    <Item>air_horn_note_e0</Item>
+    <Item>air_horn_note_e0</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_d#0</Item>
+    <Item>air_horn_note_d#0</Item>
+    <Item>air_horn_note_d#0</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_g0</Item>
+    <Item>air_horn_note_b0</Item>
+    <Item>air_horn_note_a0</Item>
+    <Item>air_horn_note_b0</Item>
+    <Item>air_horn_note_g0</Item>
+    <Item>air_horn_note_rest</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>musical_horn_business_1</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>hash_63EC09EB</Item>
+    <Item>eine_kleine</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SequentialOverlapSound">
+   <Name>eine_kleine</Name>
+   <Header>
+    <Flags value="0x00008015" />
+    <Flags2 value="0xA000AAAA" />
+    <Unk02 value="64936" />
+    <Unk04 value="65036" />
+    <Category>vehicles_horns_loud</Category>
+   </Header>
+   <UnkShort value="160" />
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <AudioTracks>
+    <Item>air_horn_note_g0</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_d0</Item>
+    <Item>air_horn_note_g0</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_d0</Item>
+    <Item>air_horn_note_g0</Item>
+    <Item>air_horn_note_d0</Item>
+    <Item>air_horn_note_g0</Item>
+    <Item>air_horn_note_b0</Item>
+    <Item>air_horn_note_d1</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_c1</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_a0</Item>
+    <Item>air_horn_note_c1</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_a0</Item>
+    <Item>air_horn_note_c1</Item>
+    <Item>air_horn_note_a0</Item>
+    <Item>air_horn_note_f#0</Item>
+    <Item>air_horn_note_a0</Item>
+    <Item>air_horn_note_d0</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>air_horn_note_f#0_wrapper</Name>
+   <Header>
+    <Flags value="0x00000100" />
+    <Unk08 value="70" />
+   </Header>
+   <AudioHash0>air_horn_note_f#0</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>air_horn_note_f#0</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>air_horn_note_b0_wrapper</Name>
+   <Header>
+    <Flags value="0x00000100" />
+    <Unk08 value="80" />
+   </Header>
+   <AudioHash0>air_horn_note_b0</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>air_horn_note_b0</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>air_horn_note_d1_wrapper</Name>
+   <Header>
+    <Flags value="0x00000100" />
+    <Unk08 value="90" />
+   </Header>
+   <AudioHash0>air_horn_note_d1</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>air_horn_note_d1</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>air_horn_note_a0_wrapper</Name>
+   <Header>
+    <Flags value="0x00000100" />
+    <Unk08 value="90" />
+   </Header>
+   <AudioHash0>air_horn_note_a0</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>air_horn_note_a0</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="SequentialOverlapSound">
+   <Name>valkyries_horn</Name>
+   <Header>
+    <Flags value="0x00008015" />
+    <Flags2 value="0xA000AAAA" />
+    <Unk02 value="64936" />
+    <Unk04 value="64336" />
+    <Category>vehicles_horns_loud</Category>
+   </Header>
+   <UnkShort value="140" />
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <AudioTracks>
+    <Item>air_horn_note_f#0</Item>
+    <Item>air_horn_note_b0</Item>
+    <Item>air_horn_note_f#0_wrapper</Item>
+    <Item>air_horn_note_b0</Item>
+    <Item>air_horn_note_d1</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_b0</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_d1</Item>
+    <Item>air_horn_note_b0_wrapper</Item>
+    <Item>air_horn_note_d1</Item>
+    <Item>air_horn_note_f#1</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_d1</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_f#1</Item>
+    <Item>air_horn_note_d1_wrapper</Item>
+    <Item>air_horn_note_f#1</Item>
+    <Item>air_horn_note_a1</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_a0</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_d1</Item>
+    <Item>air_horn_note_a0_wrapper</Item>
+    <Item>air_horn_note_d1</Item>
+    <Item>air_horn_note_f#1</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>musical_horn_business_2</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>hash_63EC09EB</Item>
+    <Item>valkyries_horn</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SequentialOverlapSound">
+   <Name>musical_horn_4_tune</Name>
+   <Header>
+    <Flags value="0x00008015" />
+    <Flags2 value="0xA000AAAA" />
+    <Unk02 value="64936" />
+    <Unk04 value="64636" />
+    <Category>vehicles_horns_loud</Category>
+   </Header>
+   <UnkShort value="448" />
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <AudioTracks>
+    <Item>air_horn_note_e-1</Item>
+    <Item>notes_g0b-1</Item>
+    <Item>air_horn_note_g-1</Item>
+    <Item>notes_g0b-1</Item>
+    <Item>air_horn_note_e-1</Item>
+    <Item>notes_g0b-1</Item>
+    <Item>air_horn_note_g-1</Item>
+    <Item>notes_g0b-1</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SequentialOverlapSound">
+   <Name>musical_horn_business_5_tune</Name>
+   <Header>
+    <Flags value="0x00008015" />
+    <Flags2 value="0xA000AAAA" />
+    <Unk02 value="65036" />
+    <Unk04 value="300" />
+    <Category>vehicles_horns_loud</Category>
+   </Header>
+   <UnkShort value="112" />
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <AudioTracks>
+    <Item>air_horn_note_b-2</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_e-1</Item>
+    <Item>air_horn_note_g-1</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_b-1</Item>
+    <Item>air_horn_note_e0</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_b-1</Item>
+    <Item>air_horn_note_g-1</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_e-1</Item>
+    <Item>air_horn_note_b-2</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_e-1</Item>
+    <Item>air_horn_note_g-1</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_b-1</Item>
+    <Item>air_horn_note_e0</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_rest</Item>
+    <Item>air_horn_note_b-1_long</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>musical_horns_prok</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>musical_horn_business_4</Item>
+    <Item>musical_horn_business_5</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>musical_horn_business_4</Name>
+   <Header>
+    <Flags value="0x00000005" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="65236" />
+   </Header>
+   <AudioTracks>
+    <Item>hash_63EC09EB</Item>
+    <Item>musical_horn_4_tune</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>musical_horn_business_5</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>hash_63EC09EB</Item>
+    <Item>musical_horn_business_5_tune</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_c0</Name>
+   <Header>
+    <Flags value="0x30000001" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="10" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_c#0</Name>
+   <Header>
+    <Flags value="0x30000011" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="100" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="1" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_d0</Name>
+   <Header>
+    <Flags value="0x30000011" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="200" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="2" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_d#0</Name>
+   <Header>
+    <Flags value="0x30000011" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="300" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="0" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_e0</Name>
+   <Header>
+    <Flags value="0x30000011" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="400" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="2" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_f0</Name>
+   <Header>
+    <Flags value="0x30000011" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="500" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="1.3" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_f#0</Name>
+   <Header>
+    <Flags value="0x30000011" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="600" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="0" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_g0</Name>
+   <Header>
+    <Flags value="0x30000011" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="700" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="0.8" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_g#0</Name>
+   <Header>
+    <Flags value="0x30000011" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="800" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="0" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_a0</Name>
+   <Header>
+    <Flags value="0x30000011" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="900" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="0.6" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_a#0</Name>
+   <Header>
+    <Flags value="0x30000011" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="1000" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="0.3" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_b0</Name>
+   <Header>
+    <Flags value="0x30000011" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="1100" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="0.7" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_c1</Name>
+   <Header>
+    <Flags value="0x30000011" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="1200" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="0.3" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>air_horn_note_rest</Name>
+   <Header>
+    <Flags value="0x00000100" />
+    <Unk08 value="100" />
+   </Header>
+   <AudioHash0 />
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item />
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_b-1</Name>
+   <Header>
+    <Flags value="0x30000011" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="65436" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="0.6" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_a#-1</Name>
+   <Header>
+    <Flags value="0x30000011" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="65336" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="0.5" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_g#-1</Name>
+   <Header>
+    <Flags value="0x30000011" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="65136" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="1" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_g-1</Name>
+   <Header>
+    <Flags value="0x30000011" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="65036" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="3" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_d1</Name>
+   <Header>
+    <Flags value="0x30000011" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="1400" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="0.5" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_f#1</Name>
+   <Header>
+    <Flags value="0x30000011" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="1800" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="0" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_a1</Name>
+   <Header>
+    <Flags value="0x30000011" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="2100" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="0.6" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_e-1</Name>
+   <Header>
+    <Flags value="0x30000011" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="64736" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="2" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>notes_g0b-1</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>air_horn_note_g0</Item>
+    <Item>air_horn_note_b-1</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_d-1</Name>
+   <Header>
+    <Flags value="0x30000011" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="64536" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="2" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_a-1</Name>
+   <Header>
+    <Flags value="0x30000011" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="65236" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="0.6" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>notes_af</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>air_horn_note_a0</Item>
+    <Item>air_horn_note_f0</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_b-2</Name>
+   <Header>
+    <Flags value="0x30000011" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="64236" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="0.6" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>notes_df#</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>air_horn_note_f#0</Item>
+    <Item>air_horn_note_d0</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>air_horn_note_b-1_long</Name>
+   <Header>
+    <Flags value="0x30000011" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk04 value="65436" />
+    <Unk23 value="30" />
+    <Unk24 value="10" />
+   </Header>
+   <OptAmpUnkHash>hash_2FD0D893</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="0.3" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>fm</UnkHash>
+     <ParameterHash />
+     <Value value="0.6" />
+    </Item>
+    <Item>
+     <UnkHash>hash_7AE00E70</UnkHash>
+     <ParameterHash />
+     <Value value="8" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_scecial_carbine_npc_lav_01</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_F3E5EE35</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_scecial_carbine_npc_lav_02</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_404DDE7A</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_scecial_carbine_npc_lav_03</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_7E46A9A6</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_scecial_carbine_npc_lav_04</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_3D6392B7</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_scecial_carbine_npc_lav_end</Name>
+   <Header>
+    <Flags value="0x00241430" />
+    <Unk04 value="65436" />
+    <Unk05 value="200" />
+    <UnkInt1 value="80" />
+    <Unk10 value="10" />
+    <Unk16 value="500" />
+    <Unk18 value="60" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_BB436831</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_scecial_carbine_npc_lo_01</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_F63CB79F</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_scecial_carbine_npc_lo_02</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_0BF5021B</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_scecial_carbine_npc_lo_03</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_F2438373</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_scecial_carbine_npc_lo_04</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_63AC9DBE</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_scecial_carbine_npc_lo_end</Name>
+   <Header>
+    <Flags value="0x00641400" />
+    <UnkInt1 value="200" />
+    <Unk10 value="20" />
+    <Unk16 value="80" />
+    <Unk18 value="250" />
+    <Unk19 value="3" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_4C5030AE</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_scecial_carbine_npc_far_01</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_BFD85D0F</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_scecial_carbine_npc_far_02</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_CE28F9B0</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_scecial_carbine_npc_far_03</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_DBC314E4</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_scecial_carbine_npc_far_04</Name>
+   <Header>
+    <Flags value="0x00040000" />
+    <Unk16 value="200" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_ED10B77F</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_scecial_carbine_npc_mid_01</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_B5BFAFB4</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_scecial_carbine_npc_mid_02</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_33F42C1B</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_scecial_carbine_npc_mid_03</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_22298886</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_scecial_carbine_npc_mid_04</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_5066E500</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>rfl_scecial_carbine_npc_close_end_mlt</Name>
+   <Header>
+    <Flags value="0x0000030D" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="50" />
+    <Unk03 value="50" />
+    <Unk08 value="2" />
+    <Unk09 value="2" />
+   </Header>
+   <AudioTracks>
+    <Item>rfl_scecial_carbine_npc_lo_end</Item>
+    <Item>rfl_scecial_carbine_npc_lav_end</Item>
+    <Item>rfl_scecial_carbine_npc_mid_rdm</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>rfl_scecial_carbine_npc_close_lav_rdm</Name>
+   <Header>
+    <Flags value="0x00040338" />
+    <Unk03 value="100" />
+    <Unk04 value="480" />
+    <Unk05 value="40" />
+    <Unk08 value="17" />
+    <Unk09 value="2" />
+    <Unk16 value="40" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes>FF FF</UnkBytes>
+   <Items>
+    <Item key="rfl_scecial_carbine_npc_lav_01" value="1" />
+    <Item key="rfl_scecial_carbine_npc_lav_02" value="1" />
+    <Item key="rfl_scecial_carbine_npc_lav_03" value="1" />
+    <Item key="rfl_scecial_carbine_npc_lav_04" value="1" />
+   </Items>
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>rfl_scecial_carbine_npc_close_lo_rdm</Name>
+   <Header>
+    <Flags value="0x00000038" />
+    <Unk03 value="100" />
+    <Unk04 value="450" />
+    <Unk05 value="40" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes>FF FF</UnkBytes>
+   <Items>
+    <Item key="rfl_scecial_carbine_npc_lo_01" value="1" />
+    <Item key="rfl_scecial_carbine_npc_lo_02" value="1" />
+    <Item key="rfl_scecial_carbine_npc_lo_03" value="1" />
+    <Item key="rfl_scecial_carbine_npc_lo_04" value="1" />
+   </Items>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>rfl_scecial_carbine_npc_close_mlt</Name>
+   <Header>
+    <Flags value="0x00000009" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk03 value="50" />
+   </Header>
+   <AudioTracks>
+    <Item>rfl_scecial_carbine_npc_close_mlt_prt_a</Item>
+    <Item>rfl_scecial_carbine_npc_mid_rdm</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>rfl_scecial_carbine_npc_close_mlt_prt_a</Name>
+   <Header>
+    <Flags value="0x00600005" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="65136" />
+    <Unk18 value="400" />
+    <Unk19 value="4" />
+   </Header>
+   <AudioTracks>
+    <Item>rfl_scecial_carbine_npc_close_lo_rdm</Item>
+    <Item>rfl_scecial_carbine_npc_close_lav_rdm</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>rfl_scecial_carbine_npc_end</Name>
+   <Header>
+    <Flags value="0x00000025" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="64036" />
+    <Unk05 value="100" />
+   </Header>
+   <UnkShort0 value="50" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="50" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="650" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>rfl_scecial_carbine_npc_close_end_mlt</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>rfl_scecial_carbine_npc_mid_rdm</Name>
+   <Header>
+    <Flags value="0x0060003C" />
+    <Unk02 value="65136" />
+    <Unk03 value="150" />
+    <Unk04 value="400" />
+    <Unk05 value="40" />
+    <Unk18 value="4000" />
+    <Unk19 value="6" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes>FF FF</UnkBytes>
+   <Items>
+    <Item key="rfl_scecial_carbine_npc_mid_01" value="1" />
+    <Item key="rfl_scecial_carbine_npc_mid_02" value="1" />
+    <Item key="rfl_scecial_carbine_npc_mid_03" value="1" />
+    <Item key="rfl_scecial_carbine_npc_mid_04" value="1" />
+   </Items>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>rfl_scecial_carbine__null_sound</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash0 />
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item />
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="CrossfadeSound">
+   <Name>rfl_scecial_carbine_npc_crossfade</Name>
+   <Header>
+    <Flags value="0x00000300" />
+    <Unk08 value="2" />
+    <Unk09 value="2" />
+   </Header>
+   <AudioHash0>rfl_scecial_carbine_npc_close_mlt</AudioHash0>
+   <AudioHash1>rfl_scecial_carbine_npc_far_env</AudioHash1>
+   <UnkByte value="0" />
+   <UnkFloat0 value="20" />
+   <UnkFloat1 value="100" />
+   <UnkInt value="0" />
+   <UnkCurvesHash>hash_FF42C289</UnkCurvesHash>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+  </Item>
+  <Item type="CrossfadeSound">
+   <Name>rfl_scecial_carbine_npc_end_crossfade</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash0>rfl_scecial_carbine_npc_end</AudioHash0>
+   <AudioHash1>rfl_scecial_carbine__null_sound</AudioHash1>
+   <UnkByte value="0" />
+   <UnkFloat0 value="50" />
+   <UnkFloat1 value="90" />
+   <UnkInt value="0" />
+   <UnkCurvesHash>hash_FF42C289</UnkCurvesHash>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>rfl_scecial_carbine_npc_far_env</Name>
+   <Header>
+    <Flags value="0x0064802D" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="65236" />
+    <Unk03 value="150" />
+    <Unk05 value="200" />
+    <Category>hash_BF162C33</Category>
+    <Unk16 value="200" />
+    <Unk18 value="1800" />
+    <Unk19 value="30" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="107" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="30" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>rfl_scecial_carbine_npc_far_rdm</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>rfl_scecial_carbine_npc_far_rdm</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes>FF</UnkBytes>
+   <Items>
+    <Item key="rfl_scecial_carbine_npc_far_01" value="1" />
+    <Item key="rfl_scecial_carbine_npc_far_02" value="1" />
+    <Item key="rfl_scecial_carbine_npc_far_03" value="1" />
+    <Item key="rfl_scecial_carbine_npc_far_04" value="1" />
+   </Items>
+  </Item>
+  <Item type="RetriggeredOverlappedSound">
+   <Name>rfl_scecial_carbine_npc_master</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0xAAA6AAAA" />
+    <Category>hash_85B8BFD4</Category>
+   </Header>
+   <UnkShort0 value="65535" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="86" />
+   <UnkShort3 value="0" />
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <AudioHash0>rfl_scecial_carbine_npc_crossfade</AudioHash0>
+   <AudioHash1>rfl_scecial_carbine_npc_crossfade</AudioHash1>
+   <AudioHash2>rfl_scecial_carbine_npc_end_crossfade</AudioHash2>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>ptl_heavy_player_master</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0xAAA09AA2" />
+    <Category>hash_80722AAA</Category>
+   </Header>
+   <AudioTracks>
+    <Item>ptl_heavy_add_shot</Item>
+    <Item>ptl_heavy_player_mech_env</Item>
+    <Item>ptl_heavy_player_stereo</Item>
+    <Item>ptl_heavy_player_sub</Item>
+    <Item>ptl_heavy_sweetner_player_wide_env</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>ptl_heavy_player_mech_env</Name>
+   <Header>
+    <Flags value="0x00008735" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="64836" />
+    <Unk04 value="65436" />
+    <Unk05 value="75" />
+    <Unk08 value="150" />
+    <Unk09 value="10" />
+    <UnkInt1 value="30" />
+    <Category>hash_EB0865AB</Category>
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="140" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="80" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_283B9215</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>ptl_heavy_player_mech</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_heavy_player_mech</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>hash_EB0865AB</Category>
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_A0CFC264</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>ptl_heavy_player_stereo</Name>
+   <Header>
+    <Flags value="0x00008135" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="64736" />
+    <Unk04 value="65136" />
+    <Unk05 value="100" />
+    <Unk08 value="5" />
+    <Category>hash_80722AAA</Category>
+   </Header>
+   <AudioTracks>
+    <Item>ptl_heavy_player_hi_l</Item>
+    <Item>ptl_heavy_player_hi_r</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_heavy_player_hi_l</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="315" />
+   </Header>
+   <ContainerName>weapons_player/ptl_50cal</ContainerName>
+   <FileName>hash_EAE503E5</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_heavy_player_hi_r</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="45" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_5F246C4E</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_heavy_player_sub</Name>
+   <Header>
+    <Flags value="0x00000135" />
+    <Flags2 value="0xAAAA9AAA" />
+    <Unk02 value="200" />
+    <Unk04 value="65236" />
+    <Unk05 value="100" />
+    <Unk08 value="25" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_CC40FD6F</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_heavy_add_shot</Name>
+   <Header>
+    <Flags value="0x00000010" />
+    <Unk04 value="1200" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_EF4DFCD5</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>ptl_heavy_sweetner_player_wide_env</Name>
+   <Header>
+    <Flags value="0x00050115" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="65036" />
+    <Unk04 value="100" />
+    <Unk08 value="120" />
+    <Unk14 value="8000" />
+    <Unk16 value="100" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="80" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="150" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="40" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_064D6000</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>rfl_bullpup_suppressed2_player_wide_rdm</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>ptl_heavy_player_slow_mo</Name>
+   <Header>
+    <Flags value="0x00008011" />
+    <Flags2 value="0xAAA09AA2" />
+    <Unk04 value="65136" />
+    <Category>hash_6805AAC2</Category>
+   </Header>
+   <AudioTracks>
+    <Item>ptl_heavy_player_slow_mo_ptl_heavy_add_shot</Item>
+    <Item>ptl_heavy_player_slow_mo_ptl_heavy_player_stereo</Item>
+    <Item>ptl_heavy_player_slow_mo_ptl_heavy_player_sub</Item>
+    <Item>ptl_heavy_player_slow_mo_ptl_heavy_sweetner_player_wide_env</Item>
+    <Item>ptl_heavy_player_slow_mo_fire_stereo</Item>
+    <Item>ptl_heavy_player_slow_mo_action_mt</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_heavy_player_slow_mo_ptl_heavy_add_shot</Name>
+   <Header>
+    <Flags value="0x00000010" />
+    <Unk04 value="1200" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_EF4DFCD5</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>ptl_heavy_player_slow_mo_ptl_heavy_player_mech_env</Name>
+   <Header>
+    <Flags value="0x00008735" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="64836" />
+    <Unk04 value="65436" />
+    <Unk05 value="75" />
+    <Unk08 value="150" />
+    <Unk09 value="10" />
+    <UnkInt1 value="30" />
+    <Category>hash_80722AAA</Category>
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="140" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="80" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_283B9215</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>ptl_heavy_player_slow_mo_ptl_heavy_player_mech</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_heavy_player_slow_mo_ptl_heavy_player_mech</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>hash_EB0865AB</Category>
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_A0CFC264</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>ptl_heavy_player_slow_mo_ptl_heavy_player_stereo</Name>
+   <Header>
+    <Flags value="0x00008135" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="64736" />
+    <Unk04 value="65136" />
+    <Unk05 value="100" />
+    <Unk08 value="5" />
+    <Category>hash_80722AAA</Category>
+   </Header>
+   <AudioTracks>
+    <Item>ptl_heavy_player_slow_mo_ptl_heavy_player_hi_l</Item>
+    <Item>ptl_heavy_player_slow_mo_ptl_heavy_player_hi_r</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_heavy_player_slow_mo_ptl_heavy_player_hi_l</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="315" />
+   </Header>
+   <ContainerName>weapons_player/ptl_50cal</ContainerName>
+   <FileName>hash_EAE503E5</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_heavy_player_slow_mo_ptl_heavy_player_hi_r</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="45" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_5F246C4E</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_heavy_player_slow_mo_ptl_heavy_player_sub</Name>
+   <Header>
+    <Flags value="0x00000135" />
+    <Flags2 value="0xAAAA9AAA" />
+    <Unk02 value="200" />
+    <Unk04 value="65236" />
+    <Unk05 value="100" />
+    <Unk08 value="25" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_CC40FD6F</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>ptl_heavy_player_slow_mo_ptl_heavy_sweetner_player_wide_env</Name>
+   <Header>
+    <Flags value="0x00050115" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="65036" />
+    <Unk04 value="100" />
+    <Unk08 value="120" />
+    <Unk14 value="8000" />
+    <Unk16 value="100" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="80" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="150" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="40" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_064D6000</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>ptl_heavy_player_slow_mo_rfl_bullpup_suppressed2_player_wide_rdm</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>ptl_heavy_player_slow_mo_rfl_bullpup_suppressed2_player_wide_rdm</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes>FF FF</UnkBytes>
+   <Items>
+    <Item key="ptl_heavy_player_slow_mo_rfl_bullpup_suppressed2_player_01_stereo" value="1" />
+    <Item key="ptl_heavy_player_slow_mo_rfl_bullpup_suppressed2_player_02_stereo" value="1" />
+    <Item key="ptl_heavy_player_slow_mo_rfl_bullpup_suppressed2_player_03_stereo" value="1" />
+    <Item key="ptl_heavy_player_slow_mo_rfl_bullpup_suppressed2_player_04_stereo" value="1" />
+   </Items>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>ptl_heavy_player_slow_mo_rfl_bullpup_suppressed2_player_01_stereo</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>ptl_heavy_player_slow_mo_rfl_bullpup_suppressed2_player_wide_1.l</Item>
+    <Item>ptl_heavy_player_slow_mo_rfl_bullpup_suppressed2_player_wide_1.r</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_heavy_player_slow_mo_rfl_bullpup_suppressed2_player_wide_1.l</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="345" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_54F25116</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_heavy_player_slow_mo_rfl_bullpup_suppressed2_player_wide_1.r</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="15" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_0A70BB1E</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>ptl_heavy_player_slow_mo_rfl_bullpup_suppressed2_player_02_stereo</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>ptl_heavy_player_slow_mo_rfl_bullpup_suppressed2_player_wide_2.l</Item>
+    <Item>ptl_heavy_player_slow_mo_rfl_bullpup_suppressed2_player_wide_2.r</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_heavy_player_slow_mo_rfl_bullpup_suppressed2_player_wide_2.l</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="345" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_7BD78915</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_heavy_player_slow_mo_rfl_bullpup_suppressed2_player_wide_2.r</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="15" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_DFB6D3BE</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>ptl_heavy_player_slow_mo_rfl_bullpup_suppressed2_player_03_stereo</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>ptl_heavy_player_slow_mo_rfl_bullpup_suppressed2_player_wide_3.l</Item>
+    <Item>ptl_heavy_player_slow_mo_rfl_bullpup_suppressed2_player_wide_3.r</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_heavy_player_slow_mo_rfl_bullpup_suppressed2_player_wide_3.l</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="345" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_DFB6D3BE</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_heavy_player_slow_mo_rfl_bullpup_suppressed2_player_wide_3.r</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="15" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_7BD78915</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>ptl_heavy_player_slow_mo_rfl_bullpup_suppressed2_player_04_stereo</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>ptl_heavy_player_slow_mo_rfl_bullpup_suppressed2_player_wide_4.l</Item>
+    <Item>ptl_heavy_player_slow_mo_rfl_bullpup_suppressed2_player_wide_4.r</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_heavy_player_slow_mo_rfl_bullpup_suppressed2_player_wide_4.l</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="345" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_0A70BB1E</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>ptl_heavy_player_slow_mo_rfl_bullpup_suppressed2_player_wide_4.r</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="15" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_54F25116</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="CollapsingStereoSound">
+   <Name>ptl_heavy_player_slow_mo_fire_stereo</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash0>hash_1D5E4C80</AudioHash0>
+   <AudioHash1>hash_D2494E64</AudioHash1>
+   <UnkFloat0 value="1" />
+   <UnkFloat1 value="3" />
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <UnkInt value="1065353216" />
+   <ParameterHash5 />
+   <UnkByte value="1" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>ptl_heavy_player_slow_mo_action_mt</Name>
+   <Header>
+    <Flags value="0x00008005" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="64736" />
+    <Category>hash_8A91FE75</Category>
+   </Header>
+   <AudioTracks>
+    <Item>hash_3EEF774D</Item>
+    <Item>hash_9C5D30BF</Item>
+    <Item>resident_weapons_slow_mo_weapon_anim_13_wrapper_2</Item>
+    <Item>ptl_heavy_player_slow_mo_ptl_heavy_player_mech_env</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>resident_weapons_slow_mo_weapon_anim_13_wrapper_2</Name>
+   <Header>
+    <Flags value="0x00000100" />
+    <Unk08 value="1000" />
+   </Header>
+   <AudioHash0>hash_26994695</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>hash_26994695</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="RetriggeredOverlappedSound">
+   <Name>rfl_bullpup_player_master</Name>
+   <Header>
+    <Flags value="0x00008005" />
+    <Flags2 value="0xAAA6AAA2" />
+    <Unk02 value="65036" />
+    <Category>hash_80722AAA</Category>
+   </Header>
+   <UnkShort0 value="65535" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="86" />
+   <UnkShort3 value="0" />
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <AudioHash0>rfl_bullpup_big_player_mlt</AudioHash0>
+   <AudioHash1>rfl_bullpup_big_player_mlt</AudioHash1>
+   <AudioHash2>rfl_bullpup_big_player_end_mlt</AudioHash2>
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>rfl_bullpup_player_mech_rdm</Name>
+   <Header>
+    <Flags value="0x00000115" />
+    <Flags2 value="0xAAA9AAAA" />
+    <Unk02 value="64736" />
+    <Unk04 value="65186" />
+    <Unk08 value="20" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes />
+   <Items>
+    <Item key="rfl_bullpup_suppressed2_player_mech_02" value="1" />
+    <Item key="rfl_bullpup_suppressed2_player_mech_01" value="1" />
+   </Items>
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>rfl_bullpup_player_sub_rdm</Name>
+   <Header>
+    <Flags value="0x00000104" />
+    <Unk02 value="65036" />
+    <Unk08 value="45" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes>FF</UnkBytes>
+   <Items>
+    <Item key="rfl_bullpup_sub_sweetner_1" value="1" />
+    <Item key="rfl_bullpup_sub_sweetner_2" value="1" />
+    <Item key="rfl_bullpup_sub_sweetner_3" value="1" />
+   </Items>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>rfl_bullpup_sweetner_player_wide_env</Name>
+   <Header>
+    <Flags value="0x00050115" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="65236" />
+    <Unk04 value="800" />
+    <Unk08 value="80" />
+    <Unk14 value="8000" />
+    <Unk16 value="3000" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="80" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="86" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="40" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_064D6000</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>rfl_bullpup_suppressed2_player_wide_rdm</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>rfl_bullpup_player_hi_rdm</Name>
+   <Header>
+    <Flags value="0x00000104" />
+    <Unk02 value="64736" />
+    <Unk08 value="15" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes>FF FF</UnkBytes>
+   <Items>
+    <Item key="rfl_bullpup_player_lav_01_stereo" value="1" />
+    <Item key="rfl_bullpup_player_lav_02_stereo" value="1" />
+    <Item key="rfl_bullpup_player_lav_03_stereo" value="1" />
+    <Item key="rfl_bullpup_player_lav_04_stereo" value="1" />
+   </Items>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_bullpup_suppressed2_player_mech_01</Name>
+   <Header>
+    <Flags value="0x00000104" />
+    <Unk02 value="64336" />
+    <Unk08 value="31" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_ACCDD55C</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_bullpup_suppressed2_player_mech_02</Name>
+   <Header>
+    <Flags value="0x00040D10" />
+    <Unk04 value="600" />
+    <Unk08 value="11" />
+    <UnkInt1 value="55" />
+    <UnkInt2 value="10" />
+    <Unk16 value="2000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_A0CFC264</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_bullpup_player_lav_00_first.l</Name>
+   <Header>
+    <Flags value="0x00000044" />
+    <Unk02 value="65136" />
+    <Unk06 value="315" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_F9BBCDB5</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_bullpup_player_lav_00_first.r</Name>
+   <Header>
+    <Flags value="0x00000044" />
+    <Unk02 value="65136" />
+    <Unk06 value="45" />
+   </Header>
+   <ContainerName>weapons_player/mgn_sml_am83_verb</ContainerName>
+   <FileName>hash_04EE63EA</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_bullpup_player_lav_03.l</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="315" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_7E46A9A6</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_bullpup_player_lav_03.r</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="45" />
+   </Header>
+   <ContainerName>weapons_player/mgn_sml_am83_verb</ContainerName>
+   <FileName>hash_99F060F9</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>rfl_bullpup_player_lav_01_stereo</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>rfl_bullpup_player_lav_01.l</Item>
+    <Item>rfl_bullpup_player_lav_01.r</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>rfl_bullpup_player_lav_02_stereo</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>rfl_bullpup_player_lav_02.l</Item>
+    <Item>rfl_bullpup_player_lav_02.r</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>rfl_bullpup_player_lav_03_stereo</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>rfl_bullpup_player_lav_03.l</Item>
+    <Item>rfl_bullpup_player_lav_03.r</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>rfl_bullpup_player_lav_04_stereo</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>rfl_bullpup_player_lav_04.l</Item>
+    <Item>rfl_bullpup_player_lav_04.r</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_bullpup_player_lav_01.l</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="315" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_F3E5EE35</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_bullpup_player_lav_01.r</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="45" />
+   </Header>
+   <ContainerName>weapons_player/mgn_sml_am83_verb</ContainerName>
+   <FileName>hash_43458CF3</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_bullpup_player_lav_02.l</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="315" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_404DDE7A</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_bullpup_player_lav_02.r</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="45" />
+   </Header>
+   <ContainerName>weapons_player/mgn_sml_am83_verb</ContainerName>
+   <FileName>hash_1DBC9958</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_bullpup_player_lav_04.l</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="315" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_3D6392B7</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_bullpup_player_lav_04.r</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="45" />
+   </Header>
+   <ContainerName>weapons_player/mgn_sml_am83_verb</ContainerName>
+   <FileName>hash_F3AF7F4C</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_bullpup_sub_sweetner_1</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_5EB28460</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_bullpup_sub_sweetner_3</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_CA07DB09</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_bullpup_sub_sweetner_2</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_DC567FA6</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>rfl_bullpup_suppressed2_player_wide_rdm</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes>FF FF</UnkBytes>
+   <Items>
+    <Item key="rfl_bullpup_suppressed2_player_01_stereo" value="1" />
+    <Item key="rfl_bullpup_suppressed2_player_02_stereo" value="1" />
+    <Item key="rfl_bullpup_suppressed2_player_03_stereo" value="1" />
+    <Item key="rfl_bullpup_suppressed2_player_04_stereo" value="1" />
+   </Items>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>rfl_bullpup_suppressed2_player_01_stereo</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>rfl_bullpup_suppressed2_player_wide_1.l</Item>
+    <Item>rfl_bullpup_suppressed2_player_wide_1.r</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>rfl_bullpup_suppressed2_player_02_stereo</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>rfl_bullpup_suppressed2_player_wide_2.l</Item>
+    <Item>rfl_bullpup_suppressed2_player_wide_2.r</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>rfl_bullpup_suppressed2_player_03_stereo</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>rfl_bullpup_suppressed2_player_wide_3.l</Item>
+    <Item>rfl_bullpup_suppressed2_player_wide_3.r</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>rfl_bullpup_suppressed2_player_04_stereo</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>rfl_bullpup_suppressed2_player_wide_4.l</Item>
+    <Item>rfl_bullpup_suppressed2_player_wide_4.r</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_bullpup_suppressed2_player_wide_1.l</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="345" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_54F25116</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_bullpup_suppressed2_player_wide_1.r</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="15" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_0A70BB1E</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_bullpup_suppressed2_player_wide_2.l</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="345" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_7BD78915</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_bullpup_suppressed2_player_wide_2.r</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="15" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_DFB6D3BE</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_bullpup_suppressed2_player_wide_3.l</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="345" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_DFB6D3BE</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_bullpup_suppressed2_player_wide_3.r</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="15" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_7BD78915</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_bullpup_suppressed2_player_wide_4.l</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="345" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_0A70BB1E</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_bullpup_suppressed2_player_wide_4.r</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="15" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_54F25116</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_bullpup_special_rprt_end_a</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_D6A82257</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_bullpup_special_rprt_end_b_1</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_CFE06640</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_bullpup_special_rprt_end_b_2</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_BDD9C233</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_bullpup_special_rprt_end_b_3</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_F174675E</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>rfl_bullpup_special_rprt_end_a_env</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA1AAAA" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="750" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="250" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_283B9215</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>rfl_bullpup_special_rprt_end_a</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>rfl_bullpup_special_rprt_end_b_env</Name>
+   <Header>
+    <Flags value="0x00000505" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="64536" />
+    <Unk08 value="500" />
+    <UnkInt1 value="400" />
+   </Header>
+   <UnkShort0 value="450" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="800" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="100" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_3C432640</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>rfl_bullpup_special_rprt_end_b_rdm</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>rfl_bullpup_special_rprt_end_b_rdm</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA9AAAA" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes />
+   <Items>
+    <Item key="rfl_bullpup_special_rprt_end_b_1" value="1" />
+    <Item key="rfl_bullpup_special_rprt_end_b_2" value="1" />
+    <Item key="rfl_bullpup_special_rprt_end_b_3" value="1" />
+   </Items>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>rfl_bullpup_special_rprt_master</Name>
+   <Header>
+    <Flags value="0x00009D35" />
+    <Flags2 value="0xAAA0AAA2" />
+    <Unk02 value="65336" />
+    <Unk04 value="200" />
+    <Unk05 value="100" />
+    <Unk08 value="50" />
+    <UnkInt1 value="100" />
+    <UnkInt2 value="60" />
+    <Unk10 value="60" />
+    <Category>hash_9C6A4771</Category>
+   </Header>
+   <AudioTracks>
+    <Item>rfl_bullpup_special_rprt_end_a_env</Item>
+    <Item>rfl_bullpup_special_rprt_end_b_env</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_bullpup_big_player_01.r</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="45" />
+   </Header>
+   <ContainerName>weapons_player/mgn_sml_am83_verb</ContainerName>
+   <FileName>hash_DD2CE7E9</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_bullpup_big_player_01.l</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="315" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_3E0651DE</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_bullpup_big_player_02.r</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="45" />
+   </Header>
+   <ContainerName>weapons_player/mgn_sml_am83_verb</ContainerName>
+   <FileName>hash_109D5009</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_bullpup_big_player_02.l</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="315" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_B8595065</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>rfl_bullpup_player_big_env</Name>
+   <Header>
+    <Flags value="0x00000015" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="64736" />
+    <Unk04 value="1700" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="120" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="40" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_283B9215</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>rfl_bullpup_player_big_rdm</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>rfl_bullpup_player_big_rdm</Name>
+   <Header>
+    <Flags value="0x00000300" />
+    <Unk08 value="18" />
+    <Unk09 value="2" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes>FF</UnkBytes>
+   <Items>
+    <Item key="rfl_bullpup_big_01_stereo" value="1" />
+    <Item key="rfl_bullpup_big_02_stereo" value="1" />
+   </Items>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>rfl_bullpup_big_01_stereo</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>rfl_bullpup_big_player_01.l</Item>
+    <Item>rfl_bullpup_big_player_01.r</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>rfl_bullpup_big_02_stereo</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>rfl_bullpup_big_player_02.l</Item>
+    <Item>rfl_bullpup_big_player_02.r</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>rfl_bullpup_big_player_mlt</Name>
+   <Header>
+    <Flags value="0x00000339" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk03 value="150" />
+    <Unk04 value="65496" />
+    <Unk05 value="40" />
+    <Unk08 value="2" />
+    <Unk09 value="2" />
+   </Header>
+   <AudioTracks>
+    <Item>rfl_bullpup_player_hi_rdm</Item>
+    <Item>rfl_bullpup_player_big_env</Item>
+    <Item>rfl_bullpup_sweetner_player_wide_env</Item>
+    <Item>rfl_bullpup_player_mech_rdm</Item>
+    <Item>rfl_bullpup_player_sub_rdm</Item>
+    <Item>rfl_bullpup_punch_player_rdm</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>rfl_bullpup_big_player_end_mlt</Name>
+   <Header>
+    <Flags value="0x00001035" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="64836" />
+    <Unk04 value="65496" />
+    <Unk05 value="40" />
+    <Unk10 value="50" />
+   </Header>
+   <AudioTracks>
+    <Item>rfl_bullpup_player_lav_03.l</Item>
+    <Item>rfl_bullpup_player_lav_03.r</Item>
+    <Item>rfl_bullpup_big_player_end.l</Item>
+    <Item>rfl_bullpup_big_player_end.r</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_bullpup_big_player_end.r</Name>
+   <Header>
+    <Flags value="0x00000450" />
+    <Unk04 value="1700" />
+    <Unk06 value="45" />
+    <UnkInt1 value="86" />
+   </Header>
+   <ContainerName>weapons_player/mgn_sml_am83_verb</ContainerName>
+   <FileName>hash_DD2CE7E9</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_bullpup_big_player_end.l</Name>
+   <Header>
+    <Flags value="0x00000450" />
+    <Unk04 value="1700" />
+    <Unk06 value="315" />
+    <UnkInt1 value="86" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_3E0651DE</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_bullpup_punch_player_01</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_632A2918</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_bullpup_punch_player_02</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_B18D9A15</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_bullpup_punch_player_03</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_18AA5840</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_bullpup_punch_player_04</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_8F2BDC22</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>rfl_bullpup_punch_player_rdm</Name>
+   <Header>
+    <Flags value="0x00000301" />
+    <Flags2 value="0xAAAA9AAA" />
+    <Unk08 value="35" />
+    <Unk09 value="2" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes>FF FF</UnkBytes>
+   <Items>
+    <Item key="rfl_bullpup_punch_player_04" value="1" />
+    <Item key="rfl_bullpup_punch_player_03" value="1" />
+    <Item key="rfl_bullpup_punch_player_02" value="1" />
+    <Item key="rfl_bullpup_punch_player_01" value="1" />
+   </Items>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_carbine_special_00_first.l</Name>
+   <Header>
+    <Flags value="0x0000005C" />
+    <Unk02 value="65036" />
+    <Unk03 value="100" />
+    <Unk04 value="700" />
+    <Unk06 value="315" />
+   </Header>
+   <ContainerName>weapons_player/lmg_combat</ContainerName>
+   <FileName>hash_C264EEFC</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_carbine_special_00_first.r</Name>
+   <Header>
+    <Flags value="0x0000005C" />
+    <Unk02 value="65036" />
+    <Unk03 value="100" />
+    <Unk04 value="700" />
+    <Unk06 value="45" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_0BF5021B</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_carbine_special_01.l</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="315" />
+   </Header>
+   <ContainerName>weapons_player/lmg_combat</ContainerName>
+   <FileName>hash_5AC580B3</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_carbine_special_01.r</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="45" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_F63CB79F</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_carbine_special_02.l</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="315" />
+   </Header>
+   <ContainerName>weapons_player/lmg_combat</ContainerName>
+   <FileName>hash_C264EEFC</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_carbine_special_02.r</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="45" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_0BF5021B</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_carbine_special_03.l</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="315" />
+   </Header>
+   <ContainerName>weapons_player/lmg_combat</ContainerName>
+   <FileName>hash_14EEC8C9</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_carbine_special_03.r</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="45" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_F2438373</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_carbine_special_04.l</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="315" />
+   </Header>
+   <ContainerName>weapons_player/lmg_combat</ContainerName>
+   <FileName>hash_1214FA44</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_carbine_special_04.r</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="45" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_63AC9DBE</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_carbine_special_lav_00_first</Name>
+   <Header>
+    <Flags value="0x00000338" />
+    <Unk03 value="100" />
+    <Unk04 value="700" />
+    <Unk05 value="40" />
+    <Unk08 value="17" />
+    <Unk09 value="2" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_BB436831</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_carbine_special_lav_01</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_BB436831</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_carbine_special_lav_02</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_C91383D5</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_carbine_special_lav_03</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_A261366D</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_carbine_special_lav_04</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_ACA04AEB</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_carbine_special_lav_rprt</Name>
+   <Header>
+    <Flags value="0x00041430" />
+    <Unk04 value="65436" />
+    <Unk05 value="200" />
+    <UnkInt1 value="80" />
+    <Unk10 value="10" />
+    <Unk16 value="500" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_BB436831</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_carbine_special_rprt.l</Name>
+   <Header>
+    <Flags value="0x00001454" />
+    <Unk02 value="65236" />
+    <Unk04 value="100" />
+    <Unk06 value="315" />
+    <UnkInt1 value="200" />
+    <Unk10 value="20" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_4C5030AE</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_carbine_special_rprt.r</Name>
+   <Header>
+    <Flags value="0x00001444" />
+    <Unk02 value="65236" />
+    <Unk06 value="45" />
+    <UnkInt1 value="200" />
+    <Unk10 value="20" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_4C5030AE</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>rfl_carbine_special_00_first_stereo</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>rfl_carbine_special_lav_00_first</Item>
+    <Item>rfl_carbine_special_00_first.l</Item>
+    <Item>rfl_carbine_special_00_first.r</Item>
+    <Item>rfl_carbine_special_sub_rdm</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>rfl_carbine_special_01_stereo</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>rfl_carbine_special_01.l</Item>
+    <Item>rfl_carbine_special_01.r</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>rfl_carbine_special_02_stereo</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>rfl_carbine_special_02.l</Item>
+    <Item>rfl_carbine_special_02.r</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>rfl_carbine_special_03_stereo</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>rfl_carbine_special_03.l</Item>
+    <Item>rfl_carbine_special_03.r</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>rfl_carbine_special_04_stereo</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>rfl_carbine_special_04.l</Item>
+    <Item>rfl_carbine_special_04.r</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>rfl_carbine_special_end</Name>
+   <Header>
+    <Flags value="0x00000025" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="65036" />
+    <Unk05 value="100" />
+   </Header>
+   <UnkShort0 value="50" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="300" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="1200" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>rfl_carbine_special_end_mlt</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>rfl_carbine_special_end_mlt</Name>
+   <Header>
+    <Flags value="0x00000011" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk04 value="700" />
+   </Header>
+   <AudioTracks>
+    <Item>rfl_carbine_special_lav_rprt</Item>
+    <Item>rfl_carbine_special_rprt.l</Item>
+    <Item>rfl_carbine_special_rprt.r</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>rfl_carbine_special_lav_rdm</Name>
+   <Header>
+    <Flags value="0x00008338" />
+    <Unk03 value="100" />
+    <Unk04 value="700" />
+    <Unk05 value="40" />
+    <Unk08 value="17" />
+    <Unk09 value="2" />
+    <Category>hash_80722AAA</Category>
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes>FF FF</UnkBytes>
+   <Items>
+    <Item key="rfl_carbine_special_lav_01" value="1" />
+    <Item key="rfl_carbine_special_lav_02" value="1" />
+    <Item key="rfl_carbine_special_lav_03" value="1" />
+    <Item key="rfl_carbine_special_lav_04" value="1" />
+   </Items>
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>rfl_carbine_special_lo_rdm</Name>
+   <Header>
+    <Flags value="0x0000803C" />
+    <Unk02 value="64836" />
+    <Unk03 value="100" />
+    <Unk04 value="700" />
+    <Unk05 value="40" />
+    <Category>hash_80722AAA</Category>
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes>FF FF</UnkBytes>
+   <Items>
+    <Item key="rfl_carbine_special_01_stereo" value="1" />
+    <Item key="rfl_carbine_special_02_stereo" value="1" />
+    <Item key="rfl_carbine_special_03_stereo" value="1" />
+    <Item key="rfl_carbine_special_04_stereo" value="1" />
+   </Items>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>rfl_carbine_special_mlt_fnl</Name>
+   <Header>
+    <Flags value="0x0000830D" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="50" />
+    <Unk03 value="50" />
+    <Unk08 value="2" />
+    <Unk09 value="2" />
+    <Category>hash_80722AAA</Category>
+   </Header>
+   <AudioTracks>
+    <Item>rfl_carbine_special_lav_rdm</Item>
+    <Item>rfl_carbine_special_lo_rdm</Item>
+    <Item>rfl_carbine_special_sub_rdm</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>rfl_carbine_special_sub_rdm</Name>
+   <Header>
+    <Flags value="0x00000110" />
+    <Unk04 value="300" />
+    <Unk08 value="17" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes>FF</UnkBytes>
+   <Items>
+    <Item key="rfl_carbine_special_sub_sweetner_1" value="1" />
+    <Item key="rfl_carbine_special_sub_sweetner_2" value="1" />
+    <Item key="rfl_carbine_special_sub_sweetner_3" value="1" />
+   </Items>
+  </Item>
+  <Item type="RetriggeredOverlappedSound">
+   <Name>rfl_carbine_special_master</Name>
+   <Header>
+    <Flags value="0x00008005" />
+    <Flags2 value="0xAAA6AAA2" />
+    <Unk02 value="65436" />
+    <Category>hash_80722AAA</Category>
+   </Header>
+   <UnkShort0 value="65535" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="86" />
+   <UnkShort3 value="0" />
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <AudioHash0>rfl_carbine_special_00_first_stereo</AudioHash0>
+   <AudioHash1>rfl_carbine_special_mlt_fnl</AudioHash1>
+   <AudioHash2>rfl_carbine_special_end</AudioHash2>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_carbine_special_sub_sweetner_1</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_599A01ED</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_carbine_special_sub_sweetner_2</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_6DC72A47</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_carbine_special_sub_sweetner_3</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_EB2C24DF</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_carbine_special_rprt_end_a</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_D6A82257</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_carbine_special_rprt_end_b_1</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_CFE06640</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_carbine_special_rprt_end_b_2</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_BDD9C233</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_carbine_special_rprt_end_b_3</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_F174675E</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>rfl_carbine_special_rprt_end_a_env</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA1AAAA" />
+   </Header>
+   <UnkShort0 value="0" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="750" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="250" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_0D0E6F19</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_283B9215</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>rfl_carbine_special_rprt_end_a</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>rfl_carbine_special_rprt_end_b_env</Name>
+   <Header>
+    <Flags value="0x00000505" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Unk02 value="64536" />
+    <Unk08 value="500" />
+    <UnkInt1 value="400" />
+   </Header>
+   <UnkShort0 value="450" />
+   <UnkShort1 value="0" />
+   <UnkShort2 value="0" />
+   <UnkShort3 value="0" />
+   <UnkByte0 value="100" />
+   <UnkByte1 value="0" />
+   <UnkInt0 value="800" />
+   <UnkShort4 value="0" />
+   <UnkInt1 value="100" />
+   <UnkInt2 value="0" />
+   <CurvesUnkHash0>hash_3C432640</CurvesUnkHash0>
+   <CurvesUnkHash1>hash_94AE4ADD</CurvesUnkHash1>
+   <CurvesUnkHash2>hash_519B71B1</CurvesUnkHash2>
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <AudioHash>rfl_carbine_special_rprt_end_b_rdm</AudioHash>
+   <UnkInt3 value="0" />
+   <ParameterHash5 />
+   <UnkFloat0 value="-100" />
+   <UnkFloat1 value="0" />
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>rfl_carbine_special_rprt_end_b_rdm</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA9AAAA" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes />
+   <Items>
+    <Item key="rfl_carbine_special_rprt_end_b_1" value="1" />
+    <Item key="rfl_carbine_special_rprt_end_b_2" value="1" />
+    <Item key="rfl_carbine_special_rprt_end_b_3" value="1" />
+   </Items>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>rfl_carbine_special_rprt_master</Name>
+   <Header>
+    <Flags value="0x00009D35" />
+    <Flags2 value="0xAAA0AAA2" />
+    <Unk02 value="65336" />
+    <Unk04 value="200" />
+    <Unk05 value="100" />
+    <Unk08 value="50" />
+    <UnkInt1 value="100" />
+    <UnkInt2 value="60" />
+    <Unk10 value="60" />
+    <Category>hash_9C6A4771</Category>
+   </Header>
+   <AudioTracks>
+    <Item>rfl_carbine_special_rprt_end_a_env</Item>
+    <Item>rfl_carbine_special_rprt_end_b_env</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>rfl_carbine_special_slow_mo_rfl_carbine_special_lav_rdm</Name>
+   <Header>
+    <Flags value="0x00008338" />
+    <Unk03 value="100" />
+    <Unk04 value="700" />
+    <Unk05 value="40" />
+    <Unk08 value="17" />
+    <Unk09 value="2" />
+    <Category>hash_80722AAA</Category>
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes>FF FF</UnkBytes>
+   <Items>
+    <Item key="rfl_carbine_special_slow_mo_rfl_carbine_special_lav_01" value="1" />
+    <Item key="rfl_carbine_special_slow_mo_rfl_carbine_special_lav_02" value="1" />
+    <Item key="rfl_carbine_special_slow_mo_rfl_carbine_special_lav_03" value="1" />
+    <Item key="rfl_carbine_special_slow_mo_rfl_carbine_special_lav_04" value="1" />
+   </Items>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_carbine_special_slow_mo_rfl_carbine_special_lav_01</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_BB436831</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_carbine_special_slow_mo_rfl_carbine_special_lav_02</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_C91383D5</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_carbine_special_slow_mo_rfl_carbine_special_lav_03</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_A261366D</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_carbine_special_slow_mo_rfl_carbine_special_lav_04</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_ACA04AEB</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>rfl_carbine_special_slow_mo_rfl_carbine_special_lo_rdm</Name>
+   <Header>
+    <Flags value="0x0000803C" />
+    <Unk02 value="64836" />
+    <Unk03 value="100" />
+    <Unk04 value="700" />
+    <Unk05 value="40" />
+    <Category>hash_80722AAA</Category>
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes>FF FF</UnkBytes>
+   <Items>
+    <Item key="rfl_carbine_special_slow_mo_rfl_carbine_special_01_stereo" value="1" />
+    <Item key="rfl_carbine_special_slow_mo_rfl_carbine_special_02_stereo" value="1" />
+    <Item key="rfl_carbine_special_slow_mo_rfl_carbine_special_03_stereo" value="1" />
+    <Item key="rfl_carbine_special_slow_mo_rfl_carbine_special_04_stereo" value="1" />
+   </Items>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>rfl_carbine_special_slow_mo_rfl_carbine_special_01_stereo</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>rfl_carbine_special_slow_mo_rfl_carbine_special_01.l</Item>
+    <Item>rfl_carbine_special_slow_mo_rfl_carbine_special_01.r</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_carbine_special_slow_mo_rfl_carbine_special_01.l</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="315" />
+   </Header>
+   <ContainerName>weapons_player/lmg_combat</ContainerName>
+   <FileName>hash_5AC580B3</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_carbine_special_slow_mo_rfl_carbine_special_01.r</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="45" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_F63CB79F</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>rfl_carbine_special_slow_mo_rfl_carbine_special_02_stereo</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>rfl_carbine_special_slow_mo_rfl_carbine_special_02.l</Item>
+    <Item>rfl_carbine_special_slow_mo_rfl_carbine_special_02.r</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_carbine_special_slow_mo_rfl_carbine_special_02.l</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="315" />
+   </Header>
+   <ContainerName>weapons_player/lmg_combat</ContainerName>
+   <FileName>hash_C264EEFC</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_carbine_special_slow_mo_rfl_carbine_special_02.r</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="45" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_0BF5021B</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>rfl_carbine_special_slow_mo_rfl_carbine_special_03_stereo</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>rfl_carbine_special_slow_mo_rfl_carbine_special_03.l</Item>
+    <Item>rfl_carbine_special_slow_mo_rfl_carbine_special_03.r</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_carbine_special_slow_mo_rfl_carbine_special_03.l</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="315" />
+   </Header>
+   <ContainerName>weapons_player/lmg_combat</ContainerName>
+   <FileName>hash_14EEC8C9</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_carbine_special_slow_mo_rfl_carbine_special_03.r</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="45" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_F2438373</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>rfl_carbine_special_slow_mo_rfl_carbine_special_04_stereo</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>rfl_carbine_special_slow_mo_rfl_carbine_special_04.l</Item>
+    <Item>rfl_carbine_special_slow_mo_rfl_carbine_special_04.r</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_carbine_special_slow_mo_rfl_carbine_special_04.l</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="315" />
+   </Header>
+   <ContainerName>weapons_player/lmg_combat</ContainerName>
+   <FileName>hash_1214FA44</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_carbine_special_slow_mo_rfl_carbine_special_04.r</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="45" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_63AC9DBE</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>rfl_carbine_special_slow_mo_rfl_carbine_special_sub_rdm</Name>
+   <Header>
+    <Flags value="0x00000110" />
+    <Unk04 value="300" />
+    <Unk08 value="17" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes>FF</UnkBytes>
+   <Items>
+    <Item key="rfl_carbine_special_slow_mo_rfl_carbine_special_sub_sweetner_1" value="1" />
+    <Item key="rfl_carbine_special_slow_mo_rfl_carbine_special_sub_sweetner_2" value="1" />
+    <Item key="rfl_carbine_special_slow_mo_rfl_carbine_special_sub_sweetner_3" value="1" />
+   </Items>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_carbine_special_slow_mo_rfl_carbine_special_sub_sweetner_1</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_599A01ED</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_carbine_special_slow_mo_rfl_carbine_special_sub_sweetner_2</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_6DC72A47</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>rfl_carbine_special_slow_mo_rfl_carbine_special_sub_sweetner_3</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>resident/weapons</ContainerName>
+   <FileName>hash_EB2C24DF</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>rfl_carbine_special_slow_mo</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>hash_6805AAC2</Category>
+   </Header>
+   <AudioHash0>rfl_carbine_special_slow_mo_offset</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>rfl_carbine_special_slow_mo_offset</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>rfl_carbine_special_slow_mo_mt</Name>
+   <Header>
+    <Flags value="0x0000831D" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="50" />
+    <Unk03 value="50" />
+    <Unk04 value="64936" />
+    <Unk08 value="75" />
+    <Unk09 value="2" />
+    <Category>hash_80722AAA</Category>
+   </Header>
+   <AudioTracks>
+    <Item>rfl_carbine_special_slow_mo_rfl_carbine_special_lav_rdm</Item>
+    <Item>rfl_carbine_special_slow_mo_rfl_carbine_special_lo_rdm</Item>
+    <Item>rfl_carbine_special_slow_mo_rfl_carbine_special_sub_rdm</Item>
+    <Item>rfl_carbine_special_player_slow_mo_stereo</Item>
+    <Item>rfl_carbine_special_player_slow_mo_action_mt</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>rfl_carbine_special_slow_mo_offset</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <AudioTracks>
+    <Item>rfl_carbine_special_slow_mo_mt</Item>
+    <Item>hash_29ACEB77</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>rfl_carbine_special_player_slow_mo_action_mt</Name>
+   <Header>
+    <Flags value="0x00008011" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk04 value="65136" />
+    <Category>hash_8A91FE75</Category>
+   </Header>
+   <AudioTracks>
+    <Item>hash_ADEFEC37</Item>
+    <Item>hash_0365B016</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="CollapsingStereoSound">
+   <Name>rfl_carbine_special_player_slow_mo_stereo</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash0>hash_CB8CFF96</AudioHash0>
+   <AudioHash1>hash_D0C7B072</AudioHash1>
+   <UnkFloat0 value="1" />
+   <UnkFloat1 value="3" />
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <UnkInt value="1065353216" />
+   <ParameterHash5 />
+   <UnkByte value="1" />
+  </Item>
+ </Items>
+</Dat54>

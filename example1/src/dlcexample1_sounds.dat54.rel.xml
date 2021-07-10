@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dat54>
+ <Version value="7314721" />
+ <NameTable>
+  <Item>dlc_example1\example1</Item>
+ </NameTable>
+ <Items>
+  <Item type="SimpleSound">
+   <Name>dlc_example1_borgir_l</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="270" />
+   </Header>
+   <ContainerName>dlc_example1/example1</ContainerName>
+   <FileName>borgir_left</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_example1_borgir_r</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="90" />
+   </Header>
+   <ContainerName>dlc_example1/example1</ContainerName>
+   <FileName>borgir_right</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SoundSet">
+   <Name>dlc_example1_sounds</Name>
+   <Header>
+    <Flags value="0xAAAAAAAA" />
+   </Header>
+   <Items>
+    <Item>
+     <ScriptName>example1_borgir</ScriptName>
+     <SoundName>dlc_example1_borgir_mt</SoundName>
+    </Item>
+   </Items>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>dlc_example1_borgir_mt</Name>
+   <Header>
+    <Flags value="0x00008005" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="65236" />
+    <Category>hash_02C7B342</Category>
+   </Header>
+   <AudioTracks>
+    <Item>dlc_example1_borgir_r</Item>
+    <Item>dlc_example1_borgir_l</Item>
+   </AudioTracks>
+  </Item>
+ </Items>
+</Dat54>
+    

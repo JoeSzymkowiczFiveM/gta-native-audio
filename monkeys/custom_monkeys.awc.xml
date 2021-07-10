@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AudioWaveContainer>
+ <Version value="1" />
+ <ChunkIndices value="True" />
+ <MultiChannel value="True" />
+ <Streams>
+  <Item>
+   <Name />
+   <Chunks>
+    <Item>
+     <Type>streamformat</Type>
+     <BlockSize value="524288" />
+    </Item>
+    <Item>
+     <Type>data</Type>
+    </Item>
+    <Item>
+     <Type>seektable</Type>
+    </Item>
+   </Chunks>
+  </Item>
+  <Item>
+   <Name>custom_monkeys_right</Name>
+   <FileName>custom_monkeys_right.wav</FileName>
+   <StreamFormat>
+    <Codec>ADPCM</Codec>
+    <Samples value="3743403" />
+    <SampleRate value="48000" />
+    <Headroom value="-201" />
+   </StreamFormat>
+  </Item>
+  <Item>
+   <Name>custom_monkeys_left</Name>
+   <FileName>custom_monkeys_left.wav</FileName>
+   <StreamFormat>
+    <Codec>ADPCM</Codec>
+    <Samples value="3743403" />
+    <SampleRate value="48000" />
+    <Headroom value="-201" />
+   </StreamFormat>
+  </Item>
+ </Streams>
+</AudioWaveContainer>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dat54>
+ <Version value="7314721" />
+ <NameTable>
+  <Item>dlc_custom_monkeys\custom_monkeys</Item>
+ </NameTable>
+ <Items>
+  <Item type="SoundSet">
+   <Name>dlc_custom_monkeys_sounds</Name>
+   <Header>
+    <Flags value="0xAAAAAAAA" />
+   </Header>
+   <Items>
+    <Item>
+     <ScriptName>the_custom_monkey</ScriptName>
+     <SoundName>dlc_custom_monkeys_wrapper</SoundName>
+    </Item>
+   </Items>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>dlc_custom_monkeys_wrapper</Name>
+   <Header>
+    <Flags value="0x0020B004" />
+    <Unk02 value="200" />
+    <Unk10 value="1000" />
+    <Unk11 value="3000" />
+    <Category>scripted</Category>
+    <Unk18 value="150" />
+   </Header>
+   <AudioHash0>dlc_custom_monkeys_collapsing</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1 />
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>dlc_custom_monkeys_collapsing</Item>
+    <Item />
+   </AudioTracks>
+  </Item>
+  <Item type="CollapsingStereoSound">
+   <Name>dlc_custom_monkeys_collapsing</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash0>dlc_custom_monkeys_stereo</AudioHash0>
+   <AudioHash1 />
+   <UnkFloat0 value="5" />
+   <UnkFloat1 value="15" />
+   <ParameterHash0 />
+   <ParameterHash1 />
+   <ParameterHash2 />
+   <ParameterHash3 />
+   <ParameterHash4 />
+   <UnkInt value="1065353216" />
+   <ParameterHash5 />
+   <UnkByte value="3" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_custom_monkeys_right</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="345" />
+   </Header>
+   <ContainerName>dlc_custom_monkeys/custom_monkeys</ContainerName>
+   <FileName>custom_monkeys_right</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_custom_monkeys_left</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="15" />
+   </Header>
+   <ContainerName>dlc_custom_monkeys/custom_monkeys</ContainerName>
+   <FileName>custom_monkeys_left</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="StreamingSound">
+   <Name>dlc_custom_monkeys_stereo</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAA94AAAA" />
+   </Header>
+   <Duration value="77987" />
+   <AudioTracks>
+    <Item>dlc_custom_monkeys_left</Item>
+    <Item>dlc_custom_monkeys_right</Item>
+   </AudioTracks>
+  </Item>
+ </Items>
+</Dat54>
